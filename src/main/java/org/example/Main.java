@@ -10,11 +10,6 @@ public class Main {
 
     private static final String SAVE_DIR = "received_files/";
 
-
-
-
-
-
     public static void main(String[] args) throws Exception {
         new File(SAVE_DIR).mkdirs();
         /** Executors.newCachedThreadPool(),
