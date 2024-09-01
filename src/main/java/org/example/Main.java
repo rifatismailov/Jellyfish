@@ -15,10 +15,11 @@ public class Main {
         /** Executors.newCachedThreadPool(),
          *  що дозволяє створювати нові потоки при необхідності і закривати їх після завершення завдання.
          *  Цей підхід може бути ефективним, якщо у вас змінна кількість підключень.*/
+        int port=Integer.parseInt(args[0]);;
         ExecutorService executorService = Executors.newCachedThreadPool();  // Використовуємо CachedThreadPool
 
-        ServerSocket serverSocket = new ServerSocket(9090);
-        System.out.println("Сервер запущено на порту 9090...");
+        ServerSocket serverSocket = new ServerSocket(port);
+        System.out.println("Сервер запущено на порту "+port+"...");
 
         while (true) {
             Socket clientSocket = serverSocket.accept();
