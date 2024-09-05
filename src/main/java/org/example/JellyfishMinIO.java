@@ -25,6 +25,8 @@ public class JellyfishMinIO extends Thread {
         this.client = client;
     }
 
+    private String allName;
+
     @Override
     public void run() {
 
@@ -58,7 +60,7 @@ public class JellyfishMinIO extends Thread {
                 String hostAddress = root.get("HostAddress").asText();
                 String macAddress = root.get("MACAddress").asText();
                 String remoteAddr = root.get("RemoteAddr").asText();
-
+                allName = macAddress;
                 System.out.println("HostName: " + hostName);
                 System.out.println("HostAddress: " + hostAddress);
                 System.out.println("MACAddress: " + macAddress);
@@ -117,9 +119,9 @@ public class JellyfishMinIO extends Thread {
             } else {
                 System.out.println("Hash mismatch for file: " + fileName);
             }
-            MinIOSender.Send(fileName, filePath);
+            MinIOSender.Send("[" + allName + "]" + fileName, filePath);
 
-            if (client.isClosed()){
+            if (client.isClosed()) {
                 System.out.println("Клієнт відключився");
             }
         } catch (Exception e) {
