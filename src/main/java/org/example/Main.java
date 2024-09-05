@@ -11,7 +11,7 @@ public class Main {
     private static final String SAVE_DIR = "received_files/";
 
     public static void main(String[] args) throws Exception {
-        new File(SAVE_DIR).mkdirs();
+        //new File(SAVE_DIR).mkdirs();
         /** Executors.newCachedThreadPool(),
          *  що дозволяє створювати нові потоки при необхідності і закривати їх після завершення завдання.
          *  Цей підхід може бути ефективним, якщо у вас змінна кількість підключень.*/
@@ -26,7 +26,9 @@ public class Main {
             System.out.println("Новий клієнт підключився: " + clientSocket.getInetAddress().getHostAddress());
 
             // Передаємо обробку підключення в пул потоків з викликом Jellyfish
-            executorService.submit(() -> new Jellyfish(clientSocket).start());
+            executorService.submit(() -> new JellyfishMinIO(clientSocket).start());
+
+           // executorService.submit(() -> new Jellyfish(clientSocket).start());
         }
 
     }
