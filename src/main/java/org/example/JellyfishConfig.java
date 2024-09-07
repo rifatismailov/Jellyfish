@@ -9,6 +9,8 @@ import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
 
+import static org.example.Logger.message;
+
 class JellyfishConfig {
     private int fileServerPort;
     private String bucket;
@@ -66,7 +68,6 @@ class JellyfishConfig {
 
         try (FileWriter writer = new FileWriter(filename)) {
             gson.toJson(config, writer); // Запис JSON у файл
-            System.out.println("JSON успішно записаний у файл: " + filename);
         } catch (IOException e) {
             e.printStackTrace();
         }

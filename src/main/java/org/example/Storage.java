@@ -13,15 +13,17 @@ import java.security.InvalidKeyException;
 import java.security.NoSuchAlgorithmException;
 import java.util.concurrent.TimeUnit;
 
+import static org.example.Logger.*;
+
 public class Storage {
-    private MinioClient minioClient;
-    private String bucketName;
+    private final MinioClient minioClient;
+    private final String bucketName;
 
     /**
      * Конструктор для створення об'єкта Storage.
      *
      * @param minioClient Об'єкт MinioClient для взаємодії з MinIO сервером.
-     * @param bucketName Ім'я відра, яке буде використовуватися для зберігання файлів.
+     * @param bucketName  Ім'я відра, яке буде використовуватися для зберігання файлів.
      */
     public Storage(MinioClient minioClient, String bucketName) {
         this.minioClient = minioClient;
@@ -39,7 +41,7 @@ public class Storage {
     /**
      * Створює та повертає об'єкт MinioClient для взаємодії з MinIO сервером.
      *
-     * @param endpoint URL MinIO сервера.
+     * @param endpoint  URL MinIO сервера.
      * @param accessKey Ключ доступу.
      * @param secretKey Секретний ключ.
      * @return Об'єкт MinioClient.
@@ -55,7 +57,7 @@ public class Storage {
      * Перевіряє, чи існує відро з вказаним ім'ям. Якщо не існує, створює його.
      *
      * @param minioClient Об'єкт MinioClient для взаємодії з MinIO сервером.
-     * @param bucketName Ім'я відра, яке потрібно перевірити.
+     * @param bucketName  Ім'я відра, яке потрібно перевірити.
      * @return true, якщо відро існує або було створене успішно; false, якщо виникла помилка.
      */
     public static boolean bucketExists(MinioClient minioClient, String bucketName) {
@@ -77,8 +79,8 @@ public class Storage {
      * Отримує тимчасовий URL для завантаження об'єкта з MinIO.
      *
      * @param minioClient MinioClient екземпляр.
-     * @param bucketName Ім'я бакету.
-     * @param objectName Ім'я об'єкта.
+     * @param bucketName  Ім'я бакету.
+     * @param objectName  Ім'я об'єкта.
      * @return Presigned URL для завантаження об'єкта.
      */
     public static String getPresignedUrl(MinioClient minioClient, String bucketName, String objectName) {
@@ -93,11 +95,11 @@ public class Storage {
                             .build()
             );
         } catch (MinioException e) {
-            System.err.println(Color.RED.getCode()+"Помилка при отриманні presigned URL: " +Color.YELLOW.getCode()+ e.getMessage());
+            error("Помилка при отриманні presigned URL: ", e.getMessage());
             e.printStackTrace();
             return null;
         } catch (Exception e) {
-            System.err.println("Загальна помилка: " + e.getMessage());
+            error("Загальна помилка: ", e.getMessage());
             e.printStackTrace();
             return null;
         }
@@ -122,10 +124,10 @@ public class Storage {
                             .build()
             );
 
-            System.out.println(Color.BLUE.getCode()+"Файл успішно завантажено до MinIO!");
+            message("Файл успішно завантажено до MinIO!");
 
         } catch (MinioException | InvalidKeyException | NoSuchAlgorithmException | IOException e) {
-            System.err.println(Color.RED.getCode()+"Помилка при зберіганні файлу: " + Color.YELLOW.getCode()+e);
+            warning("Помилка при зберіганні файлу: " + e);
         }
     }
 }

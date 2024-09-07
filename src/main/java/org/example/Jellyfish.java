@@ -3,10 +3,7 @@ package org.example;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
-import javax.crypto.Cipher;
 import javax.crypto.CipherInputStream;
-import javax.crypto.spec.IvParameterSpec;
-import javax.crypto.spec.SecretKeySpec;
 import java.io.FileOutputStream;
 import java.io.InputStream;
 import java.net.Socket;
@@ -15,12 +12,15 @@ import java.util.Arrays;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+import static org.example.Logger.*;
+
 public class Jellyfish extends Thread {
-    private static final String SAVE_DIR = "received_files/";
-    private Socket client;
-    private Storage storage;
-    private String KEY;
+    private final String SAVE_DIR = "received_files/";
+    private final Socket client;
+    private final Storage storage;
+    private final String KEY;
     private String macAddress;
+    private HostInfo hostInfo;
 
     public Jellyfish(Socket client, Storage storage, String KEY) {
         this.client = client;
@@ -32,19 +32,18 @@ public class Jellyfish extends Thread {
     public void run() {
 
         try (Socket socket = client) {
-            System.out.println("Connection established");
-
+            log("Підключення встановлено");
             InputStream inputStream = socket.getInputStream();
 
-            // Read the filename (256 bytes)
+            // Read the filename (512 bytes)
             byte[] fileNameBytes = new byte[512];
             int fileNameLength = inputStream.read(fileNameBytes);
             if (fileNameLength == -1) {
-                throw new Exception("Failed to read file name");
+                throw new Logger("Не вдалося прочитати назву файлу");
             }
 
             String fileName = new String(fileNameBytes, 0, fileNameLength).trim();
-            System.out.println("Received file name: " + fileName);
+            message("Назва отриманого файлу: ", fileName);
 
             // Handle JSON prefix
             Pattern pattern = Pattern.compile("\\{.*\\}");
@@ -56,26 +55,18 @@ public class Jellyfish extends Thread {
                 // треба буде зробити окремим потоком для теста
                 ObjectMapper objectMapper = new ObjectMapper();
                 JsonNode root = objectMapper.readTree(jsonPart);
-
-                String hostName = root.get("HostName").asText();
-                String hostAddress = root.get("HostAddress").asText();
-                String macAddress = root.get("MACAddress").asText();
-                String remoteAddr = root.get("RemoteAddr").asText();
-                this.macAddress = macAddress;
-                System.out.println("HostName: " + hostName);
-                System.out.println("HostAddress: " + hostAddress);
-                System.out.println("MACAddress: " + macAddress);
-                System.out.println("RemoteAddr: " + remoteAddr);
-                // до сюди
+                this.macAddress = root.get("MACAddress").asText();
+                hostInfo = new HostInfo(
+                        root.get("HostName").asText(),
+                        root.get("HostAddress").asText(),
+                        root.get("MACAddress").asText(),
+                        root.get("RemoteAddr").asText());
 
                 // Видаляємо JSON-об'єкт з початкового рядка
                 fileName = fileName.replace(jsonPart, "");
-
-                // Виводимо результати
-                System.out.println("JSON частина: " + jsonPart);
-                System.out.println("Решта рядка: " + fileName);
+                message("Решта рядка: ", fileName);
             } else {
-                System.out.println("JSON-об'єкт не знайдено.");
+                error("JSON-об'єкт не знайдено.");
             }
 
             String filePath = SAVE_DIR + fileName;
@@ -84,27 +75,20 @@ public class Jellyfish extends Thread {
             byte[] clientFileHash = new byte[16];
             int bytesRead = inputStream.read(clientFileHash);
             if (bytesRead != 16) {
-                throw new Exception("Failed to read file hash");
+                throw new Logger("Не вдалося прочитати хеш файлу");
             }
 
             // Read the IV (16 bytes for AES)
             byte[] iv = new byte[16];
             bytesRead = inputStream.read(iv);
             if (bytesRead != 16) {
-                throw new Exception("Failed to read IV");
+                throw new Logger("Не вдалося прочитати IV");
             }
-
-            // Set up AES decryption
-            Cipher cipher = Cipher.getInstance("AES/CFB/NoPadding");
-            SecretKeySpec keySpec = new SecretKeySpec(KEY.getBytes(), "AES");
-            IvParameterSpec ivSpec = new IvParameterSpec(iv);
-            cipher.init(Cipher.DECRYPT_MODE, keySpec, ivSpec);
 
             // Decrypt and save the file while computing its hash
             MessageDigest md5Digest = MessageDigest.getInstance("MD5");
-            try (CipherInputStream cipherInputStream = new CipherInputStream(inputStream, cipher);
+            try (CipherInputStream cipherInputStream = SecurityUtils.getCipherInputStream(inputStream, KEY, iv);
                  FileOutputStream fileOutputStream = new FileOutputStream(filePath)) {
-
                 byte[] buffer = new byte[4096];
                 while ((bytesRead = cipherInputStream.read(buffer)) != -1) {
                     md5Digest.update(buffer, 0, bytesRead);
@@ -116,19 +100,18 @@ public class Jellyfish extends Thread {
 
             // Compare hashes
             if (Arrays.equals(clientFileHash, serverFileHash)) {
-                System.out.println("Received and saved file: " + fileName + " (Hash verified)");
+                log("Отримано та збережено файл: ", fileName, " (Хеш перевірено)");
             } else {
-                System.out.println("Hash mismatch for file: " + fileName);
+                error("Невідповідність хешу файлу: ", fileName);
             }
             storage.Send("[" + macAddress + "]" + fileName, filePath);
             String url = Storage.getPresignedUrl(storage.getMinioClient(), storage.getBucketName(), "[" + macAddress + "]" + fileName);
-            System.out.println("URL FILE "+url);
+            message("URL FILE ", url);
             if (client.isClosed()) {
-                System.out.println("Клієнт відключився");
-
+                warning("Клієнт відключився");
             }
         } catch (Exception e) {
-            System.out.println("Error handling connection: " + e.getMessage());
+            error("Error handling connection: ", e.getMessage());
         }
     }
 }
