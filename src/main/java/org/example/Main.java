@@ -71,6 +71,7 @@ public class Main {
             message(jsonString);
         }
 
+
         // Налаштовуємо MinIO клієнта
         String bucketName = config.getBucket();
         MinioClient minioClient = Storage.minio(config.getEndpoint(), config.getAccessKey(), config.getSecretKey());
