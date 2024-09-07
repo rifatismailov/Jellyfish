@@ -5,7 +5,10 @@ import javax.crypto.CipherInputStream;
 import javax.crypto.SecretKey;
 import javax.crypto.spec.IvParameterSpec;
 import javax.crypto.spec.SecretKeySpec;
+import java.io.FileOutputStream;
 import java.io.InputStream;
+import java.security.MessageDigest;
+import java.util.Arrays;
 import java.util.Base64;
 
 public class SecurityUtils {
@@ -56,12 +59,12 @@ public class SecurityUtils {
 
     /**
      * Створює об'єкт {@link CipherInputStream}, який забезпечує розшифрування даних з входу.
-     *
+     * <p>
      * Цей метод використовує алгоритм AES з режимом CFB (Cipher Feedback) і без заповнення (NoPadding).
      *
      * @param inputStream {@link InputStream} - потік, з якого буде зчитуватися зашифрований текст.
-     * @param key {@link String} - секретний ключ для дешифрування. Має бути довжиною 16 байтів (128 біт) для AES.
-     * @param iv {@link byte[]} - вектор ініціалізації (IV) для режиму CFB. Має бути довжиною 16 байтів (128 біт).
+     * @param key         {@link String} - секретний ключ для дешифрування. Має бути довжиною 16 байтів (128 біт) для AES.
+     * @param iv          {@link byte[]} - вектор ініціалізації (IV) для режиму CFB. Має бути довжиною 16 байтів (128 біт).
      * @return {@link CipherInputStream} - потік, який розшифровує дані, отримані з `inputStream`, використовуючи зазначений ключ і IV.
      * @throws Exception Якщо виникає помилка при ініціалізації шифра або при створенні {@link CipherInputStream}.
      */
@@ -72,6 +75,32 @@ public class SecurityUtils {
         IvParameterSpec ivSpec = new IvParameterSpec(iv);
         cipher.init(Cipher.DECRYPT_MODE, keySpec, ivSpec);
         return new CipherInputStream(inputStream, cipher);
+    }
+
+    /**
+     * Розшифровує і зберігає файл, перевіряючи його хеш.
+     *
+     * @param inputStream    Потік для читання зашифрованих даних.
+     * @param filePath       Шлях для збереження файлу.
+     * @param clientFileHash Хеш файлу, надісланий клієнтом.
+     * @param iv             Вектор ініціалізації.
+     * @return {@code true}, якщо хеші співпадають; інакше {@code false}.
+     * @throws Exception Якщо виникла помилка при розшифруванні або збереженні файлу.
+     */
+    public static boolean decryptAndSaveFile(InputStream inputStream, String filePath, byte[] clientFileHash, byte[] iv, String KEY) throws Exception {
+        MessageDigest md5Digest = MessageDigest.getInstance("MD5");
+        try (CipherInputStream cipherInputStream = SecurityUtils.getCipherInputStream(inputStream, KEY, iv);
+             FileOutputStream fileOutputStream = new FileOutputStream(filePath)) {
+            byte[] buffer = new byte[4096];
+            int bytesRead;
+            while ((bytesRead = cipherInputStream.read(buffer)) != -1) {
+                md5Digest.update(buffer, 0, bytesRead);
+                fileOutputStream.write(buffer, 0, bytesRead);
+            }
+        }
+
+        byte[] serverFileHash = md5Digest.digest();
+        return Arrays.equals(clientFileHash, serverFileHash);
     }
 
 }

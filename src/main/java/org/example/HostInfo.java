@@ -17,15 +17,38 @@ public class HostInfo {
     // Поле для зберігання віддаленої IP-адреси
     private String remoteAddr;
 
+    //Посилання для завантаження файлу з сервера S3 MinIO
+    private String urlFile;
+
+    // Конструктор без параметрів
+    public HostInfo() {
+    }
+
     /**
      * Конструктор для ініціалізації всіх полів класу.
      *
-     * @param hostName Ім'я хоста
+     * @param hostName    Ім'я хоста
      * @param hostAddress IP-адреса хоста
-     * @param macAddress MAC-адреса хоста
-     * @param remoteAddr Віддалена IP-адреса
+     * @param macAddress  MAC-адреса хоста
+     * @param remoteAddr  Віддалена IP-адреса
      */
     public HostInfo(String hostName, String hostAddress, String macAddress, String remoteAddr) {
+        this.hostName = hostName;
+        this.hostAddress = hostAddress;
+        this.macAddress = macAddress;
+        this.remoteAddr = remoteAddr;
+    }
+
+    /**
+     * Конструктор для ініціалізації всіх полів класу.
+     *
+     * @param hostName    Ім'я хоста
+     * @param hostAddress IP-адреса хоста
+     * @param macAddress  MAC-адреса хоста
+     * @param remoteAddr  Віддалена IP-адреса
+     * @param urlFile     Посилання для завантаження файлу з сервера S3
+     */
+    public HostInfo(String hostName, String hostAddress, String macAddress, String remoteAddr, String urlFile) {
         this.hostName = hostName;
         this.hostAddress = hostAddress;
         this.macAddress = macAddress;
@@ -104,6 +127,14 @@ public class HostInfo {
         this.remoteAddr = remoteAddr;
     }
 
+    public String getUrlFile() {
+        return urlFile;
+    }
+
+    public void setUrlFile(String urlFile) {
+        this.urlFile = urlFile;
+    }
+
     @Override
     public String toString() {
         return "HostInfo{" +
@@ -111,6 +142,7 @@ public class HostInfo {
                 ", hostAddress='" + hostAddress + '\'' +
                 ", macAddress='" + macAddress + '\'' +
                 ", remoteAddr='" + remoteAddr + '\'' +
+                ", urlFile='" + urlFile + '\'' +
                 '}';
     }
 }
