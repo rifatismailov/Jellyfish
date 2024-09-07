@@ -17,12 +17,15 @@ import java.util.regex.Pattern;
 
 public class Jellyfish extends Thread {
     private static final String SAVE_DIR = "received_files/";
-    private static final String KEY = "a very very very very secret key"; // 32-byte key for AES-256
+    private Socket client;
+    private Storage storage;
+    private String KEY;
+    private String macAddress;
 
-    Socket client;
-
-    public Jellyfish(Socket client) {
+    public Jellyfish(Socket client, Storage storage, String KEY) {
         this.client = client;
+        this.storage = storage;
+        this.KEY = KEY;
     }
 
     @Override
@@ -58,7 +61,7 @@ public class Jellyfish extends Thread {
                 String hostAddress = root.get("HostAddress").asText();
                 String macAddress = root.get("MACAddress").asText();
                 String remoteAddr = root.get("RemoteAddr").asText();
-
+                this.macAddress = macAddress;
                 System.out.println("HostName: " + hostName);
                 System.out.println("HostAddress: " + hostAddress);
                 System.out.println("MACAddress: " + macAddress);
@@ -117,8 +120,12 @@ public class Jellyfish extends Thread {
             } else {
                 System.out.println("Hash mismatch for file: " + fileName);
             }
-            if (client.isClosed()){
+            storage.Send("[" + macAddress + "]" + fileName, filePath);
+            String url = Storage.getPresignedUrl(storage.getMinioClient(), storage.getBucketName(), "[" + macAddress + "]" + fileName);
+            System.out.println("URL FILE "+url);
+            if (client.isClosed()) {
                 System.out.println("Клієнт відключився");
+
             }
         } catch (Exception e) {
             System.out.println("Error handling connection: " + e.getMessage());
