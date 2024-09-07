@@ -1,0 +1,8 @@
+{
+  "fileServerPort": 9090,
+  "bucket": "example-bucket",
+  "endpoint": "http://192.168.51.131:9001",
+  "accessKey": "xpuKAP94iVEjmNkv9yxPFg\u003d\u003d",
+  "secretKey": "AcvBY4/S6fGL8hakM2bs2A\u003d\u003d",
+  "encryptionKey": "2WE+BOefeLzT+5lbECVEKP5HePAx6soxVRRyDgkXi1U/FNnYX3byEntEgwSWB2wv"
+}
