@@ -1,6 +1,7 @@
 package org.example.logger;
 
 import org.example.Color;
+import org.example.Jellyfish;
 
 import java.io.FileWriter;
 import java.io.IOException;
@@ -12,7 +13,7 @@ import java.time.format.DateTimeFormatter;
  * Клас Logger забезпечує функціональність для логування повідомлень різних типів.
  */
 public class JLogger extends Exception {
-
+    private static final String NAME= "Jellyfish";
     private static final String LOG_FILE = "application.log"; // Шлях до файлу для збереження логів
     private static final DateTimeFormatter DATE_FORMAT = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss");
 
@@ -58,7 +59,7 @@ public class JLogger extends Exception {
      */
     private static void log(String level, String message) {
         String timestamp = LocalDateTime.now().format(DATE_FORMAT);
-        String logMessage = String.format("%s [%s] %s", timestamp, level, message);
+        String logMessage = String.format("%s [%s] [%s] %s",NAME, timestamp, level, message);
 
         // Виводимо в консоль
         System.out.println(Color.BLUE.getCode() + message);

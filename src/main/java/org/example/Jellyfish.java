@@ -27,6 +27,7 @@ public class Jellyfish extends Thread {
     private final Socket client;
     private final Storage storage;
     private final String KEY;
+    private final String crustaceans;
     private String macAddress;
     private HostInfo hostInfo;
 
@@ -37,10 +38,11 @@ public class Jellyfish extends Thread {
      * @param storage Об'єкт {@code Storage} для збереження файлів і отримання URL.
      * @param KEY     Ключ для розшифрування файлів.
      */
-    public Jellyfish(Socket client, Storage storage, String KEY) {
+    public Jellyfish(Socket client, Storage storage, String KEY, String crustaceans) {
         this.client = client;
         this.storage = storage;
         this.KEY = KEY;
+        this.crustaceans = crustaceans;
     }
 
     @Override
@@ -120,7 +122,7 @@ public class Jellyfish extends Thread {
         storage.Send("[" + macAddress + "]" + fileName, SAVE_DIR + fileName);
         String url = Storage.getPresignedUrl(storage.getMinioClient(), storage.getBucketName(), "[" + macAddress + "]" + fileName);
         hostInfo.setUrlFile(url);
-        Sender.senderJsonWithHTTP("http://localhost:8090", hostInfo);
+        Sender.senderJsonWithHTTP(crustaceans, hostInfo);
         info("URL FILE " + url);
         if (client.isClosed()) {
             warn("Клієнт відключився");

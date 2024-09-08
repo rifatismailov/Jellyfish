@@ -14,30 +14,33 @@ import java.util.Map;
 class JellyfishConfig {
     private int fileServerPort;
     private String bucket;
-    private String endpoint;
+    private String endpointMinIO;
     private String accessKey;
     private String secretKey;
     private String encryptionKey;
+    private String endpointCrustaceans;
 
     /**
      * Конструктор для створення об'єкта JellyfishConfig.
      * Значення ключів шифруються при створенні об'єкта.
      *
-     * @param fileServerPort Порт сервера файлів.
-     * @param bucket Ім'я відра.
-     * @param endpoint Точка доступу.
-     * @param accessKey Ключ доступу.
-     * @param secretKey Секретний ключ.
-     * @param encryptionKey Ключ шифрування.
+     * @param fileServerPort      Порт сервера файлів.
+     * @param bucket              Ім'я відра.
+     * @param endpointMinIO       Точка доступу.
+     * @param accessKey           Ключ доступу.
+     * @param secretKey           Секретний ключ.
+     * @param encryptionKey       Ключ шифрування.
+     * @param endpointCrustaceans сервер для обробки файлів
      * @throws Exception Якщо виникає помилка при шифруванні.
      */
-    public JellyfishConfig(int fileServerPort, String bucket, String endpoint, String accessKey, String secretKey, String encryptionKey) throws Exception {
+    public JellyfishConfig(int fileServerPort, String bucket, String endpointMinIO, String accessKey, String secretKey, String encryptionKey, String endpointCrustaceans) throws Exception {
         this.fileServerPort = fileServerPort;
         this.bucket = bucket;
-        this.endpoint = endpoint;
+        this.endpointMinIO = endpointMinIO;
         this.accessKey = SecurityUtils.encrypt(accessKey, "AT78TE984567356U");
         this.secretKey = SecurityUtils.encrypt(secretKey, "AT78TE984567356U");
         this.encryptionKey = SecurityUtils.encrypt(encryptionKey, "AT78TE984567356U");
+        this.endpointCrustaceans = endpointCrustaceans;
     }
 
     /**
@@ -50,17 +53,18 @@ class JellyfishConfig {
         return "ServerConfig{" +
                 "fileServerPort=" + fileServerPort +
                 ", bucket='" + bucket + '\'' +
-                ", endpoint='" + endpoint + '\'' +
+                ", endpointMinIO='" + endpointMinIO + '\'' +
                 ", accessKey='" + accessKey + '\'' +
                 ", secretKey='" + secretKey + '\'' +
                 ", encryptionKey='" + encryptionKey + '\'' +
+                ", endpointCrustaceans='" + endpointCrustaceans + '\'' +
                 '}';
     }
 
     /**
      * Метод для запису об'єкта JellyfishConfig у файл у форматі JSON.
      *
-     * @param config Об'єкт JellyfishConfig, який потрібно записати.
+     * @param config   Об'єкт JellyfishConfig, який потрібно записати.
      * @param filename Ім'я файлу, у який буде записано JSON.
      */
     public static void writeJsonToFile(JellyfishConfig config, String filename) {
@@ -123,13 +127,14 @@ class JellyfishConfig {
         // Парсимо значення та створюємо об'єкт JellyfishConfig
         int fileServerPort = Integer.parseInt(params.getOrDefault("fileServerPort", "9090"));
         String bucket = params.getOrDefault("bucket", "jellyfish");
-        String endpoint = params.getOrDefault("endpoint", "http://localhost:9001");
+        String endpointMinIO = params.getOrDefault("endpointMinIO", "http://localhost:9001");
         String accessKey = params.getOrDefault("accessKey", "admin");
         String secretKey = params.getOrDefault("secretKey", "jellyfish");
         String encryptionKey = params.getOrDefault("encryptionKey", "jellyfish");
+        String endpointCrustaceans = params.getOrDefault("endpointCrustaceans", "http://localhost:8090");
 
         // Створюємо конфігураційний об'єкт
-        return new JellyfishConfig(fileServerPort, bucket, endpoint, accessKey, secretKey, encryptionKey);
+        return new JellyfishConfig(fileServerPort, bucket, endpointMinIO, accessKey, secretKey, encryptionKey, endpointCrustaceans);
     }
 
     // Геттери та сеттери для полів конфігурації
@@ -175,17 +180,17 @@ class JellyfishConfig {
      *
      * @return Точка доступу.
      */
-    public String getEndpoint() {
-        return endpoint;
+    public String getEndpointMinIO() {
+        return endpointMinIO;
     }
 
     /**
      * Встановлює точку доступу.
      *
-     * @param endpoint Точка доступу.
+     * @param endpointMinIO Точка доступу.
      */
-    public void setEndpoint(String endpoint) {
-        this.endpoint = endpoint;
+    public void setEndpointMinIO(String endpointMinIO) {
+        this.endpointMinIO = endpointMinIO;
     }
 
     /**
@@ -246,5 +251,22 @@ class JellyfishConfig {
      */
     public void setEncryptionKey(String encryptionKey) throws Exception {
         this.encryptionKey = SecurityUtils.encrypt(encryptionKey, "AT78TE984567356U");
+    }
+
+    /**
+     * Повертає точку доступу до сервера обробки докментів.
+     *
+     * @return Точка доступу до сервера обробки докментів.
+     */
+    public String getEndpointCrustaceans() {
+        return endpointCrustaceans;
+    }
+
+    /**
+     * Встановлює точку доступу до сервера обробки докментів.
+     *
+     * @param endpointCrustaceans Точка доступу до сервера обробки докментів.
+     */
+    public void setEndpointCrustaceans(String endpointCrustaceans) {
     }
 }

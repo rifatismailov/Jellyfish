@@ -75,7 +75,7 @@ public class Main {
 
         // Налаштовуємо MinIO клієнта
         String bucketName = config.getBucket();
-        MinioClient minioClient = Storage.minio(config.getEndpoint(), config.getAccessKey(), config.getSecretKey());
+        MinioClient minioClient = Storage.minio(config.getEndpointMinIO(), config.getAccessKey(), config.getSecretKey());
         if (Storage.bucketExists(minioClient, bucketName)) {
             warn("Bucket з назвою " + bucketName + " вже існує");
         }
@@ -98,7 +98,7 @@ public class Main {
             JellyfishConfig finalConfig = config;
             executorService.submit(() -> {
                 try {
-                    new Jellyfish(clientSocket, storage, finalConfig.getEncryptionKey()).start();
+                    new Jellyfish(clientSocket, storage, finalConfig.getEncryptionKey(),"http://localhost:8090").start();
                 } catch (Exception e) {
                     throw new RuntimeException(e);
                 }
