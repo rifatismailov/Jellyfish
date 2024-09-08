@@ -1,6 +1,6 @@
 package org.example.communication;
 
-import org.example.logger.Logger;
+import org.example.logger.JLogger;
 
 import java.io.InputStream;
 
@@ -16,7 +16,7 @@ public class Reader {
         byte[] fileNameBytes = new byte[512];
         int fileNameLength = inputStream.read(fileNameBytes);
         if (fileNameLength == -1) {
-            throw new Logger("Не вдалося прочитати назву файлу");
+            throw new JLogger("Не вдалося прочитати назву файлу");
         }
         return new String(fileNameBytes, 0, fileNameLength).trim();
     }

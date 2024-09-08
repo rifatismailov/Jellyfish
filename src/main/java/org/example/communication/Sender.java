@@ -8,7 +8,7 @@ import java.net.HttpURLConnection;
 import java.net.URL;
 
 import static org.example.communication.Http.httpConnection;
-import static org.example.logger.Logger.message;
+import static org.example.logger.JLogger.info;
 
 public class Sender {
 
@@ -23,7 +23,7 @@ public class Sender {
             }
 
             int responseCode = httpURLConnection.getResponseCode();    // Перевіряємо відповідь сервера
-            message("Response Code: " + responseCode);
+            info("Response Code: " + responseCode);
 
         } catch (Exception e) {
             e.printStackTrace();

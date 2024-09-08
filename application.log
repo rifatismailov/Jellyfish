@@ -1,0 +1,100 @@
+2024-09-08 17:18:37 [INFO] {
+  "fileServerPort": 9090,
+  "bucket": "example-bucket",
+  "endpoint": "http://192.168.51.131:9001",
+  "accessKey": "xpuKAP94iVEjmNkv9yxPFg\u003d\u003d",
+  "secretKey": "AcvBY4/S6fGL8hakM2bs2A\u003d\u003d",
+  "encryptionKey": "2WE+BOefeLzT+5lbECVEKP5HePAx6soxVRRyDgkXi1U/FNnYX3byEntEgwSWB2wv"
+}
+2024-09-08 17:18:37 [WARN] Bucket з назвою example-bucket вже існує
+2024-09-08 17:18:37 [INFO] Сервер запущено на порту 9090...
+2024-09-08 17:19:14 [INFO] Новий клієнт підключився: 0:0:0:0:0:0:0:1
+2024-09-08 17:19:14 [INFO] Новий клієнт підключився: 0:0:0:0:0:0:0:1
+2024-09-08 17:19:14 [INFO] Новий клієнт підключився: 0:0:0:0:0:0:0:1
+2024-09-08 17:19:14 [INFO] Новий клієнт підключився: 0:0:0:0:0:0:0:1
+2024-09-08 17:19:14 [INFO] Підключення встановлено
+2024-09-08 17:19:14 [INFO] Підключення встановлено
+2024-09-08 17:19:14 [INFO] Підключення встановлено
+2024-09-08 17:19:14 [INFO] Підключення встановлено
+2024-09-08 17:19:14 [INFO] Назва отриманого файлу: {"HostName":"Sirius-2.local","HostAddress":"10.10.10.28","MACAddress":"82:61:4e:94:0e:b8","RemoteAddr":"91.219.169.27"}Щоб реалізувати систему балансування навантаження з використанням Docker.docx
+2024-09-08 17:19:14 [INFO] Назва отриманого файлу: {"HostName":"Sirius-2.local","HostAddress":"10.10.10.28","MACAddress":"82:61:4e:94:0e:b8","RemoteAddr":"91.219.169.27"}Опис Проекту.docx
+2024-09-08 17:19:14 [INFO] Назва отриманого файлу: {"HostName":"Sirius-2.local","HostAddress":"10.10.10.28","MACAddress":"82:61:4e:94:0e:b8","RemoteAddr":"91.219.169.27"}Щоб розпарсити цей JSON у Java.docx
+2024-09-08 17:19:14 [INFO] Назва отриманого файлу: {"HostName":"Sirius-2.local","HostAddress":"10.10.10.28","MACAddress":"82:61:4e:94:0e:b8","RemoteAddr":"91.219.169.27"}1.docx
+2024-09-08 17:19:14 [INFO] Новий клієнт підключився: 0:0:0:0:0:0:0:1
+2024-09-08 17:19:14 [INFO] Підключення встановлено
+2024-09-08 17:19:14 [INFO] Назва отриманого файлу: {"HostName":"Sirius-2.local","HostAddress":"10.10.10.28","MACAddress":"82:61:4e:94:0e:b8","RemoteAddr":"91.219.169.27"}(Приклад) Перелік критичних вразливостей, що мають програму для експлуатації.docx
+2024-09-08 17:19:14 [INFO] Новий клієнт підключився: 0:0:0:0:0:0:0:1
+2024-09-08 17:19:14 [INFO] Підключення встановлено
+2024-09-08 17:19:14 [INFO] Назва отриманого файлу: {"HostName":"Sirius-2.local","HostAddress":"10.10.10.28","MACAddress":"82:61:4e:94:0e:b8","RemoteAddr":"91.219.169.27"}NGINX Порядок встановлення та конфігурації.docx
+2024-09-08 17:19:14 [INFO] Новий клієнт підключився: 0:0:0:0:0:0:0:1
+2024-09-08 17:19:14 [INFO] Підключення встановлено
+2024-09-08 17:19:14 [INFO] Назва отриманого файлу: {"HostName":"Sirius-2.local","HostAddress":"10.10.10.28","MACAddress":"82:61:4e:94:0e:b8","RemoteAddr":"91.219.169.27"}Інструкція SMB buffer overflow (неповна).docx
+2024-09-08 17:19:14 [INFO] Решта рядка: Опис Проекту.docx
+2024-09-08 17:19:14 [INFO] Решта рядка: 1.docx
+2024-09-08 17:19:14 [INFO] Решта рядка: Щоб розпарсити цей JSON у Java.docx
+2024-09-08 17:19:14 [INFO] Решта рядка: NGINX Порядок встановлення та конфігурації.docx
+2024-09-08 17:19:14 [INFO] Решта рядка: Інструкція SMB buffer overflow (неповна).docx
+2024-09-08 17:19:14 [INFO] Решта рядка: Щоб реалізувати систему балансування навантаження з використанням Docker.docx
+2024-09-08 17:19:14 [INFO] Решта рядка: (Приклад) Перелік критичних вразливостей, що мають програму для експлуатації.docx
+2024-09-08 17:19:14 [INFO] Отримано та збережено файл: Опис Проекту.docx (Хеш перевірено)
+2024-09-08 17:19:14 [INFO] Отримано та збережено файл: 1.docx (Хеш перевірено)
+2024-09-08 17:19:14 [INFO] Отримано та збережено файл: Щоб розпарсити цей JSON у Java.docx (Хеш перевірено)
+2024-09-08 17:19:14 [INFO] Отримано та збережено файл: (Приклад) Перелік критичних вразливостей, що мають програму для експлуатації.docx (Хеш перевірено)
+2024-09-08 17:19:14 [INFO] Отримано та збережено файл: Щоб реалізувати систему балансування навантаження з використанням Docker.docx (Хеш перевірено)
+2024-09-08 17:19:14 [INFO] Новий клієнт підключився: 0:0:0:0:0:0:0:1
+2024-09-08 17:19:14 [INFO] Підключення встановлено
+2024-09-08 17:19:14 [INFO] Назва отриманого файлу: {"HostName":"Sirius-2.local","HostAddress":"10.10.10.28","MACAddress":"82:61:4e:94:0e:b8","RemoteAddr":"91.219.169.27"}Інструкція з експлуатування вразливості CVE-2007-2447 через Metasploit.docx
+2024-09-08 17:19:14 [INFO] Решта рядка: Інструкція з експлуатування вразливості CVE-2007-2447 через Metasploit.docx
+2024-09-08 17:19:14 [INFO] Новий клієнт підключився: 0:0:0:0:0:0:0:1
+2024-09-08 17:19:14 [INFO] Підключення встановлено
+2024-09-08 17:19:14 [INFO] Назва отриманого файлу: {"HostName":"Sirius-2.local","HostAddress":"10.10.10.28","MACAddress":"82:61:4e:94:0e:b8","RemoteAddr":"91.219.169.27"}Основні джерела інформації для аналізу відомих вразливостей.docx
+2024-09-08 17:19:14 [INFO] Отримано та збережено файл: NGINX Порядок встановлення та конфігурації.docx (Хеш перевірено)
+2024-09-08 17:19:14 [INFO] Решта рядка: Основні джерела інформації для аналізу відомих вразливостей.docx
+2024-09-08 17:19:14 [INFO] Новий клієнт підключився: 0:0:0:0:0:0:0:1
+2024-09-08 17:19:14 [INFO] Отримано та збережено файл: Основні джерела інформації для аналізу відомих вразливостей.docx (Хеш перевірено)
+2024-09-08 17:19:14 [INFO] Підключення встановлено
+2024-09-08 17:19:14 [INFO] Назва отриманого файлу: {"HostName":"Sirius-2.local","HostAddress":"10.10.10.28","MACAddress":"82:61:4e:94:0e:b8","RemoteAddr":"91.219.169.27"}Інструкція АБ з інсталяціїї Cisco FMC.docx
+2024-09-08 17:19:14 [INFO] Решта рядка: Інструкція АБ з інсталяціїї Cisco FMC.docx
+2024-09-08 17:19:14 [INFO] Файл успішно завантажено до MinIO!
+2024-09-08 17:19:14 [INFO] Файл успішно завантажено до MinIO!
+2024-09-08 17:19:14 [INFO] Файл успішно завантажено до MinIO!
+2024-09-08 17:19:14 [INFO] Файл успішно завантажено до MinIO!
+2024-09-08 17:19:14 [INFO] Файл успішно завантажено до MinIO!
+2024-09-08 17:19:14 [INFO] Файл успішно завантажено до MinIO!
+2024-09-08 17:19:14 [INFO] Отримано та збережено файл: Інструкція АБ з інсталяціїї Cisco FMC.docx (Хеш перевірено)
+2024-09-08 17:19:14 [INFO] Отримано та збережено файл: Інструкція SMB buffer overflow (неповна).docx (Хеш перевірено)
+2024-09-08 17:19:14 [INFO] Отримано та збережено файл: Інструкція з експлуатування вразливості CVE-2007-2447 через Metasploit.docx (Хеш перевірено)
+2024-09-08 17:19:14 [INFO] Файл успішно завантажено до MinIO!
+2024-09-08 17:19:14 [INFO] Файл успішно завантажено до MinIO!
+2024-09-08 17:19:14 [INFO] Файл успішно завантажено до MinIO!
+2024-09-08 17:19:14 [INFO] Файл успішно завантажено до MinIO!
+2024-09-08 17:19:14 [INFO] Response Code: 200
+2024-09-08 17:19:14 [INFO] Response Code: 200
+2024-09-08 17:19:14 [INFO] Response Code: 200
+2024-09-08 17:19:14 [INFO] Response Code: 200
+2024-09-08 17:19:14 [INFO] Response Code: 200
+2024-09-08 17:19:14 [INFO] Response Code: 200
+2024-09-08 17:19:14 [INFO] URL FILE http://192.168.51.131:9001/example-bucket/%5B82%3A61%3A4e%3A94%3A0e%3Ab8%5D%D0%86%D0%BD%D1%81%D1%82%D1%80%D1%83%D0%BA%D1%86%D1%96%D1%8F%20%D0%90%D0%91%20%D0%B7%20%D1%96%D0%BD%D1%81%D1%82%D0%B0%D0%BB%D1%8F%D1%86%D1%96%D1%96%CC%88%D1%96%CC%88%20Cisco%20FMC.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=admin%2F20240908%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240908T141914Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=f3b0958c95aa4831b8ceb101add569b6d2a575d8215d823e5f31157c08ccbfab
+2024-09-08 17:19:14 [INFO] URL FILE http://192.168.51.131:9001/example-bucket/%5B82%3A61%3A4e%3A94%3A0e%3Ab8%5D%D0%A9%D0%BE%D0%B1%20%D1%80%D0%BE%D0%B7%D0%BF%D0%B0%D1%80%D1%81%D0%B8%D1%82%D0%B8%20%D1%86%D0%B5%D0%B8%CC%86%20JSON%20%D1%83%20Java.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=admin%2F20240908%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240908T141914Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=2558823d2ce1acc6c96c6f4d88692b0230c386c3e4d8c8ba34be49456669991b
+2024-09-08 17:19:14 [INFO] Response Code: 200
+2024-09-08 17:19:14 [INFO] URL FILE http://192.168.51.131:9001/example-bucket/%5B82%3A61%3A4e%3A94%3A0e%3Ab8%5D%28%D0%9F%D1%80%D0%B8%D0%BA%D0%BB%D0%B0%D0%B4%29%20%D0%9F%D0%B5%D1%80%D0%B5%D0%BB%D1%96%D0%BA%20%D0%BA%D1%80%D0%B8%D1%82%D0%B8%D1%87%D0%BD%D0%B8%D1%85%20%D0%B2%D1%80%D0%B0%D0%B7%D0%BB%D0%B8%D0%B2%D0%BE%D1%81%D1%82%D0%B5%D0%B8%CC%86%2C%20%D1%89%D0%BE%20%D0%BC%D0%B0%D1%8E%D1%82%D1%8C%20%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D1%83%20%D0%B4%D0%BB%D1%8F%20%D0%B5%D0%BA%D1%81%D0%BF%D0%BB%D1%83%D0%B0%D1%82%D0%B0%D1%86%D1%96%D1%96%CC%88.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=admin%2F20240908%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240908T141914Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=d6ebc6dc31ac12d4b42a050bf87648d064f31c054fd80100a64b682f1e03bb16
+2024-09-08 17:19:14 [WARN] Клієнт відключився
+2024-09-08 17:19:14 [WARN] Клієнт відключився
+2024-09-08 17:19:14 [INFO] URL FILE http://192.168.51.131:9001/example-bucket/%5B82%3A61%3A4e%3A94%3A0e%3Ab8%5D%D0%86%D0%BD%D1%81%D1%82%D1%80%D1%83%D0%BA%D1%86%D1%96%D1%8F%20SMB%20buffer%20overflow%20%28%D0%BD%D0%B5%D0%BF%D0%BE%D0%B2%D0%BD%D0%B0%29.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=admin%2F20240908%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240908T141914Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=5a2cd1cec13680504892b0ee6326b9613c07f2ba68b233f285c5f8191da7f9f7
+2024-09-08 17:19:14 [INFO] Response Code: 200
+2024-09-08 17:19:14 [WARN] Клієнт відключився
+2024-09-08 17:19:14 [INFO] Response Code: 200
+2024-09-08 17:19:14 [INFO] Response Code: 200
+2024-09-08 17:19:14 [INFO] URL FILE http://192.168.51.131:9001/example-bucket/%5B82%3A61%3A4e%3A94%3A0e%3Ab8%5D1.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=admin%2F20240908%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240908T141914Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=f343403c058c089fb51e6ebdbf6bf1b203373ff9c993ba8944ebcc398fb4ffaf
+2024-09-08 17:19:14 [INFO] URL FILE http://192.168.51.131:9001/example-bucket/%5B82%3A61%3A4e%3A94%3A0e%3Ab8%5D%D0%86%D0%BD%D1%81%D1%82%D1%80%D1%83%D0%BA%D1%86%D1%96%D1%8F%20%D0%B7%20%D0%B5%D0%BA%D1%81%D0%BF%D0%BB%D1%83%D0%B0%D1%82%D1%83%D0%B2%D0%B0%D0%BD%D0%BD%D1%8F%20%D0%B2%D1%80%D0%B0%D0%B7%D0%BB%D0%B8%D0%B2%D0%BE%D1%81%D1%82%D1%96%20CVE-2007-2447%20%D1%87%D0%B5%D1%80%D0%B5%D0%B7%20Metasploit.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=admin%2F20240908%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240908T141914Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=1c1169de331f8b005cc93ad88459c1272b4d07b0dc891919eff89a7704237365
+2024-09-08 17:19:14 [WARN] Клієнт відключився
+2024-09-08 17:19:14 [INFO] URL FILE http://192.168.51.131:9001/example-bucket/%5B82%3A61%3A4e%3A94%3A0e%3Ab8%5D%D0%9E%D0%BF%D0%B8%D1%81%20%D0%9F%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D1%83.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=admin%2F20240908%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240908T141914Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=1d1af8fd144117b064cd92e4e7b8c0c9d8951da3e22e4fe3711794fac966a7bd
+2024-09-08 17:19:14 [INFO] URL FILE http://192.168.51.131:9001/example-bucket/%5B82%3A61%3A4e%3A94%3A0e%3Ab8%5DNGINX%20%D0%9F%D0%BE%D1%80%D1%8F%D0%B4%D0%BE%D0%BA%20%D0%B2%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%BB%D0%B5%D0%BD%D0%BD%D1%8F%20%D1%82%D0%B0%20%D0%BA%D0%BE%D0%BD%D1%84%D1%96%D0%B3%D1%83%D1%80%D0%B0%D1%86%D1%96%D1%96%CC%88.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=admin%2F20240908%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240908T141914Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=860c277a53a5f4e727db109910ca1213e1fc060aaac76eceff7b9cf41645cb9f
+2024-09-08 17:19:14 [INFO] URL FILE http://192.168.51.131:9001/example-bucket/%5B82%3A61%3A4e%3A94%3A0e%3Ab8%5D%D0%A9%D0%BE%D0%B1%20%D1%80%D0%B5%D0%B0%D0%BB%D1%96%D0%B7%D1%83%D0%B2%D0%B0%D1%82%D0%B8%20%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D1%83%20%D0%B1%D0%B0%D0%BB%D0%B0%D0%BD%D1%81%D1%83%D0%B2%D0%B0%D0%BD%D0%BD%D1%8F%20%D0%BD%D0%B0%D0%B2%D0%B0%D0%BD%D1%82%D0%B0%D0%B6%D0%B5%D0%BD%D0%BD%D1%8F%20%D0%B7%20%D0%B2%D0%B8%D0%BA%D0%BE%D1%80%D0%B8%D1%81%D1%82%D0%B0%D0%BD%D0%BD%D1%8F%D0%BC%20Docker.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=admin%2F20240908%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240908T141914Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=8dfbb78c18a3c3af6125dfffbb88f628dec736c218606b6f6f29ce764fdc138f
+2024-09-08 17:19:14 [WARN] Клієнт відключився
+2024-09-08 17:19:14 [WARN] Клієнт відключився
+2024-09-08 17:19:14 [INFO] URL FILE http://192.168.51.131:9001/example-bucket/%5B82%3A61%3A4e%3A94%3A0e%3Ab8%5D%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D1%96%20%D0%B4%D0%B6%D0%B5%D1%80%D0%B5%D0%BB%D0%B0%20%D1%96%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%86%D1%96%D1%96%CC%88%20%D0%B4%D0%BB%D1%8F%20%D0%B0%D0%BD%D0%B0%D0%BB%D1%96%D0%B7%D1%83%20%D0%B2%D1%96%D0%B4%D0%BE%D0%BC%D0%B8%D1%85%20%D0%B2%D1%80%D0%B0%D0%B7%D0%BB%D0%B8%D0%B2%D0%BE%D1%81%D1%82%D0%B5%D0%B8%CC%86.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=admin%2F20240908%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240908T141914Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=3544b5f59600db5d05b124fc086c140bc2fbbd6f71a37e3c179254d3a00c627d
+2024-09-08 17:19:14 [WARN] Клієнт відключився
+2024-09-08 17:19:14 [WARN] Клієнт відключився
+2024-09-08 17:19:14 [WARN] Клієнт відключився
+2024-09-08 17:19:14 [WARN] Клієнт відключився

@@ -13,7 +13,7 @@ import java.security.InvalidKeyException;
 import java.security.NoSuchAlgorithmException;
 import java.util.concurrent.TimeUnit;
 
-import static org.example.logger.Logger.*;
+import static org.example.logger.JLogger.*;
 
 public class Storage {
     private final MinioClient minioClient;
@@ -95,11 +95,11 @@ public class Storage {
                             .build()
             );
         } catch (MinioException e) {
-            error("Помилка при отриманні presigned URL: ", e.getMessage());
+            error("Помилка при отриманні presigned URL: ", e);
             e.printStackTrace();
             return null;
         } catch (Exception e) {
-            error("Загальна помилка: ", e.getMessage());
+            error("Загальна помилка: ", e);
             e.printStackTrace();
             return null;
         }
@@ -124,10 +124,10 @@ public class Storage {
                             .build()
             );
 
-            message("Файл успішно завантажено до MinIO!");
+            info("Файл успішно завантажено до MinIO!");
 
         } catch (MinioException | InvalidKeyException | NoSuchAlgorithmException | IOException e) {
-            warning("Помилка при зберіганні файлу: " + e);
+            warn("Помилка при зберіганні файлу: " + e);
         }
     }
 }

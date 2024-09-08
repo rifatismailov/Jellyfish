@@ -12,7 +12,7 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
 import static org.example.JellyfishConfig.*;
-import static org.example.logger.Logger.*;
+import static org.example.logger.JLogger.*;
 
 /**
  * Головний клас програми, що ініціалізує сервер і обробляє клієнтські підключення.
@@ -69,7 +69,7 @@ public class Main {
         if (config != null) {
             Gson gson = new GsonBuilder().setPrettyPrinting().create();
             String jsonString = gson.toJson(config);
-            message(jsonString);
+            info(jsonString);
         }
 
 
@@ -77,7 +77,7 @@ public class Main {
         String bucketName = config.getBucket();
         MinioClient minioClient = Storage.minio(config.getEndpoint(), config.getAccessKey(), config.getSecretKey());
         if (Storage.bucketExists(minioClient, bucketName)) {
-            log("Bucket з назвою ", bucketName, " вже існує");
+            warn("Bucket з назвою " + bucketName + " вже існує");
         }
 
         Storage storage = new Storage(minioClient, bucketName);
@@ -87,12 +87,12 @@ public class Main {
         ExecutorService executorService = Executors.newCachedThreadPool(); // Використовуємо CachedThreadPool
 
         ServerSocket serverSocket = new ServerSocket(port);
-        message("Сервер запущено на порту " + port + "...");
+        info("Сервер запущено на порту " + port + "...");
 
         // Основний цикл для обробки клієнтських підключень
         while (true) {
             Socket clientSocket = serverSocket.accept();
-            message("Новий клієнт підключився: ", clientSocket.getInetAddress().getHostAddress());
+            info("Новий клієнт підключився: " + clientSocket.getInetAddress().getHostAddress());
 
             // Обробляємо підключення клієнта у фоновому потоці
             JellyfishConfig finalConfig = config;
