@@ -1,4 +1,4 @@
-package org.example;
+package org.example.security;
 
 import javax.crypto.Cipher;
 import javax.crypto.CipherInputStream;

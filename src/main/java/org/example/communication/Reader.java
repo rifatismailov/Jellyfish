@@ -1,4 +1,6 @@
-package org.example;
+package org.example.communication;
+
+import org.example.logger.Logger;
 
 import java.io.InputStream;
 

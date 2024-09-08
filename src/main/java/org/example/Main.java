@@ -3,6 +3,7 @@ package org.example;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import io.minio.MinioClient;
+import org.example.communication.Storage;
 
 import java.io.File;
 import java.net.ServerSocket;
@@ -11,7 +12,7 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
 import static org.example.JellyfishConfig.*;
-import static org.example.Logger.*;
+import static org.example.logger.Logger.*;
 
 /**
  * Головний клас програми, що ініціалізує сервер і обробляє клієнтські підключення.

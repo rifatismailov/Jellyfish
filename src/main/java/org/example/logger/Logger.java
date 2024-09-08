@@ -1,4 +1,6 @@
-package org.example;
+package org.example.logger;
+
+import org.example.Color;
 
 public class Logger extends Exception {
     Logger(String message) {

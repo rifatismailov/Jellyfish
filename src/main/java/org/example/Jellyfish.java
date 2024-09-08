@@ -2,15 +2,19 @@ package org.example;
 
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import org.example.communication.Sender;
+import org.example.communication.Storage;
+import org.example.logger.Logger;
 
 
 import java.io.InputStream;
 import java.net.Socket;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
-import static org.example.Logger.*;
-import static org.example.Reader.readFileName;
-import static org.example.SecurityUtils.decryptAndSaveFile;
+
+import static org.example.logger.Logger.*;
+import static org.example.communication.Reader.readFileName;
+import static org.example.security.SecurityUtils.decryptAndSaveFile;
 
 /**
  * Клас {@code Jellyfish} представляє собою потік, який обробляє з'єднання з клієнтом,
@@ -54,10 +58,8 @@ public class Jellyfish extends Thread {
             Matcher matcher = pattern.matcher(fileName);
 
             if (matcher.find()) {
-                // Вилучаємо знайдений JSON-об'єкт
                 String jsonPart = matcher.group();
                 parseJson(jsonPart);
-                // Видаляємо JSON-об'єкт з початкового рядка
                 fileName = fileName.replace(jsonPart, "");
                 message("Решта рядка: ", fileName);
             } else {
@@ -66,29 +68,26 @@ public class Jellyfish extends Thread {
 
             String filePath = SAVE_DIR + fileName;
 
-            // Читання хешу файлу з клієнта (16 байт для MD5)
-            byte[] clientFileHash = new byte[16];
+            byte[] clientFileHash = new byte[16];// Читання хешу файлу з клієнта (16 байт для MD5)
             int bytesRead = inputStream.read(clientFileHash);
             if (bytesRead != 16) {
                 throw new Logger("Не вдалося прочитати хеш файлу");
             }
 
-            // Читання IV (16 байт для AES)
-            byte[] iv = new byte[16];
+            byte[] iv = new byte[16];// Читання IV (16 байт для AES)
             bytesRead = inputStream.read(iv);
             if (bytesRead != 16) {
                 throw new Logger("Не вдалося прочитати IV");
             }
 
             // Розшифрування і збереження файлу, перевірка хешу
-            if (decryptAndSaveFile(inputStream, filePath, clientFileHash, iv,KEY)) {
+            if (decryptAndSaveFile(inputStream, filePath, clientFileHash, iv, KEY)) {
                 log("Отримано та збережено файл: ", fileName, " (Хеш перевірено)");
             } else {
                 error("Невідповідність хешу файлу: ", fileName);
             }
 
-            // Обробка файлу на сервері
-            handleFileOnServer(fileName);
+            handleFileOnServer(fileName);    // Обробка файлу на сервері
 
         } catch (Exception e) {
             error("Помилка при обробці з'єднання: ", e.getMessage());
@@ -116,13 +115,12 @@ public class Jellyfish extends Thread {
      * Обробляє файл на сервері, надсилаючи його інформацію і URL.
      *
      * @param fileName Назва файлу.
-     * @throws Exception Якщо виникла помилка при обробці файлу на сервері.
      */
-    private void handleFileOnServer(String fileName) throws Exception {
+    private void handleFileOnServer(String fileName) {
         storage.Send("[" + macAddress + "]" + fileName, SAVE_DIR + fileName);
         String url = Storage.getPresignedUrl(storage.getMinioClient(), storage.getBucketName(), "[" + macAddress + "]" + fileName);
         hostInfo.setUrlFile(url);
-        Sender.senderJson(hostInfo);
+        Sender.senderJsonWithHTTP("http://localhost:8090",hostInfo);
         message("URL FILE ", url);
         if (client.isClosed()) {
             warning("Клієнт відключився");

@@ -1,4 +1,4 @@
-package org.example;
+package org.example.communication;
 
 import io.minio.BucketExistsArgs;
 import io.minio.MakeBucketArgs;
@@ -13,7 +13,7 @@ import java.security.InvalidKeyException;
 import java.security.NoSuchAlgorithmException;
 import java.util.concurrent.TimeUnit;
 
-import static org.example.Logger.*;
+import static org.example.logger.Logger.*;
 
 public class Storage {
     private final MinioClient minioClient;

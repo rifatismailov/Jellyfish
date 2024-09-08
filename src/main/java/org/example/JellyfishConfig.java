@@ -2,6 +2,7 @@ package org.example;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
+import org.example.security.SecurityUtils;
 
 import java.io.FileReader;
 import java.io.FileWriter;
@@ -9,7 +10,7 @@ import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
 
-import static org.example.Logger.message;
+import static org.example.logger.Logger.message;
 
 class JellyfishConfig {
     private int fileServerPort;
