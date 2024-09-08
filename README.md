@@ -5,7 +5,7 @@
 
 
 
-![Logo](https://github.com/rifatismailov/Jellyfish)
+![Logo](https://github.com/rifatismailov/Jellyfish/blob/main/jellyfish.png)
 
 
 
@@ -17,4 +17,4 @@
 
 
 
-![Logo](https://github.com/rifatismailov/Jellyfish)
+![Logo](https://github.com/rifatismailov/Jellyfish/blob/main/jellyfish.png)
