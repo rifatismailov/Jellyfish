@@ -15,28 +15,13 @@ import java.util.concurrent.TimeUnit;
 
 import static org.example.logger.JLogger.*;
 
-public class Storage {
-    private final MinioClient minioClient;
-    private final String bucketName;
-
-    /**
-     * Конструктор для створення об'єкта Storage.
-     *
-     * @param minioClient Об'єкт MinioClient для взаємодії з MinIO сервером.
-     * @param bucketName  Ім'я відра, яке буде використовуватися для зберігання файлів.
-     */
-    public Storage(MinioClient minioClient, String bucketName) {
-        this.minioClient = minioClient;
-        this.bucketName = bucketName;
-    }
-
-    public MinioClient getMinioClient() {
-        return minioClient;
-    }
-
-    public String getBucketName() {
-        return bucketName;
-    }
+/**
+ * Конструктор для створення об'єкта Storage.
+ *
+ * @param minioClient Об'єкт MinioClient для взаємодії з MinIO сервером.
+ * @param bucketName  Ім'я відра, яке буде використовуватися для зберігання файлів.
+ */
+public record Storage(MinioClient minioClient, String bucketName) {
 
     /**
      * Створює та повертає об'єкт MinioClient для взаємодії з MinIO сервером.

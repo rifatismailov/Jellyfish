@@ -120,10 +120,10 @@ public class Jellyfish extends Thread {
      */
     private void handleFileOnServer(String fileName) {
         storage.Send("[" + macAddress + "]" + fileName, SAVE_DIR + fileName);
-        String url = Storage.getPresignedUrl(storage.getMinioClient(), storage.getBucketName(), "[" + macAddress + "]" + fileName);
-        hostInfo.setUrlFile(url);
+       // String url = Storage.getPresignedUrl(storage.minioClient(), storage.bucketName(), "[" + macAddress + "]" + fileName);
+        hostInfo.setUrlFile("[" + macAddress + "]" + fileName);
         Sender.senderJsonWithHTTP(crustaceans, hostInfo);
-        info("URL FILE " + url);
+        info("URL FILE " + "[" + macAddress + "]" + fileName);
         if (client.isClosed()) {
             warn("Клієнт відключився");
         }

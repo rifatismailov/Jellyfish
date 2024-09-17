@@ -98,7 +98,7 @@ public class Main {
             JellyfishConfig finalConfig = config;
             executorService.submit(() -> {
                 try {
-                    new Jellyfish(clientSocket, storage, finalConfig.getEncryptionKey(),"http://localhost:8090").start();
+                    new Jellyfish(clientSocket, storage, finalConfig.getEncryptionKey(), "http://localhost:8090").start();
                 } catch (Exception e) {
                     throw new RuntimeException(e);
                 }
