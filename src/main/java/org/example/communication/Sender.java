@@ -2,9 +2,9 @@ package org.example.communication;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
 import org.example.Jellyfish;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import java.io.OutputStream;
 import java.net.HttpURLConnection;
@@ -17,7 +17,7 @@ import static org.example.communication.Http.httpConnection;
  * -file_server="localhost:9090" -manager_server="localhost:8080" -log_server="localhost:7070" -directories="Users/sirius/Desktop" -extensions=".doc,.docx,.xls,.xlsx,.ppt,.pptx" -hour=12 -minute=45 -key="a very very very very secret key" -log_file_status=false -log_manager_status=false
  */
 public class Sender {
-    private static final Logger LOGGER = LogManager.getLogger(Jellyfish.class);
+    private static final Logger LOGGER = LoggerFactory.getLogger(Sender.class);
 
     /**
      * Відправляє об'єкт у форматі JSON на вказаний endpoint через HTTP POST запит.

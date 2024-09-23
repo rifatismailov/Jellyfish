@@ -2,10 +2,10 @@ package org.example;
 
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
 import org.example.communication.Sender;
 import org.example.communication.Storage;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 
 import java.io.InputStream;
@@ -23,7 +23,7 @@ import static org.example.security.SecurityUtils.decryptAndSaveFile;
  * файл на S3 (MinIO) сервер з використанням {@code Storage} а також надсилання інформації на сервер Crustaceans для опробки файлу
  */
 public class Jellyfish extends Thread {
-    private static final Logger LOGGER = LogManager.getLogger(Jellyfish .class);
+    private static final Logger LOGGER = LoggerFactory.getLogger(Jellyfish .class);
 
     private static final String SAVE_DIR = "received_files/";
     private final Socket client;

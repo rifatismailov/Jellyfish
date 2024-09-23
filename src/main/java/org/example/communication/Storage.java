@@ -5,8 +5,9 @@ import io.minio.MakeBucketArgs;
 import io.minio.MinioClient;
 import io.minio.PutObjectArgs;
 import io.minio.errors.*;
-import org.apache.logging.log4j.LogManager;
-import org.example.JellyfishMain;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -14,7 +15,6 @@ import java.io.InputStream;
 import java.security.InvalidKeyException;
 import java.security.NoSuchAlgorithmException;
 import java.util.concurrent.TimeUnit;
-import org.apache.logging.log4j.Logger;
 
 /**
  * Конструктор для створення об'єкта Storage.
@@ -23,7 +23,7 @@ import org.apache.logging.log4j.Logger;
  * @param bucketName  Ім'я відра, яке буде використовуватися для зберігання файлів.
  */
 public record Storage(MinioClient minioClient, String bucketName) {
-    private static final Logger LOGGER = LogManager.getLogger(Storage .class);
+    private static final Logger LOGGER = LoggerFactory.getLogger(Storage .class);
 
     /**
      * Створює та повертає об'єкт MinioClient для взаємодії з MinIO сервером.

@@ -3,7 +3,6 @@ package org.example;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import io.minio.MinioClient;
-import org.apache.logging.log4j.LogManager;
 import org.example.communication.Storage;
 
 import java.io.File;
@@ -11,9 +10,9 @@ import java.net.ServerSocket;
 import java.net.Socket;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
-import org.apache.logging.log4j.Logger;
 import static org.example.JellyfishConfig.*;
-
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 /**
  * Головний клас програми, що ініціалізує сервер і обробляє клієнтські підключення.
  * <p>
@@ -30,7 +29,7 @@ import static org.example.JellyfishConfig.*;
  */
 public class JellyfishMain {
 
-    private static final Logger LOGGER = LogManager.getLogger(JellyfishMain.class);
+    private static final Logger LOGGER = LoggerFactory.getLogger(JellyfishMain.class);
 
     /**
      * Шлях до директорії, де зберігаються отримані файли.

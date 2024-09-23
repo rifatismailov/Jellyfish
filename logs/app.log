@@ -1,0 +1,837 @@
+2024-09-23 14:52:41 INFO  [main] org.example.JellyfishMain - {
+  "fileServerPort": 9090,
+  "bucket": "example-bucket",
+  "endpointMinIO": "http://192.168.51.131:9001",
+  "accessKey": "xpuKAP94iVEjmNkv9yxPFg\u003d\u003d",
+  "secretKey": "AcvBY4/S6fGL8hakM2bs2A\u003d\u003d",
+  "encryptionKey": "2WE+BOefeLzT+5lbECVEKP5HePAx6soxVRRyDgkXi1U/FNnYX3byEntEgwSWB2wv",
+  "endpointCrustaceans": "http://localhost:8090"
+}
+2024-09-23 14:52:41 WARN  [main] org.example.JellyfishMain - Bucket з назвою example-bucket вже існує
+2024-09-23 14:52:41 INFO  [main] org.example.JellyfishMain - Сервер запущено на порту 9090...
+2024-09-23 14:55:28 [main] INFO  org.example.JellyfishMain - {
+  "fileServerPort": 9090,
+  "bucket": "example-bucket",
+  "endpointMinIO": "http://192.168.51.131:9001",
+  "accessKey": "xpuKAP94iVEjmNkv9yxPFg\u003d\u003d",
+  "secretKey": "AcvBY4/S6fGL8hakM2bs2A\u003d\u003d",
+  "encryptionKey": "2WE+BOefeLzT+5lbECVEKP5HePAx6soxVRRyDgkXi1U/FNnYX3byEntEgwSWB2wv",
+  "endpointCrustaceans": "http://localhost:8090"
+}
+2024-09-23 14:55:29 [main] WARN  org.example.JellyfishMain - Bucket з назвою example-bucket вже існує
+2024-09-23 14:55:29 [main] INFO  org.example.JellyfishMain - Сервер запущено на порту 9090...
+2024-09-23 14:58:58 [main] INFO  org.example.JellyfishMain - {
+  "fileServerPort": 9090,
+  "bucket": "example-bucket",
+  "endpointMinIO": "http://192.168.51.131:9001",
+  "accessKey": "xpuKAP94iVEjmNkv9yxPFg\u003d\u003d",
+  "secretKey": "AcvBY4/S6fGL8hakM2bs2A\u003d\u003d",
+  "encryptionKey": "2WE+BOefeLzT+5lbECVEKP5HePAx6soxVRRyDgkXi1U/FNnYX3byEntEgwSWB2wv",
+  "endpointCrustaceans": "http://localhost:8090"
+}
+2024-09-23 14:58:58 [main] WARN  org.example.JellyfishMain - Bucket з назвою example-bucket вже існує
+2024-09-23 14:58:58 [main] INFO  org.example.JellyfishMain - Сервер запущено на порту 9090...
+2024-09-23 14:59:58 [main] INFO  org.example.JellyfishMain - {
+  "fileServerPort": 9090,
+  "bucket": "example-bucket",
+  "endpointMinIO": "http://192.168.51.131:9001",
+  "accessKey": "xpuKAP94iVEjmNkv9yxPFg\u003d\u003d",
+  "secretKey": "AcvBY4/S6fGL8hakM2bs2A\u003d\u003d",
+  "encryptionKey": "2WE+BOefeLzT+5lbECVEKP5HePAx6soxVRRyDgkXi1U/FNnYX3byEntEgwSWB2wv",
+  "endpointCrustaceans": "http://localhost:8090"
+}
+2024-09-23 14:59:59 [main] WARN  org.example.JellyfishMain - Bucket з назвою example-bucket вже існує
+2024-09-23 14:59:59 [main] INFO  org.example.JellyfishMain - Сервер запущено на порту 9090...
+2024-09-23 15:01:06 [main] INFO  org.example.JellyfishMain - {
+  "fileServerPort": 9090,
+  "bucket": "example-bucket",
+  "endpointMinIO": "http://192.168.51.131:9001",
+  "accessKey": "xpuKAP94iVEjmNkv9yxPFg\u003d\u003d",
+  "secretKey": "AcvBY4/S6fGL8hakM2bs2A\u003d\u003d",
+  "encryptionKey": "2WE+BOefeLzT+5lbECVEKP5HePAx6soxVRRyDgkXi1U/FNnYX3byEntEgwSWB2wv",
+  "endpointCrustaceans": "http://localhost:8090"
+}
+2024-09-23 15:01:06 [main] WARN  org.example.JellyfishMain - Bucket з назвою example-bucket вже існує
+2024-09-23 15:01:06 [main] INFO  org.example.JellyfishMain - Сервер запущено на порту 9090...
+2024-09-23 15:01:21 [main] INFO  org.example.JellyfishMain - {
+  "fileServerPort": 9090,
+  "bucket": "example-bucket",
+  "endpointMinIO": "http://192.168.51.131:9001",
+  "accessKey": "xpuKAP94iVEjmNkv9yxPFg\u003d\u003d",
+  "secretKey": "AcvBY4/S6fGL8hakM2bs2A\u003d\u003d",
+  "encryptionKey": "2WE+BOefeLzT+5lbECVEKP5HePAx6soxVRRyDgkXi1U/FNnYX3byEntEgwSWB2wv",
+  "endpointCrustaceans": "http://localhost:8090"
+}
+2024-09-23 15:01:22 [main] WARN  org.example.JellyfishMain - Bucket з назвою example-bucket вже існує
+2024-09-23 15:01:22 [main] INFO  org.example.JellyfishMain - Сервер запущено на порту 9090...
+2024-09-23 15:01:56 [main] INFO  org.example.JellyfishMain - {
+  "fileServerPort": 9090,
+  "bucket": "example-bucket",
+  "endpointMinIO": "http://192.168.51.131:9001",
+  "accessKey": "xpuKAP94iVEjmNkv9yxPFg\u003d\u003d",
+  "secretKey": "AcvBY4/S6fGL8hakM2bs2A\u003d\u003d",
+  "encryptionKey": "2WE+BOefeLzT+5lbECVEKP5HePAx6soxVRRyDgkXi1U/FNnYX3byEntEgwSWB2wv",
+  "endpointCrustaceans": "http://localhost:8090"
+}
+2024-09-23 15:01:56 [main] WARN  org.example.JellyfishMain - Bucket з назвою example-bucket вже існує
+2024-09-23 15:01:56 [main] INFO  org.example.JellyfishMain - Сервер запущено на порту 9090...
+2024-09-23 15:03:31 [main] INFO  org.example.JellyfishMain - Новий клієнт підключився: 0:0:0:0:0:0:0:1
+2024-09-23 15:03:31 [main] INFO  org.example.JellyfishMain - Новий клієнт підключився: 0:0:0:0:0:0:0:1
+2024-09-23 15:03:31 [main] INFO  org.example.JellyfishMain - Новий клієнт підключився: 0:0:0:0:0:0:0:1
+2024-09-23 15:03:31 [main] INFO  org.example.JellyfishMain - Новий клієнт підключився: 0:0:0:0:0:0:0:1
+2024-09-23 15:03:31 [main] INFO  org.example.JellyfishMain - Новий клієнт підключився: 0:0:0:0:0:0:0:1
+2024-09-23 15:03:31 [main] INFO  org.example.JellyfishMain - Новий клієнт підключився: 0:0:0:0:0:0:0:1
+2024-09-23 15:03:31 [main] INFO  org.example.JellyfishMain - Новий клієнт підключився: 0:0:0:0:0:0:0:1
+2024-09-23 15:03:31 [main] INFO  org.example.JellyfishMain - Новий клієнт підключився: 0:0:0:0:0:0:0:1
+2024-09-23 15:03:31 [main] INFO  org.example.JellyfishMain - Новий клієнт підключився: 0:0:0:0:0:0:0:1
+2024-09-23 15:03:31 [main] INFO  org.example.JellyfishMain - Новий клієнт підключився: 0:0:0:0:0:0:0:1
+2024-09-23 15:03:31 [main] INFO  org.example.JellyfishMain - Новий клієнт підключився: 0:0:0:0:0:0:0:1
+2024-09-23 15:03:31 [main] INFO  org.example.JellyfishMain - Новий клієнт підключився: 0:0:0:0:0:0:0:1
+2024-09-23 15:03:31 [main] INFO  org.example.JellyfishMain - Новий клієнт підключився: 0:0:0:0:0:0:0:1
+2024-09-23 15:03:31 [main] INFO  org.example.JellyfishMain - Новий клієнт підключився: 0:0:0:0:0:0:0:1
+2024-09-23 15:03:31 [main] INFO  org.example.JellyfishMain - Новий клієнт підключився: 0:0:0:0:0:0:0:1
+2024-09-23 15:03:31 [main] INFO  org.example.JellyfishMain - Новий клієнт підключився: 0:0:0:0:0:0:0:1
+2024-09-23 15:03:31 [main] INFO  org.example.JellyfishMain - Новий клієнт підключився: 0:0:0:0:0:0:0:1
+2024-09-23 15:03:31 [main] INFO  org.example.JellyfishMain - Новий клієнт підключився: 0:0:0:0:0:0:0:1
+2024-09-23 15:03:31 [main] INFO  org.example.JellyfishMain - Новий клієнт підключився: 0:0:0:0:0:0:0:1
+2024-09-23 15:03:31 [main] INFO  org.example.JellyfishMain - Новий клієнт підключився: 0:0:0:0:0:0:0:1
+2024-09-23 15:03:31 [main] INFO  org.example.JellyfishMain - Новий клієнт підключився: 0:0:0:0:0:0:0:1
+2024-09-23 15:03:31 [main] INFO  org.example.JellyfishMain - Новий клієнт підключився: 0:0:0:0:0:0:0:1
+2024-09-23 15:03:31 [main] INFO  org.example.JellyfishMain - Новий клієнт підключився: 0:0:0:0:0:0:0:1
+2024-09-23 15:03:31 [main] INFO  org.example.JellyfishMain - Новий клієнт підключився: 0:0:0:0:0:0:0:1
+2024-09-23 15:03:31 [main] INFO  org.example.JellyfishMain - Новий клієнт підключився: 0:0:0:0:0:0:0:1
+2024-09-23 15:03:31 [main] INFO  org.example.JellyfishMain - Новий клієнт підключився: 0:0:0:0:0:0:0:1
+2024-09-23 15:03:31 [main] INFO  org.example.JellyfishMain - Новий клієнт підключився: 0:0:0:0:0:0:0:1
+2024-09-23 15:03:31 [main] INFO  org.example.JellyfishMain - Новий клієнт підключився: 0:0:0:0:0:0:0:1
+2024-09-23 15:03:31 [main] INFO  org.example.JellyfishMain - Новий клієнт підключився: 0:0:0:0:0:0:0:1
+2024-09-23 15:03:31 [main] INFO  org.example.JellyfishMain - Новий клієнт підключився: 0:0:0:0:0:0:0:1
+2024-09-23 15:03:31 [main] INFO  org.example.JellyfishMain - Новий клієнт підключився: 0:0:0:0:0:0:0:1
+2024-09-23 15:03:31 [main] INFO  org.example.JellyfishMain - Новий клієнт підключився: 0:0:0:0:0:0:0:1
+2024-09-23 15:03:31 [main] INFO  org.example.JellyfishMain - Новий клієнт підключився: 0:0:0:0:0:0:0:1
+2024-09-23 15:03:31 [main] INFO  org.example.JellyfishMain - Новий клієнт підключився: 0:0:0:0:0:0:0:1
+2024-09-23 15:03:31 [main] INFO  org.example.JellyfishMain - Новий клієнт підключився: 0:0:0:0:0:0:0:1
+2024-09-23 15:03:31 [main] INFO  org.example.JellyfishMain - Новий клієнт підключився: 0:0:0:0:0:0:0:1
+2024-09-23 15:03:31 [main] INFO  org.example.JellyfishMain - Новий клієнт підключився: 0:0:0:0:0:0:0:1
+2024-09-23 15:03:31 [main] INFO  org.example.JellyfishMain - Новий клієнт підключився: 0:0:0:0:0:0:0:1
+2024-09-23 15:03:31 [main] INFO  org.example.JellyfishMain - Новий клієнт підключився: 0:0:0:0:0:0:0:1
+2024-09-23 15:03:31 [main] INFO  org.example.JellyfishMain - Новий клієнт підключився: 0:0:0:0:0:0:0:1
+2024-09-23 15:03:31 [main] INFO  org.example.JellyfishMain - Новий клієнт підключився: 0:0:0:0:0:0:0:1
+2024-09-23 15:03:31 [Thread-1] INFO  org.example.Jellyfish - Підключення встановлено
+2024-09-23 15:03:31 [Thread-2] INFO  org.example.Jellyfish - Підключення встановлено
+2024-09-23 15:03:31 [Thread-0] INFO  org.example.Jellyfish - Підключення встановлено
+2024-09-23 15:03:31 [Thread-3] INFO  org.example.Jellyfish - Підключення встановлено
+2024-09-23 15:03:31 [Thread-5] INFO  org.example.Jellyfish - Підключення встановлено
+2024-09-23 15:03:31 [Thread-4] INFO  org.example.Jellyfish - Підключення встановлено
+2024-09-23 15:03:31 [Thread-6] INFO  org.example.Jellyfish - Підключення встановлено
+2024-09-23 15:03:31 [Thread-7] INFO  org.example.Jellyfish - Підключення встановлено
+2024-09-23 15:03:31 [Thread-9] INFO  org.example.Jellyfish - Підключення встановлено
+2024-09-23 15:03:31 [Thread-8] INFO  org.example.Jellyfish - Підключення встановлено
+2024-09-23 15:03:31 [Thread-10] INFO  org.example.Jellyfish - Підключення встановлено
+2024-09-23 15:03:31 [Thread-14] INFO  org.example.Jellyfish - Підключення встановлено
+2024-09-23 15:03:31 [Thread-12] INFO  org.example.Jellyfish - Підключення встановлено
+2024-09-23 15:03:31 [Thread-11] INFO  org.example.Jellyfish - Підключення встановлено
+2024-09-23 15:03:31 [Thread-1] INFO  org.example.Jellyfish - Назва отриманого файлу: {"HostName":"Sirius-2.local","HostAddress":"10.10.10.28","MACAddress":"82:61:4e:94:0e:b8","RemoteAddr":"91.219.168.123"}Аналіз стану організації та безпеки за 05.docx
+2024-09-23 15:03:31 [Thread-6] INFO  org.example.Jellyfish - Назва отриманого файлу: {"HostName":"Sirius-2.local","HostAddress":"10.10.10.28","MACAddress":"82:61:4e:94:0e:b8","RemoteAddr":"91.219.168.123"}Щоб розпарсити цей JSON у Java.docx
+2024-09-23 15:03:31 [Thread-11] INFO  org.example.Jellyfish - Назва отриманого файлу: {"HostName":"Sirius-2.local","HostAddress":"10.10.10.28","MACAddress":"82:61:4e:94:0e:b8","RemoteAddr":"91.219.168.123"}Відомість про наявність ключових мереж.docx
+2024-09-23 15:03:31 [Thread-2] INFO  org.example.Jellyfish - Назва отриманого файлу: {"HostName":"Sirius-2.local","HostAddress":"10.10.10.28","MACAddress":"82:61:4e:94:0e:b8","RemoteAddr":"91.219.168.123"}Схема організації мережі обміну службовою інформацією.docx
+2024-09-23 15:03:31 [Thread-3] INFO  org.example.Jellyfish - Назва отриманого файлу: {"HostName":"Sirius-2.local","HostAddress":"10.10.10.28","MACAddress":"82:61:4e:94:0e:b8","RemoteAddr":"91.219.168.123"}f291032n6551 (1).docx
+2024-09-23 15:03:31 [Thread-12] INFO  org.example.Jellyfish - Назва отриманого файлу: {"HostName":"Sirius-2.local","HostAddress":"10.10.10.28","MACAddress":"82:61:4e:94:0e:b8","RemoteAddr":"91.219.168.123"}Повідомлення журналіста під час візиту у Нідерланди на футбольний матч.docx
+2024-09-23 15:03:31 [Thread-14] INFO  org.example.Jellyfish - Назва отриманого файлу: {"HostName":"Sirius-2.local","HostAddress":"10.10.10.28","MACAddress":"82:61:4e:94:0e:b8","RemoteAddr":"91.219.168.123"}Щоб реалізувати систему балансування навантаження з використанням Docker.docx
+2024-09-23 15:03:31 [Thread-10] INFO  org.example.Jellyfish - Назва отриманого файлу: {"HostName":"Sirius-2.local","HostAddress":"10.10.10.28","MACAddress":"82:61:4e:94:0e:b8","RemoteAddr":"91.219.168.123"}Звіт про стан спеціального зв.docx
+2024-09-23 15:03:31 [Thread-7] INFO  org.example.Jellyfish - Назва отриманого файлу: {"HostName":"Sirius-2.local","HostAddress":"10.10.10.28","MACAddress":"82:61:4e:94:0e:b8","RemoteAddr":"91.219.168.123"}Відомість централізованого обліку керівників служб спеціального зв.docx
+2024-09-23 15:03:31 [Thread-0] INFO  org.example.Jellyfish - Назва отриманого файлу: {"HostName":"Sirius-2.local","HostAddress":"10.10.10.28","MACAddress":"82:61:4e:94:0e:b8","RemoteAddr":"91.219.168.123"}рапорт Ісмаїлова напавлення  – МСЄК.docx
+2024-09-23 15:03:31 [Thread-9] INFO  org.example.Jellyfish - Назва отриманого файлу: {"HostName":"Sirius-2.local","HostAddress":"10.10.10.28","MACAddress":"82:61:4e:94:0e:b8","RemoteAddr":"91.219.168.123"}Функціонування системи кібербезпеки.docx
+2024-09-23 15:03:31 [Thread-8] INFO  org.example.Jellyfish - Назва отриманого файлу: {"HostName":"Sirius-2.local","HostAddress":"10.10.10.28","MACAddress":"82:61:4e:94:0e:b8","RemoteAddr":"91.219.168.123"}Відомість наявності засобів супутникового зв.docx
+2024-09-23 15:03:31 [Thread-4] INFO  org.example.Jellyfish - Назва отриманого файлу: {"HostName":"Sirius-2.local","HostAddress":"10.10.10.28","MACAddress":"82:61:4e:94:0e:b8","RemoteAddr":"91.219.168.123"}Рапорт на Звілення Ріфат.docx
+2024-09-23 15:03:31 [Thread-5] INFO  org.example.Jellyfish - Назва отриманого файлу: {"HostName":"Sirius-2.local","HostAddress":"10.10.10.28","MACAddress":"82:61:4e:94:0e:b8","RemoteAddr":"91.219.168.123"}Донесення командира війскової частини 5647 канадських військових сил.docx
+2024-09-23 15:03:31 [Thread-13] INFO  org.example.Jellyfish - Підключення встановлено
+2024-09-23 15:03:31 [Thread-15] INFO  org.example.Jellyfish - Підключення встановлено
+2024-09-23 15:03:31 [Thread-13] INFO  org.example.Jellyfish - Назва отриманого файлу: {"HostName":"Sirius-2.local","HostAddress":"10.10.10.28","MACAddress":"82:61:4e:94:0e:b8","RemoteAddr":"91.219.168.123"}1.docx
+2024-09-23 15:03:31 [Thread-15] INFO  org.example.Jellyfish - Назва отриманого файлу: {"HostName":"Sirius-2.local","HostAddress":"10.10.10.28","MACAddress":"82:61:4e:94:0e:b8","RemoteAddr":"91.219.168.123"}Опис Проекту.docx
+2024-09-23 15:03:31 [Thread-18] INFO  org.example.Jellyfish - Підключення встановлено
+2024-09-23 15:03:31 [Thread-18] INFO  org.example.Jellyfish - Назва отриманого файлу: {"HostName":"Sirius-2.local","HostAddress":"10.10.10.28","MACAddress":"82:61:4e:94:0e:b8","RemoteAddr":"91.219.168.123"}Для Рифатаzrazok-raport-pro-zvilnennya-mobilizovanyh-za-stanom-zdorovya-invalidnisty-forma-dlya-zapovnennya-v1 (1).docx
+2024-09-23 15:03:31 [Thread-17] INFO  org.example.Jellyfish - Підключення встановлено
+2024-09-23 15:03:31 [Thread-16] INFO  org.example.Jellyfish - Підключення встановлено
+2024-09-23 15:03:31 [Thread-19] INFO  org.example.Jellyfish - Підключення встановлено
+2024-09-23 15:03:31 [Thread-17] INFO  org.example.Jellyfish - Назва отриманого файлу: {"HostName":"Sirius-2.local","HostAddress":"10.10.10.28","MACAddress":"82:61:4e:94:0e:b8","RemoteAddr":"91.219.168.123"}аркуш бесіди Артьомова 1.docx
+2024-09-23 15:03:31 [Thread-20] INFO  org.example.Jellyfish - Підключення встановлено
+2024-09-23 15:03:31 [Thread-16] INFO  org.example.Jellyfish - Назва отриманого файлу: {"HostName":"Sirius-2.local","HostAddress":"10.10.10.28","MACAddress":"82:61:4e:94:0e:b8","RemoteAddr":"91.219.168.123"}опис схем.docx
+2024-09-23 15:03:31 [Thread-19] INFO  org.example.Jellyfish - Назва отриманого файлу: {"HostName":"Sirius-2.local","HostAddress":"10.10.10.28","MACAddress":"82:61:4e:94:0e:b8","RemoteAddr":"91.219.168.123"}Рапорт командира корабля HMS.docx
+2024-09-23 15:03:31 [Thread-20] INFO  org.example.Jellyfish - Назва отриманого файлу: {"HostName":"Sirius-2.local","HostAddress":"10.10.10.28","MACAddress":"82:61:4e:94:0e:b8","RemoteAddr":"91.219.168.123"}Донесення міністра інфраструктури.docx
+2024-09-23 15:03:31 [Thread-21] INFO  org.example.Jellyfish - Підключення встановлено
+2024-09-23 15:03:31 [Thread-22] INFO  org.example.Jellyfish - Підключення встановлено
+2024-09-23 15:03:31 [Thread-22] INFO  org.example.Jellyfish - Назва отриманого файлу: {"HostName":"Sirius-2.local","HostAddress":"10.10.10.28","MACAddress":"82:61:4e:94:0e:b8","RemoteAddr":"91.219.168.123"}Рапорт командира військової частини 8762 японських сухопутних військ.docx
+2024-09-23 15:03:31 [Thread-21] INFO  org.example.Jellyfish - Назва отриманого файлу: {"HostName":"Sirius-2.local","HostAddress":"10.10.10.28","MACAddress":"82:61:4e:94:0e:b8","RemoteAddr":"91.219.168.123"}Відомості щодо служб та підрозділів спеціального зв.docx
+2024-09-23 15:03:31 [Thread-24] INFO  org.example.Jellyfish - Підключення встановлено
+2024-09-23 15:03:31 [Thread-34] INFO  org.example.Jellyfish - Підключення встановлено
+2024-09-23 15:03:31 [Thread-40] INFO  org.example.Jellyfish - Підключення встановлено
+2024-09-23 15:03:31 [Thread-36] INFO  org.example.Jellyfish - Підключення встановлено
+2024-09-23 15:03:31 [Thread-34] INFO  org.example.Jellyfish - Назва отриманого файлу: {"HostName":"Sirius-2.local","HostAddress":"10.10.10.28","MACAddress":"82:61:4e:94:0e:b8","RemoteAddr":"91.219.168.123"}СЛУЖБОВА ХАРАКТЕРИСТИКА.docx
+2024-09-23 15:03:31 [Thread-25] INFO  org.example.Jellyfish - Підключення встановлено
+2024-09-23 15:03:31 [Thread-36] INFO  org.example.Jellyfish - Назва отриманого файлу: {"HostName":"Sirius-2.local","HostAddress":"10.10.10.28","MACAddress":"82:61:4e:94:0e:b8","RemoteAddr":"91.219.168.123"}Рефаті.xls
+2024-09-23 15:03:31 [Thread-27] INFO  org.example.Jellyfish - Підключення встановлено
+2024-09-23 15:03:31 [Thread-38] INFO  org.example.Jellyfish - Підключення встановлено
+2024-09-23 15:03:31 [Thread-25] INFO  org.example.Jellyfish - Назва отриманого файлу: {"HostName":"Sirius-2.local","HostAddress":"10.10.10.28","MACAddress":"82:61:4e:94:0e:b8","RemoteAddr":"91.219.168.123"}Репортаж BBC про новий програмний вірус.docx
+2024-09-23 15:03:31 [Thread-23] INFO  org.example.Jellyfish - Підключення встановлено
+2024-09-23 15:03:31 [Thread-38] INFO  org.example.Jellyfish - Назва отриманого файлу: {"HostName":"Sirius-2.local","HostAddress":"10.10.10.28","MACAddress":"82:61:4e:94:0e:b8","RemoteAddr":"91.219.168.123"}Організація роботи служби спеціального зв.docx
+2024-09-23 15:03:31 [Thread-35] INFO  org.example.Jellyfish - Підключення встановлено
+2024-09-23 15:03:31 [Thread-29] INFO  org.example.Jellyfish - Підключення встановлено
+2024-09-23 15:03:31 [Thread-28] INFO  org.example.Jellyfish - Підключення встановлено
+2024-09-23 15:03:31 [Thread-23] INFO  org.example.Jellyfish - Назва отриманого файлу: {"HostName":"Sirius-2.local","HostAddress":"10.10.10.28","MACAddress":"82:61:4e:94:0e:b8","RemoteAddr":"91.219.168.123"}Аналіз стану організації та безпеки засекреченого зв.docx
+2024-09-23 15:03:31 [Thread-29] INFO  org.example.Jellyfish - Назва отриманого файлу: {"HostName":"Sirius-2.local","HostAddress":"10.10.10.28","MACAddress":"82:61:4e:94:0e:b8","RemoteAddr":"91.219.168.123"}Рапорт на Звілення.docx
+2024-09-23 15:03:31 [Thread-35] INFO  org.example.Jellyfish - Назва отриманого файлу: {"HostName":"Sirius-2.local","HostAddress":"10.10.10.28","MACAddress":"82:61:4e:94:0e:b8","RemoteAddr":"91.219.168.123"}Аналіз стану організації та забезпечення захисту інформації.docx
+2024-09-23 15:03:31 [Thread-28] INFO  org.example.Jellyfish - Назва отриманого файлу: {"HostName":"Sirius-2.local","HostAddress":"10.10.10.28","MACAddress":"82:61:4e:94:0e:b8","RemoteAddr":"91.219.168.123"}аркуш бесіди ІСМАЇЛОВ.docx
+2024-09-23 15:03:31 [Thread-32] INFO  org.example.Jellyfish - Підключення встановлено
+2024-09-23 15:03:31 [Thread-40] INFO  org.example.Jellyfish - Назва отриманого файлу: {"HostName":"Sirius-2.local","HostAddress":"10.10.10.28","MACAddress":"82:61:4e:94:0e:b8","RemoteAddr":"91.219.168.123"}Перевірки та особовий склад служб.docx
+2024-09-23 15:03:31 [Thread-26] INFO  org.example.Jellyfish - Підключення встановлено
+2024-09-23 15:03:31 [Thread-33] INFO  org.example.Jellyfish - Підключення встановлено
+2024-09-23 15:03:31 [Thread-30] INFO  org.example.Jellyfish - Підключення встановлено
+2024-09-23 15:03:31 [Thread-32] INFO  org.example.Jellyfish - Назва отриманого файлу: {"HostName":"Sirius-2.local","HostAddress":"10.10.10.28","MACAddress":"82:61:4e:94:0e:b8","RemoteAddr":"91.219.168.123"}Донесення командира війскової частини 6245 військових сил США.docx
+2024-09-23 15:03:31 [Thread-37] INFO  org.example.Jellyfish - Підключення встановлено
+2024-09-23 15:03:31 [Thread-39] INFO  org.example.Jellyfish - Підключення встановлено
+2024-09-23 15:03:31 [Thread-27] INFO  org.example.Jellyfish - Назва отриманого файлу: {"HostName":"Sirius-2.local","HostAddress":"10.10.10.28","MACAddress":"82:61:4e:94:0e:b8","RemoteAddr":"91.219.168.123"}Аналіз перевірок стану кібербезпеки.docx
+2024-09-23 15:03:31 [Thread-24] INFO  org.example.Jellyfish - Назва отриманого файлу: {"HostName":"Sirius-2.local","HostAddress":"10.10.10.28","MACAddress":"82:61:4e:94:0e:b8","RemoteAddr":"91.219.168.123"}f291032n7316.docx
+2024-09-23 15:03:31 [Thread-37] INFO  org.example.Jellyfish - Назва отриманого файлу: {"HostName":"Sirius-2.local","HostAddress":"10.10.10.28","MACAddress":"82:61:4e:94:0e:b8","RemoteAddr":"91.219.168.123"}Аналіз та оцінка організації та безпеки засекреченого зв.docx
+2024-09-23 15:03:31 [Thread-39] INFO  org.example.Jellyfish - Назва отриманого файлу: {"HostName":"Sirius-2.local","HostAddress":"10.10.10.28","MACAddress":"82:61:4e:94:0e:b8","RemoteAddr":"91.219.168.123"}Звіт медичного інституту про новий вид захворювання.docx
+2024-09-23 15:03:31 [Thread-31] INFO  org.example.Jellyfish - Підключення встановлено
+2024-09-23 15:03:31 [Thread-33] INFO  org.example.Jellyfish - Назва отриманого файлу: {"HostName":"Sirius-2.local","HostAddress":"10.10.10.28","MACAddress":"82:61:4e:94:0e:b8","RemoteAddr":"91.219.168.123"}Напрвлення на МСЕК.docx
+2024-09-23 15:03:31 [Thread-26] INFO  org.example.Jellyfish - Назва отриманого файлу: {"HostName":"Sirius-2.local","HostAddress":"10.10.10.28","MACAddress":"82:61:4e:94:0e:b8","RemoteAddr":"91.219.168.123"}Аналіз стану організації та безпеки.docx
+2024-09-23 15:03:31 [Thread-31] INFO  org.example.Jellyfish - Назва отриманого файлу: {"HostName":"Sirius-2.local","HostAddress":"10.10.10.28","MACAddress":"82:61:4e:94:0e:b8","RemoteAddr":"91.219.168.123"}Звіт депутата про виконання роботи.docx
+2024-09-23 15:03:31 [Thread-30] INFO  org.example.Jellyfish - Назва отриманого файлу: {"HostName":"Sirius-2.local","HostAddress":"10.10.10.28","MACAddress":"82:61:4e:94:0e:b8","RemoteAddr":"91.219.168.123"}Таблиця.docx
+2024-09-23 15:03:31 [Thread-20] INFO  org.example.Jellyfish - Решта рядка: Донесення міністра інфраструктури.docx
+2024-09-23 15:03:31 [Thread-32] INFO  org.example.Jellyfish - Решта рядка: Донесення командира війскової частини 6245 військових сил США.docx
+2024-09-23 15:03:31 [Thread-37] INFO  org.example.Jellyfish - Решта рядка: Аналіз та оцінка організації та безпеки засекреченого зв.docx
+2024-09-23 15:03:31 [Thread-40] INFO  org.example.Jellyfish - Решта рядка: Перевірки та особовий склад служб.docx
+2024-09-23 15:03:31 [Thread-33] INFO  org.example.Jellyfish - Решта рядка: Напрвлення на МСЕК.docx
+2024-09-23 15:03:31 [Thread-25] INFO  org.example.Jellyfish - Решта рядка: Репортаж BBC про новий програмний вірус.docx
+2024-09-23 15:03:31 [Thread-29] INFO  org.example.Jellyfish - Решта рядка: Рапорт на Звілення.docx
+2024-09-23 15:03:31 [Thread-1] INFO  org.example.Jellyfish - Решта рядка: Аналіз стану організації та безпеки за 05.docx
+2024-09-23 15:03:31 [Thread-5] INFO  org.example.Jellyfish - Решта рядка: Донесення командира війскової частини 5647 канадських військових сил.docx
+2024-09-23 15:03:31 [Thread-35] INFO  org.example.Jellyfish - Решта рядка: Аналіз стану організації та забезпечення захисту інформації.docx
+2024-09-23 15:03:31 [Thread-9] INFO  org.example.Jellyfish - Решта рядка: Функціонування системи кібербезпеки.docx
+2024-09-23 15:03:31 [Thread-19] INFO  org.example.Jellyfish - Решта рядка: Рапорт командира корабля HMS.docx
+2024-09-23 15:03:31 [Thread-2] INFO  org.example.Jellyfish - Решта рядка: Схема організації мережі обміну службовою інформацією.docx
+2024-09-23 15:03:31 [Thread-22] INFO  org.example.Jellyfish - Решта рядка: Рапорт командира військової частини 8762 японських сухопутних військ.docx
+2024-09-23 15:03:31 [Thread-10] INFO  org.example.Jellyfish - Решта рядка: Звіт про стан спеціального зв.docx
+2024-09-23 15:03:31 [Thread-11] INFO  org.example.Jellyfish - Решта рядка: Відомість про наявність ключових мереж.docx
+2024-09-23 15:03:31 [Thread-27] INFO  org.example.Jellyfish - Решта рядка: Аналіз перевірок стану кібербезпеки.docx
+2024-09-23 15:03:31 [Thread-7] INFO  org.example.Jellyfish - Решта рядка: Відомість централізованого обліку керівників служб спеціального зв.docx
+2024-09-23 15:03:31 [Thread-14] INFO  org.example.Jellyfish - Решта рядка: Щоб реалізувати систему балансування навантаження з використанням Docker.docx
+2024-09-23 15:03:31 [Thread-26] INFO  org.example.Jellyfish - Решта рядка: Аналіз стану організації та безпеки.docx
+2024-09-23 15:03:31 [Thread-18] INFO  org.example.Jellyfish - Решта рядка: Для Рифатаzrazok-raport-pro-zvilnennya-mobilizovanyh-za-stanom-zdorovya-invalidnisty-forma-dlya-zapovnennya-v1 (1).docx
+2024-09-23 15:03:31 [Thread-17] INFO  org.example.Jellyfish - Решта рядка: аркуш бесіди Артьомова 1.docx
+2024-09-23 15:03:31 [Thread-6] INFO  org.example.Jellyfish - Решта рядка: Щоб розпарсити цей JSON у Java.docx
+2024-09-23 15:03:31 [Thread-36] INFO  org.example.Jellyfish - Решта рядка: Рефаті.xls
+2024-09-23 15:03:31 [Thread-13] INFO  org.example.Jellyfish - Решта рядка: 1.docx
+2024-09-23 15:03:31 [Thread-21] INFO  org.example.Jellyfish - Решта рядка: Відомості щодо служб та підрозділів спеціального зв.docx
+2024-09-23 15:03:31 [Thread-24] INFO  org.example.Jellyfish - Решта рядка: f291032n7316.docx
+2024-09-23 15:03:31 [Thread-15] INFO  org.example.Jellyfish - Решта рядка: Опис Проекту.docx
+2024-09-23 15:03:31 [Thread-31] INFO  org.example.Jellyfish - Решта рядка: Звіт депутата про виконання роботи.docx
+2024-09-23 15:03:31 [Thread-16] INFO  org.example.Jellyfish - Решта рядка: опис схем.docx
+2024-09-23 15:03:31 [Thread-3] INFO  org.example.Jellyfish - Решта рядка: f291032n6551 (1).docx
+2024-09-23 15:03:31 [Thread-8] INFO  org.example.Jellyfish - Решта рядка: Відомість наявності засобів супутникового зв.docx
+2024-09-23 15:03:31 [Thread-23] INFO  org.example.Jellyfish - Решта рядка: Аналіз стану організації та безпеки засекреченого зв.docx
+2024-09-23 15:03:31 [Thread-28] INFO  org.example.Jellyfish - Решта рядка: аркуш бесіди ІСМАЇЛОВ.docx
+2024-09-23 15:03:31 [Thread-39] INFO  org.example.Jellyfish - Решта рядка: Звіт медичного інституту про новий вид захворювання.docx
+2024-09-23 15:03:31 [Thread-4] INFO  org.example.Jellyfish - Решта рядка: Рапорт на Звілення Ріфат.docx
+2024-09-23 15:03:31 [Thread-0] INFO  org.example.Jellyfish - Решта рядка: рапорт Ісмаїлова напавлення  – МСЄК.docx
+2024-09-23 15:03:31 [Thread-12] INFO  org.example.Jellyfish - Решта рядка: Повідомлення журналіста під час візиту у Нідерланди на футбольний матч.docx
+2024-09-23 15:03:31 [Thread-38] INFO  org.example.Jellyfish - Решта рядка: Організація роботи служби спеціального зв.docx
+2024-09-23 15:03:31 [Thread-34] INFO  org.example.Jellyfish - Решта рядка: СЛУЖБОВА ХАРАКТЕРИСТИКА.docx
+2024-09-23 15:03:31 [Thread-30] INFO  org.example.Jellyfish - Решта рядка: Таблиця.docx
+2024-09-23 15:03:32 [Thread-15] INFO  org.example.Jellyfish - Отримано та збережено файл: Опис Проекту.docx (Хеш перевірено)
+2024-09-23 15:03:32 [Thread-11] INFO  org.example.Jellyfish - Отримано та збережено файл: Відомість про наявність ключових мереж.docx (Хеш перевірено)
+2024-09-23 15:03:32 [Thread-40] INFO  org.example.Jellyfish - Отримано та збережено файл: Перевірки та особовий склад служб.docx (Хеш перевірено)
+2024-09-23 15:03:32 [Thread-10] INFO  org.example.Jellyfish - Отримано та збережено файл: Звіт про стан спеціального зв.docx (Хеш перевірено)
+2024-09-23 15:03:32 [Thread-16] INFO  org.example.Jellyfish - Отримано та збережено файл: опис схем.docx (Хеш перевірено)
+2024-09-23 15:03:32 [Thread-30] INFO  org.example.Jellyfish - Отримано та збережено файл: Таблиця.docx (Хеш перевірено)
+2024-09-23 15:03:32 [Thread-35] INFO  org.example.Jellyfish - Отримано та збережено файл: Аналіз стану організації та забезпечення захисту інформації.docx (Хеш перевірено)
+2024-09-23 15:03:32 [Thread-1] INFO  org.example.Jellyfish - Отримано та збережено файл: Аналіз стану організації та безпеки за 05.docx (Хеш перевірено)
+2024-09-23 15:03:32 [Thread-25] INFO  org.example.Jellyfish - Отримано та збережено файл: Репортаж BBC про новий програмний вірус.docx (Хеш перевірено)
+2024-09-23 15:03:32 [Thread-7] INFO  org.example.Jellyfish - Отримано та збережено файл: Відомість централізованого обліку керівників служб спеціального зв.docx (Хеш перевірено)
+2024-09-23 15:03:32 [Thread-0] INFO  org.example.Jellyfish - Отримано та збережено файл: рапорт Ісмаїлова напавлення  – МСЄК.docx (Хеш перевірено)
+2024-09-23 15:03:32 [Thread-21] INFO  org.example.Jellyfish - Отримано та збережено файл: Відомості щодо служб та підрозділів спеціального зв.docx (Хеш перевірено)
+2024-09-23 15:03:32 [Thread-27] INFO  org.example.Jellyfish - Отримано та збережено файл: Аналіз перевірок стану кібербезпеки.docx (Хеш перевірено)
+2024-09-23 15:03:32 [Thread-12] INFO  org.example.Jellyfish - Отримано та збережено файл: Повідомлення журналіста під час візиту у Нідерланди на футбольний матч.docx (Хеш перевірено)
+2024-09-23 15:03:32 [Thread-39] INFO  org.example.Jellyfish - Отримано та збережено файл: Звіт медичного інституту про новий вид захворювання.docx (Хеш перевірено)
+2024-09-23 15:03:32 [Thread-37] INFO  org.example.Jellyfish - Отримано та збережено файл: Аналіз та оцінка організації та безпеки засекреченого зв.docx (Хеш перевірено)
+2024-09-23 15:03:32 [Thread-5] INFO  org.example.Jellyfish - Отримано та збережено файл: Донесення командира війскової частини 5647 канадських військових сил.docx (Хеш перевірено)
+2024-09-23 15:03:32 [Thread-19] INFO  org.example.Jellyfish - Отримано та збережено файл: Рапорт командира корабля HMS.docx (Хеш перевірено)
+2024-09-23 15:03:32 [Thread-38] INFO  org.example.Jellyfish - Отримано та збережено файл: Організація роботи служби спеціального зв.docx (Хеш перевірено)
+2024-09-23 15:03:32 [Thread-26] INFO  org.example.Jellyfish - Отримано та збережено файл: Аналіз стану організації та безпеки.docx (Хеш перевірено)
+2024-09-23 15:03:32 [Thread-33] INFO  org.example.Jellyfish - Отримано та збережено файл: Напрвлення на МСЕК.docx (Хеш перевірено)
+2024-09-23 15:03:32 [Thread-17] INFO  org.example.Jellyfish - Отримано та збережено файл: аркуш бесіди Артьомова 1.docx (Хеш перевірено)
+2024-09-23 15:03:32 [Thread-2] INFO  org.example.Jellyfish - Отримано та збережено файл: Схема організації мережі обміну службовою інформацією.docx (Хеш перевірено)
+2024-09-23 15:03:32 [Thread-8] INFO  org.example.Jellyfish - Отримано та збережено файл: Відомість наявності засобів супутникового зв.docx (Хеш перевірено)
+2024-09-23 15:03:32 [Thread-23] INFO  org.example.Jellyfish - Отримано та збережено файл: Аналіз стану організації та безпеки засекреченого зв.docx (Хеш перевірено)
+2024-09-23 15:03:32 [Thread-20] INFO  org.example.Jellyfish - Отримано та збережено файл: Донесення міністра інфраструктури.docx (Хеш перевірено)
+2024-09-23 15:03:32 [Thread-22] INFO  org.example.Jellyfish - Отримано та збережено файл: Рапорт командира військової частини 8762 японських сухопутних військ.docx (Хеш перевірено)
+2024-09-23 15:03:32 [Thread-6] INFO  org.example.Jellyfish - Отримано та збережено файл: Щоб розпарсити цей JSON у Java.docx (Хеш перевірено)
+2024-09-23 15:03:32 [Thread-31] INFO  org.example.Jellyfish - Отримано та збережено файл: Звіт депутата про виконання роботи.docx (Хеш перевірено)
+2024-09-23 15:03:32 [Thread-13] INFO  org.example.Jellyfish - Отримано та збережено файл: 1.docx (Хеш перевірено)
+2024-09-23 15:03:32 [Thread-34] INFO  org.example.Jellyfish - Отримано та збережено файл: СЛУЖБОВА ХАРАКТЕРИСТИКА.docx (Хеш перевірено)
+2024-09-23 15:03:32 [Thread-14] INFO  org.example.Jellyfish - Отримано та збережено файл: Щоб реалізувати систему балансування навантаження з використанням Docker.docx (Хеш перевірено)
+2024-09-23 15:03:32 [Thread-32] INFO  org.example.Jellyfish - Отримано та збережено файл: Донесення командира війскової частини 6245 військових сил США.docx (Хеш перевірено)
+2024-09-23 15:03:32 [Thread-28] INFO  org.example.Jellyfish - Отримано та збережено файл: аркуш бесіди ІСМАЇЛОВ.docx (Хеш перевірено)
+2024-09-23 15:03:32 [Thread-3] INFO  org.example.Jellyfish - Отримано та збережено файл: f291032n6551 (1).docx (Хеш перевірено)
+2024-09-23 15:03:32 [Thread-36] INFO  org.example.Jellyfish - Отримано та збережено файл: Рефаті.xls (Хеш перевірено)
+2024-09-23 15:03:32 [Thread-9] INFO  org.example.Jellyfish - Отримано та збережено файл: Функціонування системи кібербезпеки.docx (Хеш перевірено)
+2024-09-23 15:03:32 [Thread-24] INFO  org.example.Jellyfish - Отримано та збережено файл: f291032n7316.docx (Хеш перевірено)
+2024-09-23 15:03:32 [Thread-4] INFO  org.example.Jellyfish - Отримано та збережено файл: Рапорт на Звілення Ріфат.docx (Хеш перевірено)
+2024-09-23 15:03:32 [Thread-29] INFO  org.example.Jellyfish - Отримано та збережено файл: Рапорт на Звілення.docx (Хеш перевірено)
+2024-09-23 15:03:32 [Thread-18] INFO  org.example.Jellyfish - Отримано та збережено файл: Для Рифатаzrazok-raport-pro-zvilnennya-mobilizovanyh-za-stanom-zdorovya-invalidnisty-forma-dlya-zapovnennya-v1 (1).docx (Хеш перевірено)
+2024-09-23 15:03:32 [Thread-40] INFO  org.example.communication.Storage - Файл успішно завантажено до MinIO!
+2024-09-23 15:03:32 [Thread-22] INFO  org.example.communication.Storage - Файл успішно завантажено до MinIO!
+2024-09-23 15:03:32 [Thread-4] INFO  org.example.communication.Storage - Файл успішно завантажено до MinIO!
+2024-09-23 15:03:32 [Thread-9] INFO  org.example.communication.Storage - Файл успішно завантажено до MinIO!
+2024-09-23 15:03:32 [Thread-16] INFO  org.example.communication.Storage - Файл успішно завантажено до MinIO!
+2024-09-23 15:03:32 [Thread-19] INFO  org.example.communication.Storage - Файл успішно завантажено до MinIO!
+2024-09-23 15:03:32 [Thread-20] INFO  org.example.communication.Storage - Файл успішно завантажено до MinIO!
+2024-09-23 15:03:32 [Thread-13] INFO  org.example.communication.Storage - Файл успішно завантажено до MinIO!
+2024-09-23 15:03:32 [Thread-10] INFO  org.example.communication.Storage - Файл успішно завантажено до MinIO!
+2024-09-23 15:03:32 [Thread-18] INFO  org.example.communication.Storage - Файл успішно завантажено до MinIO!
+2024-09-23 15:03:32 [Thread-23] INFO  org.example.communication.Storage - Файл успішно завантажено до MinIO!
+2024-09-23 15:03:32 [Thread-2] INFO  org.example.communication.Storage - Файл успішно завантажено до MinIO!
+2024-09-23 15:03:32 [Thread-33] INFO  org.example.communication.Storage - Файл успішно завантажено до MinIO!
+2024-09-23 15:03:32 [Thread-5] INFO  org.example.communication.Storage - Файл успішно завантажено до MinIO!
+2024-09-23 15:03:32 [Thread-3] INFO  org.example.communication.Storage - Файл успішно завантажено до MinIO!
+2024-09-23 15:03:32 [Thread-12] INFO  org.example.communication.Storage - Файл успішно завантажено до MinIO!
+2024-09-23 15:03:32 [Thread-24] INFO  org.example.communication.Storage - Файл успішно завантажено до MinIO!
+2024-09-23 15:03:32 [Thread-34] INFO  org.example.communication.Storage - Файл успішно завантажено до MinIO!
+2024-09-23 15:03:32 [Thread-14] INFO  org.example.communication.Storage - Файл успішно завантажено до MinIO!
+2024-09-23 15:03:32 [Thread-38] INFO  org.example.communication.Storage - Файл успішно завантажено до MinIO!
+2024-09-23 15:03:32 [Thread-11] INFO  org.example.communication.Storage - Файл успішно завантажено до MinIO!
+2024-09-23 15:03:32 [Thread-6] INFO  org.example.communication.Storage - Файл успішно завантажено до MinIO!
+2024-09-23 15:03:32 [Thread-8] INFO  org.example.communication.Storage - Файл успішно завантажено до MinIO!
+2024-09-23 15:03:32 [Thread-28] INFO  org.example.communication.Storage - Файл успішно завантажено до MinIO!
+2024-09-23 15:03:32 [Thread-35] INFO  org.example.communication.Storage - Файл успішно завантажено до MinIO!
+2024-09-23 15:03:32 [Thread-32] INFO  org.example.communication.Storage - Файл успішно завантажено до MinIO!
+2024-09-23 15:03:33 [Thread-36] INFO  org.example.communication.Storage - Файл успішно завантажено до MinIO!
+2024-09-23 15:03:33 [Thread-26] INFO  org.example.communication.Storage - Файл успішно завантажено до MinIO!
+2024-09-23 15:03:33 [Thread-25] INFO  org.example.communication.Storage - Файл успішно завантажено до MinIO!
+2024-09-23 15:03:33 [Thread-29] INFO  org.example.communication.Storage - Файл успішно завантажено до MinIO!
+2024-09-23 15:03:33 [Thread-0] INFO  org.example.communication.Storage - Файл успішно завантажено до MinIO!
+2024-09-23 15:03:33 [Thread-1] INFO  org.example.communication.Storage - Файл успішно завантажено до MinIO!
+2024-09-23 15:03:33 [Thread-7] INFO  org.example.communication.Storage - Файл успішно завантажено до MinIO!
+2024-09-23 15:03:33 [Thread-27] INFO  org.example.communication.Storage - Файл успішно завантажено до MinIO!
+2024-09-23 15:03:33 [Thread-31] INFO  org.example.communication.Storage - Файл успішно завантажено до MinIO!
+2024-09-23 15:03:33 [Thread-39] INFO  org.example.communication.Storage - Файл успішно завантажено до MinIO!
+2024-09-23 15:03:33 [Thread-21] INFO  org.example.communication.Storage - Файл успішно завантажено до MinIO!
+2024-09-23 15:03:33 [Thread-17] INFO  org.example.communication.Storage - Файл успішно завантажено до MinIO!
+2024-09-23 15:03:33 [Thread-37] INFO  org.example.communication.Storage - Файл успішно завантажено до MinIO!
+2024-09-23 15:03:33 [Thread-30] INFO  org.example.communication.Storage - Файл успішно завантажено до MinIO!
+2024-09-23 15:03:33 [Thread-15] INFO  org.example.communication.Storage - Файл успішно завантажено до MinIO!
+2024-09-23 15:03:33 [Thread-39] INFO  org.example.communication.Sender - Response Code: 200
+2024-09-23 15:03:33 [Thread-18] INFO  org.example.communication.Sender - Response Code: 200
+2024-09-23 15:03:33 [Thread-35] INFO  org.example.communication.Sender - Response Code: 200
+2024-09-23 15:03:33 [Thread-38] INFO  org.example.communication.Sender - Response Code: 200
+2024-09-23 15:03:33 [Thread-27] INFO  org.example.communication.Sender - Response Code: 200
+2024-09-23 15:03:33 [Thread-1] INFO  org.example.communication.Sender - Response Code: 200
+2024-09-23 15:03:33 [Thread-21] INFO  org.example.communication.Sender - Response Code: 200
+2024-09-23 15:03:33 [Thread-21] INFO  org.example.Jellyfish - URL FILE [82:61:4e:94:0e:b8]Відомості щодо служб та підрозділів спеціального зв.docx
+2024-09-23 15:03:33 [Thread-21] WARN  org.example.Jellyfish - Клієнт відключився
+2024-09-23 15:03:33 [Thread-39] INFO  org.example.Jellyfish - URL FILE [82:61:4e:94:0e:b8]Звіт медичного інституту про новий вид захворювання.docx
+2024-09-23 15:03:33 [Thread-39] WARN  org.example.Jellyfish - Клієнт відключився
+2024-09-23 15:03:33 [Thread-38] INFO  org.example.Jellyfish - URL FILE [82:61:4e:94:0e:b8]Організація роботи служби спеціального зв.docx
+2024-09-23 15:03:33 [Thread-38] WARN  org.example.Jellyfish - Клієнт відключився
+2024-09-23 15:03:33 [Thread-35] INFO  org.example.Jellyfish - URL FILE [82:61:4e:94:0e:b8]Аналіз стану організації та забезпечення захисту інформації.docx
+2024-09-23 15:03:33 [Thread-35] WARN  org.example.Jellyfish - Клієнт відключився
+2024-09-23 15:03:33 [Thread-9] INFO  org.example.communication.Sender - Response Code: 200
+2024-09-23 15:03:33 [Thread-9] INFO  org.example.Jellyfish - URL FILE [82:61:4e:94:0e:b8]Функціонування системи кібербезпеки.docx
+2024-09-23 15:03:33 [Thread-5] INFO  org.example.communication.Sender - Response Code: 200
+2024-09-23 15:03:33 [Thread-7] INFO  org.example.communication.Sender - Response Code: 200
+2024-09-23 15:03:33 [Thread-40] INFO  org.example.communication.Sender - Response Code: 200
+2024-09-23 15:03:33 [Thread-7] INFO  org.example.Jellyfish - URL FILE [82:61:4e:94:0e:b8]Відомість централізованого обліку керівників служб спеціального зв.docx
+2024-09-23 15:03:33 [Thread-18] INFO  org.example.Jellyfish - URL FILE [82:61:4e:94:0e:b8]Для Рифатаzrazok-raport-pro-zvilnennya-mobilizovanyh-za-stanom-zdorovya-invalidnisty-forma-dlya-zapovnennya-v1 (1).docx
+2024-09-23 15:03:33 [Thread-7] WARN  org.example.Jellyfish - Клієнт відключився
+2024-09-23 15:03:33 [Thread-27] INFO  org.example.Jellyfish - URL FILE [82:61:4e:94:0e:b8]Аналіз перевірок стану кібербезпеки.docx
+2024-09-23 15:03:33 [Thread-18] WARN  org.example.Jellyfish - Клієнт відключився
+2024-09-23 15:03:33 [Thread-27] WARN  org.example.Jellyfish - Клієнт відключився
+2024-09-23 15:03:33 [Thread-9] WARN  org.example.Jellyfish - Клієнт відключився
+2024-09-23 15:03:33 [Thread-5] INFO  org.example.Jellyfish - URL FILE [82:61:4e:94:0e:b8]Донесення командира війскової частини 5647 канадських військових сил.docx
+2024-09-23 15:03:33 [Thread-5] WARN  org.example.Jellyfish - Клієнт відключився
+2024-09-23 15:03:33 [Thread-1] INFO  org.example.Jellyfish - URL FILE [82:61:4e:94:0e:b8]Аналіз стану організації та безпеки за 05.docx
+2024-09-23 15:03:33 [Thread-1] WARN  org.example.Jellyfish - Клієнт відключився
+2024-09-23 15:03:33 [Thread-31] INFO  org.example.communication.Sender - Response Code: 200
+2024-09-23 15:03:33 [Thread-40] INFO  org.example.Jellyfish - URL FILE [82:61:4e:94:0e:b8]Перевірки та особовий склад служб.docx
+2024-09-23 15:03:33 [Thread-31] INFO  org.example.Jellyfish - URL FILE [82:61:4e:94:0e:b8]Звіт депутата про виконання роботи.docx
+2024-09-23 15:03:33 [Thread-31] WARN  org.example.Jellyfish - Клієнт відключився
+2024-09-23 15:03:33 [Thread-40] WARN  org.example.Jellyfish - Клієнт відключився
+2024-09-23 15:03:33 [Thread-36] INFO  org.example.communication.Sender - Response Code: 200
+2024-09-23 15:03:33 [Thread-36] INFO  org.example.Jellyfish - URL FILE [82:61:4e:94:0e:b8]Рефаті.xls
+2024-09-23 15:03:33 [Thread-36] WARN  org.example.Jellyfish - Клієнт відключився
+2024-09-23 15:03:33 [Thread-30] INFO  org.example.communication.Sender - Response Code: 200
+2024-09-23 15:03:33 [Thread-30] INFO  org.example.Jellyfish - URL FILE [82:61:4e:94:0e:b8]Таблиця.docx
+2024-09-23 15:03:33 [Thread-30] WARN  org.example.Jellyfish - Клієнт відключився
+2024-09-23 15:03:33 [Thread-37] INFO  org.example.communication.Sender - Response Code: 200
+2024-09-23 15:03:33 [Thread-37] INFO  org.example.Jellyfish - URL FILE [82:61:4e:94:0e:b8]Аналіз та оцінка організації та безпеки засекреченого зв.docx
+2024-09-23 15:03:33 [Thread-37] WARN  org.example.Jellyfish - Клієнт відключився
+2024-09-23 15:03:33 [Thread-6] INFO  org.example.communication.Sender - Response Code: 200
+2024-09-23 15:03:33 [Thread-6] INFO  org.example.Jellyfish - URL FILE [82:61:4e:94:0e:b8]Щоб розпарсити цей JSON у Java.docx
+2024-09-23 15:03:33 [Thread-6] WARN  org.example.Jellyfish - Клієнт відключився
+2024-09-23 15:03:33 [Thread-25] INFO  org.example.communication.Sender - Response Code: 200
+2024-09-23 15:03:33 [Thread-23] INFO  org.example.communication.Sender - Response Code: 200
+2024-09-23 15:03:33 [Thread-25] INFO  org.example.Jellyfish - URL FILE [82:61:4e:94:0e:b8]Репортаж BBC про новий програмний вірус.docx
+2024-09-23 15:03:33 [Thread-23] INFO  org.example.Jellyfish - URL FILE [82:61:4e:94:0e:b8]Аналіз стану організації та безпеки засекреченого зв.docx
+2024-09-23 15:03:33 [Thread-25] WARN  org.example.Jellyfish - Клієнт відключився
+2024-09-23 15:03:33 [Thread-23] WARN  org.example.Jellyfish - Клієнт відключився
+2024-09-23 15:03:33 [Thread-3] INFO  org.example.communication.Sender - Response Code: 200
+2024-09-23 15:03:33 [Thread-3] INFO  org.example.Jellyfish - URL FILE [82:61:4e:94:0e:b8]f291032n6551 (1).docx
+2024-09-23 15:03:33 [Thread-3] WARN  org.example.Jellyfish - Клієнт відключився
+2024-09-23 15:03:33 [Thread-4] INFO  org.example.communication.Sender - Response Code: 200
+2024-09-23 15:03:33 [Thread-4] INFO  org.example.Jellyfish - URL FILE [82:61:4e:94:0e:b8]Рапорт на Звілення Ріфат.docx
+2024-09-23 15:03:33 [Thread-4] WARN  org.example.Jellyfish - Клієнт відключився
+2024-09-23 15:03:33 [Thread-20] INFO  org.example.communication.Sender - Response Code: 200
+2024-09-23 15:03:33 [Thread-20] INFO  org.example.Jellyfish - URL FILE [82:61:4e:94:0e:b8]Донесення міністра інфраструктури.docx
+2024-09-23 15:03:33 [Thread-20] WARN  org.example.Jellyfish - Клієнт відключився
+2024-09-23 15:03:33 [Thread-16] INFO  org.example.communication.Sender - Response Code: 200
+2024-09-23 15:03:33 [Thread-16] INFO  org.example.Jellyfish - URL FILE [82:61:4e:94:0e:b8]опис схем.docx
+2024-09-23 15:03:33 [Thread-16] WARN  org.example.Jellyfish - Клієнт відключився
+2024-09-23 15:03:33 [Thread-0] INFO  org.example.communication.Sender - Response Code: 200
+2024-09-23 15:03:33 [Thread-0] INFO  org.example.Jellyfish - URL FILE [82:61:4e:94:0e:b8]рапорт Ісмаїлова напавлення  – МСЄК.docx
+2024-09-23 15:03:33 [Thread-0] WARN  org.example.Jellyfish - Клієнт відключився
+2024-09-23 15:03:33 [Thread-13] INFO  org.example.communication.Sender - Response Code: 200
+2024-09-23 15:03:33 [Thread-13] INFO  org.example.Jellyfish - URL FILE [82:61:4e:94:0e:b8]1.docx
+2024-09-23 15:03:33 [Thread-13] WARN  org.example.Jellyfish - Клієнт відключився
+2024-09-23 15:03:33 [Thread-34] INFO  org.example.communication.Sender - Response Code: 200
+2024-09-23 15:03:33 [Thread-34] INFO  org.example.Jellyfish - URL FILE [82:61:4e:94:0e:b8]СЛУЖБОВА ХАРАКТЕРИСТИКА.docx
+2024-09-23 15:03:33 [Thread-34] WARN  org.example.Jellyfish - Клієнт відключився
+2024-09-23 15:03:33 [Thread-33] INFO  org.example.communication.Sender - Response Code: 200
+2024-09-23 15:03:33 [Thread-33] INFO  org.example.Jellyfish - URL FILE [82:61:4e:94:0e:b8]Напрвлення на МСЕК.docx
+2024-09-23 15:03:33 [Thread-33] WARN  org.example.Jellyfish - Клієнт відключився
+2024-09-23 15:03:33 [Thread-10] INFO  org.example.communication.Sender - Response Code: 200
+2024-09-23 15:03:33 [Thread-10] INFO  org.example.Jellyfish - URL FILE [82:61:4e:94:0e:b8]Звіт про стан спеціального зв.docx
+2024-09-23 15:03:33 [Thread-10] WARN  org.example.Jellyfish - Клієнт відключився
+2024-09-23 15:03:33 [Thread-28] INFO  org.example.communication.Sender - Response Code: 200
+2024-09-23 15:03:33 [Thread-28] INFO  org.example.Jellyfish - URL FILE [82:61:4e:94:0e:b8]аркуш бесіди ІСМАЇЛОВ.docx
+2024-09-23 15:03:33 [Thread-28] WARN  org.example.Jellyfish - Клієнт відключився
+2024-09-23 15:03:33 [Thread-15] INFO  org.example.communication.Sender - Response Code: 200
+2024-09-23 15:03:33 [Thread-15] INFO  org.example.Jellyfish - URL FILE [82:61:4e:94:0e:b8]Опис Проекту.docx
+2024-09-23 15:03:33 [Thread-15] WARN  org.example.Jellyfish - Клієнт відключився
+2024-09-23 15:03:33 [Thread-12] INFO  org.example.communication.Sender - Response Code: 200
+2024-09-23 15:03:33 [Thread-12] INFO  org.example.Jellyfish - URL FILE [82:61:4e:94:0e:b8]Повідомлення журналіста під час візиту у Нідерланди на футбольний матч.docx
+2024-09-23 15:03:33 [Thread-12] WARN  org.example.Jellyfish - Клієнт відключився
+2024-09-23 15:03:33 [Thread-26] INFO  org.example.communication.Sender - Response Code: 200
+2024-09-23 15:03:33 [Thread-26] INFO  org.example.Jellyfish - URL FILE [82:61:4e:94:0e:b8]Аналіз стану організації та безпеки.docx
+2024-09-23 15:03:33 [Thread-26] WARN  org.example.Jellyfish - Клієнт відключився
+2024-09-23 15:03:33 [Thread-14] INFO  org.example.communication.Sender - Response Code: 200
+2024-09-23 15:03:33 [Thread-14] INFO  org.example.Jellyfish - URL FILE [82:61:4e:94:0e:b8]Щоб реалізувати систему балансування навантаження з використанням Docker.docx
+2024-09-23 15:03:33 [Thread-14] WARN  org.example.Jellyfish - Клієнт відключився
+2024-09-23 15:03:33 [Thread-8] INFO  org.example.communication.Sender - Response Code: 200
+2024-09-23 15:03:33 [Thread-8] INFO  org.example.Jellyfish - URL FILE [82:61:4e:94:0e:b8]Відомість наявності засобів супутникового зв.docx
+2024-09-23 15:03:33 [Thread-8] WARN  org.example.Jellyfish - Клієнт відключився
+2024-09-23 15:03:33 [Thread-22] INFO  org.example.communication.Sender - Response Code: 200
+2024-09-23 15:03:33 [Thread-22] INFO  org.example.Jellyfish - URL FILE [82:61:4e:94:0e:b8]Рапорт командира військової частини 8762 японських сухопутних військ.docx
+2024-09-23 15:03:33 [Thread-22] WARN  org.example.Jellyfish - Клієнт відключився
+2024-09-23 15:03:33 [Thread-24] INFO  org.example.communication.Sender - Response Code: 200
+2024-09-23 15:03:33 [Thread-24] INFO  org.example.Jellyfish - URL FILE [82:61:4e:94:0e:b8]f291032n7316.docx
+2024-09-23 15:03:33 [Thread-24] WARN  org.example.Jellyfish - Клієнт відключився
+2024-09-23 15:03:33 [Thread-2] INFO  org.example.communication.Sender - Response Code: 200
+2024-09-23 15:03:33 [Thread-2] INFO  org.example.Jellyfish - URL FILE [82:61:4e:94:0e:b8]Схема організації мережі обміну службовою інформацією.docx
+2024-09-23 15:03:33 [Thread-2] WARN  org.example.Jellyfish - Клієнт відключився
+2024-09-23 15:03:33 [Thread-11] INFO  org.example.communication.Sender - Response Code: 200
+2024-09-23 15:03:33 [Thread-11] INFO  org.example.Jellyfish - URL FILE [82:61:4e:94:0e:b8]Відомість про наявність ключових мереж.docx
+2024-09-23 15:03:33 [Thread-11] WARN  org.example.Jellyfish - Клієнт відключився
+2024-09-23 15:03:33 [Thread-29] INFO  org.example.communication.Sender - Response Code: 200
+2024-09-23 15:03:33 [Thread-17] INFO  org.example.communication.Sender - Response Code: 200
+2024-09-23 15:03:33 [Thread-29] INFO  org.example.Jellyfish - URL FILE [82:61:4e:94:0e:b8]Рапорт на Звілення.docx
+2024-09-23 15:03:33 [Thread-17] INFO  org.example.Jellyfish - URL FILE [82:61:4e:94:0e:b8]аркуш бесіди Артьомова 1.docx
+2024-09-23 15:03:33 [Thread-29] WARN  org.example.Jellyfish - Клієнт відключився
+2024-09-23 15:03:33 [Thread-17] WARN  org.example.Jellyfish - Клієнт відключився
+2024-09-23 15:03:33 [Thread-19] INFO  org.example.communication.Sender - Response Code: 200
+2024-09-23 15:03:33 [Thread-32] INFO  org.example.communication.Sender - Response Code: 200
+2024-09-23 15:03:33 [Thread-19] INFO  org.example.Jellyfish - URL FILE [82:61:4e:94:0e:b8]Рапорт командира корабля HMS.docx
+2024-09-23 15:03:33 [Thread-32] INFO  org.example.Jellyfish - URL FILE [82:61:4e:94:0e:b8]Донесення командира війскової частини 6245 військових сил США.docx
+2024-09-23 15:03:33 [Thread-19] WARN  org.example.Jellyfish - Клієнт відключився
+2024-09-23 15:03:33 [Thread-32] WARN  org.example.Jellyfish - Клієнт відключився
+2024-09-23 15:07:44       [main]          INFO  org.example.JellyfishMain            - {
+  "fileServerPort": 9090,
+  "bucket": "example-bucket",
+  "endpointMinIO": "http://192.168.51.131:9001",
+  "accessKey": "xpuKAP94iVEjmNkv9yxPFg\u003d\u003d",
+  "secretKey": "AcvBY4/S6fGL8hakM2bs2A\u003d\u003d",
+  "encryptionKey": "2WE+BOefeLzT+5lbECVEKP5HePAx6soxVRRyDgkXi1U/FNnYX3byEntEgwSWB2wv",
+  "endpointCrustaceans": "http://localhost:8090"
+}
+2024-09-23 15:07:44       [main]          WARN  org.example.JellyfishMain            - Bucket з назвою example-bucket вже існує
+2024-09-23 15:07:44       [main]          INFO  org.example.JellyfishMain            - Сервер запущено на порту 9090...
+2024-09-23 15:08:03       [main]          INFO  org.example.JellyfishMain            - {
+  "fileServerPort": 9090,
+  "bucket": "example-bucket",
+  "endpointMinIO": "http://192.168.51.131:9001",
+  "accessKey": "xpuKAP94iVEjmNkv9yxPFg\u003d\u003d",
+  "secretKey": "AcvBY4/S6fGL8hakM2bs2A\u003d\u003d",
+  "encryptionKey": "2WE+BOefeLzT+5lbECVEKP5HePAx6soxVRRyDgkXi1U/FNnYX3byEntEgwSWB2wv",
+  "endpointCrustaceans": "http://localhost:8090"
+}
+2024-09-23 15:08:03       [main]          WARN  org.example.JellyfishMain            - Bucket з назвою example-bucket вже існує
+2024-09-23 15:08:03       [main]          INFO  org.example.JellyfishMain            - Сервер запущено на порту 9090...
+2024-09-23 15:08:18       [main]          INFO  org.example.JellyfishMain            - Новий клієнт підключився: 0:0:0:0:0:0:0:1
+2024-09-23 15:08:18       [main]          INFO  org.example.JellyfishMain            - Новий клієнт підключився: 0:0:0:0:0:0:0:1
+2024-09-23 15:08:18       [main]          INFO  org.example.JellyfishMain            - Новий клієнт підключився: 0:0:0:0:0:0:0:1
+2024-09-23 15:08:18       [main]          INFO  org.example.JellyfishMain            - Новий клієнт підключився: 0:0:0:0:0:0:0:1
+2024-09-23 15:08:18       [main]          INFO  org.example.JellyfishMain            - Новий клієнт підключився: 0:0:0:0:0:0:0:1
+2024-09-23 15:08:18       [main]          INFO  org.example.JellyfishMain            - Новий клієнт підключився: 0:0:0:0:0:0:0:1
+2024-09-23 15:08:18       [main]          INFO  org.example.JellyfishMain            - Новий клієнт підключився: 0:0:0:0:0:0:0:1
+2024-09-23 15:08:18       [Thread-0]      INFO  org.example.Jellyfish                - Підключення встановлено
+2024-09-23 15:08:18       [Thread-2]      INFO  org.example.Jellyfish                - Підключення встановлено
+2024-09-23 15:08:18       [Thread-1]      INFO  org.example.Jellyfish                - Підключення встановлено
+2024-09-23 15:08:18       [Thread-3]      INFO  org.example.Jellyfish                - Підключення встановлено
+2024-09-23 15:08:18       [Thread-4]      INFO  org.example.Jellyfish                - Підключення встановлено
+2024-09-23 15:08:18       [Thread-5]      INFO  org.example.Jellyfish                - Підключення встановлено
+2024-09-23 15:08:18       [main]          INFO  org.example.JellyfishMain            - Новий клієнт підключився: 0:0:0:0:0:0:0:1
+2024-09-23 15:08:18       [Thread-0]      INFO  org.example.Jellyfish                - Назва отриманого файлу: {"HostName":"Sirius-2.local","HostAddress":"10.10.10.28","MACAddress":"82:61:4e:94:0e:b8","RemoteAddr":"91.219.168.123"}1.docx
+2024-09-23 15:08:18       [Thread-4]      INFO  org.example.Jellyfish                - Назва отриманого файлу: {"HostName":"Sirius-2.local","HostAddress":"10.10.10.28","MACAddress":"82:61:4e:94:0e:b8","RemoteAddr":"91.219.168.123"}Опис Проекту.docx
+2024-09-23 15:08:18       [Thread-2]      INFO  org.example.Jellyfish                - Назва отриманого файлу: {"HostName":"Sirius-2.local","HostAddress":"10.10.10.28","MACAddress":"82:61:4e:94:0e:b8","RemoteAddr":"91.219.168.123"}Щоб розпарсити цей JSON у Java.docx
+2024-09-23 15:08:18       [Thread-5]      INFO  org.example.Jellyfish                - Назва отриманого файлу: {"HostName":"Sirius-2.local","HostAddress":"10.10.10.28","MACAddress":"82:61:4e:94:0e:b8","RemoteAddr":"91.219.168.123"}f291032n7316.docx
+2024-09-23 15:08:18       [Thread-6]      INFO  org.example.Jellyfish                - Підключення встановлено
+2024-09-23 15:08:18       [Thread-3]      INFO  org.example.Jellyfish                - Назва отриманого файлу: {"HostName":"Sirius-2.local","HostAddress":"10.10.10.28","MACAddress":"82:61:4e:94:0e:b8","RemoteAddr":"91.219.168.123"}f291032n6551 (1).docx
+2024-09-23 15:08:18       [Thread-1]      INFO  org.example.Jellyfish                - Назва отриманого файлу: {"HostName":"Sirius-2.local","HostAddress":"10.10.10.28","MACAddress":"82:61:4e:94:0e:b8","RemoteAddr":"91.219.168.123"}Щоб реалізувати систему балансування навантаження з використанням Docker.docx
+2024-09-23 15:08:18       [Thread-6]      INFO  org.example.Jellyfish                - Назва отриманого файлу: {"HostName":"Sirius-2.local","HostAddress":"10.10.10.28","MACAddress":"82:61:4e:94:0e:b8","RemoteAddr":"91.219.168.123"}Для Рифатаzrazok-raport-pro-zvilnennya-mobilizovanyh-za-stanom-zdorovya-invalidnisty-forma-dlya-zapovnennya-v1 (1).docx
+2024-09-23 15:08:18       [Thread-7]      INFO  org.example.Jellyfish                - Підключення встановлено
+2024-09-23 15:08:18       [Thread-7]      INFO  org.example.Jellyfish                - Назва отриманого файлу: {"HostName":"Sirius-2.local","HostAddress":"10.10.10.28","MACAddress":"82:61:4e:94:0e:b8","RemoteAddr":"91.219.168.123"}Напрвлення на МСЕК.docx
+2024-09-23 15:08:18       [main]          INFO  org.example.JellyfishMain            - Новий клієнт підключився: 0:0:0:0:0:0:0:1
+2024-09-23 15:08:18       [Thread-8]      INFO  org.example.Jellyfish                - Підключення встановлено
+2024-09-23 15:08:18       [Thread-8]      INFO  org.example.Jellyfish                - Назва отриманого файлу: {"HostName":"Sirius-2.local","HostAddress":"10.10.10.28","MACAddress":"82:61:4e:94:0e:b8","RemoteAddr":"91.219.168.123"}Рапорт на Звілення Ріфат.docx
+2024-09-23 15:08:18       [main]          INFO  org.example.JellyfishMain            - Новий клієнт підключився: 0:0:0:0:0:0:0:1
+2024-09-23 15:08:18       [Thread-9]      INFO  org.example.Jellyfish                - Підключення встановлено
+2024-09-23 15:08:18       [Thread-9]      INFO  org.example.Jellyfish                - Назва отриманого файлу: {"HostName":"Sirius-2.local","HostAddress":"10.10.10.28","MACAddress":"82:61:4e:94:0e:b8","RemoteAddr":"91.219.168.123"}Рапорт на Звілення.docx
+2024-09-23 15:08:18       [main]          INFO  org.example.JellyfishMain            - Новий клієнт підключився: 0:0:0:0:0:0:0:1
+2024-09-23 15:08:18       [Thread-10]     INFO  org.example.Jellyfish                - Підключення встановлено
+2024-09-23 15:08:18       [Thread-10]     INFO  org.example.Jellyfish                - Назва отриманого файлу: {"HostName":"Sirius-2.local","HostAddress":"10.10.10.28","MACAddress":"82:61:4e:94:0e:b8","RemoteAddr":"91.219.168.123"}Рефаті.xls
+2024-09-23 15:08:18       [main]          INFO  org.example.JellyfishMain            - Новий клієнт підключився: 0:0:0:0:0:0:0:1
+2024-09-23 15:08:18       [Thread-11]     INFO  org.example.Jellyfish                - Підключення встановлено
+2024-09-23 15:08:18       [Thread-11]     INFO  org.example.Jellyfish                - Назва отриманого файлу: {"HostName":"Sirius-2.local","HostAddress":"10.10.10.28","MACAddress":"82:61:4e:94:0e:b8","RemoteAddr":"91.219.168.123"}СЛУЖБОВА ХАРАКТЕРИСТИКА.docx
+2024-09-23 15:08:18       [main]          INFO  org.example.JellyfishMain            - Новий клієнт підключився: 0:0:0:0:0:0:0:1
+2024-09-23 15:08:18       [Thread-12]     INFO  org.example.Jellyfish                - Підключення встановлено
+2024-09-23 15:08:18       [Thread-12]     INFO  org.example.Jellyfish                - Назва отриманого файлу: {"HostName":"Sirius-2.local","HostAddress":"10.10.10.28","MACAddress":"82:61:4e:94:0e:b8","RemoteAddr":"91.219.168.123"}аркуш бесіди ІСМАЇЛОВ.docx
+2024-09-23 15:08:18       [main]          INFO  org.example.JellyfishMain            - Новий клієнт підключився: 0:0:0:0:0:0:0:1
+2024-09-23 15:08:18       [Thread-13]     INFO  org.example.Jellyfish                - Підключення встановлено
+2024-09-23 15:08:18       [Thread-13]     INFO  org.example.Jellyfish                - Назва отриманого файлу: {"HostName":"Sirius-2.local","HostAddress":"10.10.10.28","MACAddress":"82:61:4e:94:0e:b8","RemoteAddr":"91.219.168.123"}аркуш бесіди Артьомова 1.docx
+2024-09-23 15:08:18       [main]          INFO  org.example.JellyfishMain            - Новий клієнт підключився: 0:0:0:0:0:0:0:1
+2024-09-23 15:08:18       [Thread-14]     INFO  org.example.Jellyfish                - Підключення встановлено
+2024-09-23 15:08:18       [Thread-14]     INFO  org.example.Jellyfish                - Назва отриманого файлу: {"HostName":"Sirius-2.local","HostAddress":"10.10.10.28","MACAddress":"82:61:4e:94:0e:b8","RemoteAddr":"91.219.168.123"}рапорт Ісмаїлова напавлення  – МСЄК.docx
+2024-09-23 15:08:18       [main]          INFO  org.example.JellyfishMain            - Новий клієнт підключився: 0:0:0:0:0:0:0:1
+2024-09-23 15:08:18       [Thread-15]     INFO  org.example.Jellyfish                - Підключення встановлено
+2024-09-23 15:08:18       [Thread-15]     INFO  org.example.Jellyfish                - Назва отриманого файлу: {"HostName":"Sirius-2.local","HostAddress":"10.10.10.28","MACAddress":"82:61:4e:94:0e:b8","RemoteAddr":"91.219.168.123"}Аналіз перевірок стану кібербезпеки.docx
+2024-09-23 15:08:18       [main]          INFO  org.example.JellyfishMain            - Новий клієнт підключився: 0:0:0:0:0:0:0:1
+2024-09-23 15:08:18       [Thread-16]     INFO  org.example.Jellyfish                - Підключення встановлено
+2024-09-23 15:08:18       [Thread-16]     INFO  org.example.Jellyfish                - Назва отриманого файлу: {"HostName":"Sirius-2.local","HostAddress":"10.10.10.28","MACAddress":"82:61:4e:94:0e:b8","RemoteAddr":"91.219.168.123"}Аналіз стану організації та безпеки за 05.docx
+2024-09-23 15:08:18       [main]          INFO  org.example.JellyfishMain            - Новий клієнт підключився: 0:0:0:0:0:0:0:1
+2024-09-23 15:08:18       [Thread-17]     INFO  org.example.Jellyfish                - Підключення встановлено
+2024-09-23 15:08:18       [Thread-17]     INFO  org.example.Jellyfish                - Назва отриманого файлу: {"HostName":"Sirius-2.local","HostAddress":"10.10.10.28","MACAddress":"82:61:4e:94:0e:b8","RemoteAddr":"91.219.168.123"}Аналіз стану організації та безпеки засекреченого зв.docx
+2024-09-23 15:08:18       [main]          INFO  org.example.JellyfishMain            - Новий клієнт підключився: 0:0:0:0:0:0:0:1
+2024-09-23 15:08:18       [Thread-18]     INFO  org.example.Jellyfish                - Підключення встановлено
+2024-09-23 15:08:18       [Thread-18]     INFO  org.example.Jellyfish                - Назва отриманого файлу: {"HostName":"Sirius-2.local","HostAddress":"10.10.10.28","MACAddress":"82:61:4e:94:0e:b8","RemoteAddr":"91.219.168.123"}Аналіз стану організації та безпеки.docx
+2024-09-23 15:08:18       [main]          INFO  org.example.JellyfishMain            - Новий клієнт підключився: 0:0:0:0:0:0:0:1
+2024-09-23 15:08:18       [Thread-19]     INFO  org.example.Jellyfish                - Підключення встановлено
+2024-09-23 15:08:18       [Thread-19]     INFO  org.example.Jellyfish                - Назва отриманого файлу: {"HostName":"Sirius-2.local","HostAddress":"10.10.10.28","MACAddress":"82:61:4e:94:0e:b8","RemoteAddr":"91.219.168.123"}Аналіз стану організації та забезпечення захисту інформації.docx
+2024-09-23 15:08:18       [main]          INFO  org.example.JellyfishMain            - Новий клієнт підключився: 0:0:0:0:0:0:0:1
+2024-09-23 15:08:18       [Thread-20]     INFO  org.example.Jellyfish                - Підключення встановлено
+2024-09-23 15:08:18       [Thread-20]     INFO  org.example.Jellyfish                - Назва отриманого файлу: {"HostName":"Sirius-2.local","HostAddress":"10.10.10.28","MACAddress":"82:61:4e:94:0e:b8","RemoteAddr":"91.219.168.123"}Аналіз та оцінка організації та безпеки засекреченого зв.docx
+2024-09-23 15:08:18       [main]          INFO  org.example.JellyfishMain            - Новий клієнт підключився: 0:0:0:0:0:0:0:1
+2024-09-23 15:08:18       [Thread-21]     INFO  org.example.Jellyfish                - Підключення встановлено
+2024-09-23 15:08:18       [Thread-21]     INFO  org.example.Jellyfish                - Назва отриманого файлу: {"HostName":"Sirius-2.local","HostAddress":"10.10.10.28","MACAddress":"82:61:4e:94:0e:b8","RemoteAddr":"91.219.168.123"}Відомості щодо служб та підрозділів спеціального зв.docx
+2024-09-23 15:08:18       [main]          INFO  org.example.JellyfishMain            - Новий клієнт підключився: 0:0:0:0:0:0:0:1
+2024-09-23 15:08:18       [Thread-22]     INFO  org.example.Jellyfish                - Підключення встановлено
+2024-09-23 15:08:18       [Thread-22]     INFO  org.example.Jellyfish                - Назва отриманого файлу: {"HostName":"Sirius-2.local","HostAddress":"10.10.10.28","MACAddress":"82:61:4e:94:0e:b8","RemoteAddr":"91.219.168.123"}Відомість наявності засобів супутникового зв.docx
+2024-09-23 15:08:18       [main]          INFO  org.example.JellyfishMain            - Новий клієнт підключився: 0:0:0:0:0:0:0:1
+2024-09-23 15:08:18       [Thread-23]     INFO  org.example.Jellyfish                - Підключення встановлено
+2024-09-23 15:08:18       [Thread-23]     INFO  org.example.Jellyfish                - Назва отриманого файлу: {"HostName":"Sirius-2.local","HostAddress":"10.10.10.28","MACAddress":"82:61:4e:94:0e:b8","RemoteAddr":"91.219.168.123"}Відомість про наявність ключових мереж.docx
+2024-09-23 15:08:18       [main]          INFO  org.example.JellyfishMain            - Новий клієнт підключився: 0:0:0:0:0:0:0:1
+2024-09-23 15:08:18       [Thread-24]     INFO  org.example.Jellyfish                - Підключення встановлено
+2024-09-23 15:08:18       [Thread-24]     INFO  org.example.Jellyfish                - Назва отриманого файлу: {"HostName":"Sirius-2.local","HostAddress":"10.10.10.28","MACAddress":"82:61:4e:94:0e:b8","RemoteAddr":"91.219.168.123"}Відомість централізованого обліку керівників служб спеціального зв.docx
+2024-09-23 15:08:18       [main]          INFO  org.example.JellyfishMain            - Новий клієнт підключився: 0:0:0:0:0:0:0:1
+2024-09-23 15:08:18       [Thread-25]     INFO  org.example.Jellyfish                - Підключення встановлено
+2024-09-23 15:08:18       [Thread-25]     INFO  org.example.Jellyfish                - Назва отриманого файлу: {"HostName":"Sirius-2.local","HostAddress":"10.10.10.28","MACAddress":"82:61:4e:94:0e:b8","RemoteAddr":"91.219.168.123"}Донесення командира війскової частини 5647 канадських військових сил.docx
+2024-09-23 15:08:18       [main]          INFO  org.example.JellyfishMain            - Новий клієнт підключився: 0:0:0:0:0:0:0:1
+2024-09-23 15:08:18       [Thread-26]     INFO  org.example.Jellyfish                - Підключення встановлено
+2024-09-23 15:08:18       [Thread-26]     INFO  org.example.Jellyfish                - Назва отриманого файлу: {"HostName":"Sirius-2.local","HostAddress":"10.10.10.28","MACAddress":"82:61:4e:94:0e:b8","RemoteAddr":"91.219.168.123"}Донесення командира війскової частини 6245 військових сил США.docx
+2024-09-23 15:08:18       [main]          INFO  org.example.JellyfishMain            - Новий клієнт підключився: 0:0:0:0:0:0:0:1
+2024-09-23 15:08:18       [Thread-27]     INFO  org.example.Jellyfish                - Підключення встановлено
+2024-09-23 15:08:18       [Thread-27]     INFO  org.example.Jellyfish                - Назва отриманого файлу: {"HostName":"Sirius-2.local","HostAddress":"10.10.10.28","MACAddress":"82:61:4e:94:0e:b8","RemoteAddr":"91.219.168.123"}Донесення міністра інфраструктури.docx
+2024-09-23 15:08:18       [main]          INFO  org.example.JellyfishMain            - Новий клієнт підключився: 0:0:0:0:0:0:0:1
+2024-09-23 15:08:18       [Thread-28]     INFO  org.example.Jellyfish                - Підключення встановлено
+2024-09-23 15:08:18       [Thread-28]     INFO  org.example.Jellyfish                - Назва отриманого файлу: {"HostName":"Sirius-2.local","HostAddress":"10.10.10.28","MACAddress":"82:61:4e:94:0e:b8","RemoteAddr":"91.219.168.123"}Звіт депутата про виконання роботи.docx
+2024-09-23 15:08:18       [main]          INFO  org.example.JellyfishMain            - Новий клієнт підключився: 0:0:0:0:0:0:0:1
+2024-09-23 15:08:18       [Thread-29]     INFO  org.example.Jellyfish                - Підключення встановлено
+2024-09-23 15:08:18       [Thread-29]     INFO  org.example.Jellyfish                - Назва отриманого файлу: {"HostName":"Sirius-2.local","HostAddress":"10.10.10.28","MACAddress":"82:61:4e:94:0e:b8","RemoteAddr":"91.219.168.123"}Звіт медичного інституту про новий вид захворювання.docx
+2024-09-23 15:08:18       [main]          INFO  org.example.JellyfishMain            - Новий клієнт підключився: 0:0:0:0:0:0:0:1
+2024-09-23 15:08:18       [Thread-30]     INFO  org.example.Jellyfish                - Підключення встановлено
+2024-09-23 15:08:18       [Thread-30]     INFO  org.example.Jellyfish                - Назва отриманого файлу: {"HostName":"Sirius-2.local","HostAddress":"10.10.10.28","MACAddress":"82:61:4e:94:0e:b8","RemoteAddr":"91.219.168.123"}Звіт про стан спеціального зв.docx
+2024-09-23 15:08:18       [main]          INFO  org.example.JellyfishMain            - Новий клієнт підключився: 0:0:0:0:0:0:0:1
+2024-09-23 15:08:18       [Thread-31]     INFO  org.example.Jellyfish                - Підключення встановлено
+2024-09-23 15:08:18       [Thread-31]     INFO  org.example.Jellyfish                - Назва отриманого файлу: {"HostName":"Sirius-2.local","HostAddress":"10.10.10.28","MACAddress":"82:61:4e:94:0e:b8","RemoteAddr":"91.219.168.123"}Організація роботи служби спеціального зв.docx
+2024-09-23 15:08:18       [main]          INFO  org.example.JellyfishMain            - Новий клієнт підключився: 0:0:0:0:0:0:0:1
+2024-09-23 15:08:18       [Thread-32]     INFO  org.example.Jellyfish                - Підключення встановлено
+2024-09-23 15:08:18       [Thread-32]     INFO  org.example.Jellyfish                - Назва отриманого файлу: {"HostName":"Sirius-2.local","HostAddress":"10.10.10.28","MACAddress":"82:61:4e:94:0e:b8","RemoteAddr":"91.219.168.123"}Перевірки та особовий склад служб.docx
+2024-09-23 15:08:18       [main]          INFO  org.example.JellyfishMain            - Новий клієнт підключився: 0:0:0:0:0:0:0:1
+2024-09-23 15:08:18       [Thread-33]     INFO  org.example.Jellyfish                - Підключення встановлено
+2024-09-23 15:08:18       [Thread-33]     INFO  org.example.Jellyfish                - Назва отриманого файлу: {"HostName":"Sirius-2.local","HostAddress":"10.10.10.28","MACAddress":"82:61:4e:94:0e:b8","RemoteAddr":"91.219.168.123"}Повідомлення журналіста під час візиту у Нідерланди на футбольний матч.docx
+2024-09-23 15:08:18       [main]          INFO  org.example.JellyfishMain            - Новий клієнт підключився: 0:0:0:0:0:0:0:1
+2024-09-23 15:08:18       [Thread-34]     INFO  org.example.Jellyfish                - Підключення встановлено
+2024-09-23 15:08:18       [Thread-34]     INFO  org.example.Jellyfish                - Назва отриманого файлу: {"HostName":"Sirius-2.local","HostAddress":"10.10.10.28","MACAddress":"82:61:4e:94:0e:b8","RemoteAddr":"91.219.168.123"}Рапорт командира військової частини 8762 японських сухопутних військ.docx
+2024-09-23 15:08:18       [main]          INFO  org.example.JellyfishMain            - Новий клієнт підключився: 0:0:0:0:0:0:0:1
+2024-09-23 15:08:18       [Thread-35]     INFO  org.example.Jellyfish                - Підключення встановлено
+2024-09-23 15:08:18       [Thread-35]     INFO  org.example.Jellyfish                - Назва отриманого файлу: {"HostName":"Sirius-2.local","HostAddress":"10.10.10.28","MACAddress":"82:61:4e:94:0e:b8","RemoteAddr":"91.219.168.123"}Рапорт командира корабля HMS.docx
+2024-09-23 15:08:18       [main]          INFO  org.example.JellyfishMain            - Новий клієнт підключився: 0:0:0:0:0:0:0:1
+2024-09-23 15:08:18       [main]          INFO  org.example.JellyfishMain            - Новий клієнт підключився: 0:0:0:0:0:0:0:1
+2024-09-23 15:08:18       [Thread-36]     INFO  org.example.Jellyfish                - Підключення встановлено
+2024-09-23 15:08:18       [main]          INFO  org.example.JellyfishMain            - Новий клієнт підключився: 0:0:0:0:0:0:0:1
+2024-09-23 15:08:18       [Thread-36]     INFO  org.example.Jellyfish                - Назва отриманого файлу: {"HostName":"Sirius-2.local","HostAddress":"10.10.10.28","MACAddress":"82:61:4e:94:0e:b8","RemoteAddr":"91.219.168.123"}Схема організації мережі обміну службовою інформацією.docx
+2024-09-23 15:08:18       [Thread-37]     INFO  org.example.Jellyfish                - Підключення встановлено
+2024-09-23 15:08:18       [Thread-37]     INFO  org.example.Jellyfish                - Назва отриманого файлу: {"HostName":"Sirius-2.local","HostAddress":"10.10.10.28","MACAddress":"82:61:4e:94:0e:b8","RemoteAddr":"91.219.168.123"}Репортаж BBC про новий програмний вірус.docx
+2024-09-23 15:08:18       [Thread-38]     INFO  org.example.Jellyfish                - Підключення встановлено
+2024-09-23 15:08:18       [Thread-38]     INFO  org.example.Jellyfish                - Назва отриманого файлу: {"HostName":"Sirius-2.local","HostAddress":"10.10.10.28","MACAddress":"82:61:4e:94:0e:b8","RemoteAddr":"91.219.168.123"}Таблиця.docx
+2024-09-23 15:08:18       [main]          INFO  org.example.JellyfishMain            - Новий клієнт підключився: 0:0:0:0:0:0:0:1
+2024-09-23 15:08:18       [Thread-39]     INFO  org.example.Jellyfish                - Підключення встановлено
+2024-09-23 15:08:18       [Thread-39]     INFO  org.example.Jellyfish                - Назва отриманого файлу: {"HostName":"Sirius-2.local","HostAddress":"10.10.10.28","MACAddress":"82:61:4e:94:0e:b8","RemoteAddr":"91.219.168.123"}Функціонування системи кібербезпеки.docx
+2024-09-23 15:08:18       [main]          INFO  org.example.JellyfishMain            - Новий клієнт підключився: 0:0:0:0:0:0:0:1
+2024-09-23 15:08:18       [Thread-40]     INFO  org.example.Jellyfish                - Підключення встановлено
+2024-09-23 15:08:18       [Thread-40]     INFO  org.example.Jellyfish                - Назва отриманого файлу: {"HostName":"Sirius-2.local","HostAddress":"10.10.10.28","MACAddress":"82:61:4e:94:0e:b8","RemoteAddr":"91.219.168.123"}опис схем.docx
+2024-09-23 15:08:18       [Thread-11]     INFO  org.example.Jellyfish                - Решта рядка: СЛУЖБОВА ХАРАКТЕРИСТИКА.docx
+2024-09-23 15:08:18       [Thread-25]     INFO  org.example.Jellyfish                - Решта рядка: Донесення командира війскової частини 5647 канадських військових сил.docx
+2024-09-23 15:08:18       [Thread-8]      INFO  org.example.Jellyfish                - Решта рядка: Рапорт на Звілення Ріфат.docx
+2024-09-23 15:08:18       [Thread-19]     INFO  org.example.Jellyfish                - Решта рядка: Аналіз стану організації та забезпечення захисту інформації.docx
+2024-09-23 15:08:18       [Thread-1]      INFO  org.example.Jellyfish                - Решта рядка: Щоб реалізувати систему балансування навантаження з використанням Docker.docx
+2024-09-23 15:08:18       [Thread-40]     INFO  org.example.Jellyfish                - Решта рядка: опис схем.docx
+2024-09-23 15:08:18       [Thread-38]     INFO  org.example.Jellyfish                - Решта рядка: Таблиця.docx
+2024-09-23 15:08:18       [Thread-2]      INFO  org.example.Jellyfish                - Решта рядка: Щоб розпарсити цей JSON у Java.docx
+2024-09-23 15:08:18       [Thread-37]     INFO  org.example.Jellyfish                - Решта рядка: Репортаж BBC про новий програмний вірус.docx
+2024-09-23 15:08:18       [Thread-4]      INFO  org.example.Jellyfish                - Решта рядка: Опис Проекту.docx
+2024-09-23 15:08:18       [Thread-26]     INFO  org.example.Jellyfish                - Решта рядка: Донесення командира війскової частини 6245 військових сил США.docx
+2024-09-23 15:08:18       [Thread-20]     INFO  org.example.Jellyfish                - Решта рядка: Аналіз та оцінка організації та безпеки засекреченого зв.docx
+2024-09-23 15:08:18       [Thread-33]     INFO  org.example.Jellyfish                - Решта рядка: Повідомлення журналіста під час візиту у Нідерланди на футбольний матч.docx
+2024-09-23 15:08:18       [Thread-28]     INFO  org.example.Jellyfish                - Решта рядка: Звіт депутата про виконання роботи.docx
+2024-09-23 15:08:18       [Thread-24]     INFO  org.example.Jellyfish                - Решта рядка: Відомість централізованого обліку керівників служб спеціального зв.docx
+2024-09-23 15:08:18       [Thread-16]     INFO  org.example.Jellyfish                - Решта рядка: Аналіз стану організації та безпеки за 05.docx
+2024-09-23 15:08:18       [Thread-34]     INFO  org.example.Jellyfish                - Решта рядка: Рапорт командира військової частини 8762 японських сухопутних військ.docx
+2024-09-23 15:08:18       [Thread-31]     INFO  org.example.Jellyfish                - Решта рядка: Організація роботи служби спеціального зв.docx
+2024-09-23 15:08:18       [Thread-7]      INFO  org.example.Jellyfish                - Решта рядка: Напрвлення на МСЕК.docx
+2024-09-23 15:08:18       [Thread-36]     INFO  org.example.Jellyfish                - Решта рядка: Схема організації мережі обміну службовою інформацією.docx
+2024-09-23 15:08:18       [Thread-22]     INFO  org.example.Jellyfish                - Решта рядка: Відомість наявності засобів супутникового зв.docx
+2024-09-23 15:08:18       [Thread-39]     INFO  org.example.Jellyfish                - Решта рядка: Функціонування системи кібербезпеки.docx
+2024-09-23 15:08:18       [Thread-21]     INFO  org.example.Jellyfish                - Решта рядка: Відомості щодо служб та підрозділів спеціального зв.docx
+2024-09-23 15:08:18       [Thread-35]     INFO  org.example.Jellyfish                - Решта рядка: Рапорт командира корабля HMS.docx
+2024-09-23 15:08:18       [Thread-18]     INFO  org.example.Jellyfish                - Решта рядка: Аналіз стану організації та безпеки.docx
+2024-09-23 15:08:18       [Thread-27]     INFO  org.example.Jellyfish                - Решта рядка: Донесення міністра інфраструктури.docx
+2024-09-23 15:08:18       [Thread-12]     INFO  org.example.Jellyfish                - Решта рядка: аркуш бесіди ІСМАЇЛОВ.docx
+2024-09-23 15:08:18       [Thread-5]      INFO  org.example.Jellyfish                - Решта рядка: f291032n7316.docx
+2024-09-23 15:08:18       [Thread-17]     INFO  org.example.Jellyfish                - Решта рядка: Аналіз стану організації та безпеки засекреченого зв.docx
+2024-09-23 15:08:18       [Thread-14]     INFO  org.example.Jellyfish                - Решта рядка: рапорт Ісмаїлова напавлення  – МСЄК.docx
+2024-09-23 15:08:18       [Thread-13]     INFO  org.example.Jellyfish                - Решта рядка: аркуш бесіди Артьомова 1.docx
+2024-09-23 15:08:18       [Thread-29]     INFO  org.example.Jellyfish                - Решта рядка: Звіт медичного інституту про новий вид захворювання.docx
+2024-09-23 15:08:18       [Thread-23]     INFO  org.example.Jellyfish                - Решта рядка: Відомість про наявність ключових мереж.docx
+2024-09-23 15:08:18       [Thread-6]      INFO  org.example.Jellyfish                - Решта рядка: Для Рифатаzrazok-raport-pro-zvilnennya-mobilizovanyh-za-stanom-zdorovya-invalidnisty-forma-dlya-zapovnennya-v1 (1).docx
+2024-09-23 15:08:18       [Thread-9]      INFO  org.example.Jellyfish                - Решта рядка: Рапорт на Звілення.docx
+2024-09-23 15:08:18       [Thread-30]     INFO  org.example.Jellyfish                - Решта рядка: Звіт про стан спеціального зв.docx
+2024-09-23 15:08:18       [Thread-18]     INFO  org.example.Jellyfish                - Отримано та збережено файл: Аналіз стану організації та безпеки.docx (Хеш перевірено)
+2024-09-23 15:08:18       [Thread-32]     INFO  org.example.Jellyfish                - Решта рядка: Перевірки та особовий склад служб.docx
+2024-09-23 15:08:18       [Thread-23]     INFO  org.example.Jellyfish                - Отримано та збережено файл: Відомість про наявність ключових мереж.docx (Хеш перевірено)
+2024-09-23 15:08:18       [Thread-38]     INFO  org.example.Jellyfish                - Отримано та збережено файл: Таблиця.docx (Хеш перевірено)
+2024-09-23 15:08:18       [Thread-30]     INFO  org.example.Jellyfish                - Отримано та збережено файл: Звіт про стан спеціального зв.docx (Хеш перевірено)
+2024-09-23 15:08:18       [Thread-33]     INFO  org.example.Jellyfish                - Отримано та збережено файл: Повідомлення журналіста під час візиту у Нідерланди на футбольний матч.docx (Хеш перевірено)
+2024-09-23 15:08:18       [Thread-28]     INFO  org.example.Jellyfish                - Отримано та збережено файл: Звіт депутата про виконання роботи.docx (Хеш перевірено)
+2024-09-23 15:08:18       [Thread-3]      INFO  org.example.Jellyfish                - Решта рядка: f291032n6551 (1).docx
+2024-09-23 15:08:18       [Thread-14]     INFO  org.example.Jellyfish                - Отримано та збережено файл: рапорт Ісмаїлова напавлення  – МСЄК.docx (Хеш перевірено)
+2024-09-23 15:08:18       [Thread-26]     INFO  org.example.Jellyfish                - Отримано та збережено файл: Донесення командира війскової частини 6245 військових сил США.docx (Хеш перевірено)
+2024-09-23 15:08:18       [Thread-3]      INFO  org.example.Jellyfish                - Отримано та збережено файл: f291032n6551 (1).docx (Хеш перевірено)
+2024-09-23 15:08:18       [Thread-6]      INFO  org.example.Jellyfish                - Отримано та збережено файл: Для Рифатаzrazok-raport-pro-zvilnennya-mobilizovanyh-za-stanom-zdorovya-invalidnisty-forma-dlya-zapovnennya-v1 (1).docx (Хеш перевірено)
+2024-09-23 15:08:18       [Thread-40]     INFO  org.example.Jellyfish                - Отримано та збережено файл: опис схем.docx (Хеш перевірено)
+2024-09-23 15:08:18       [Thread-0]      INFO  org.example.Jellyfish                - Решта рядка: 1.docx
+2024-09-23 15:08:18       [Thread-9]      INFO  org.example.Jellyfish                - Отримано та збережено файл: Рапорт на Звілення.docx (Хеш перевірено)
+2024-09-23 15:08:18       [Thread-37]     INFO  org.example.Jellyfish                - Отримано та збережено файл: Репортаж BBC про новий програмний вірус.docx (Хеш перевірено)
+2024-09-23 15:08:18       [Thread-32]     INFO  org.example.Jellyfish                - Отримано та збережено файл: Перевірки та особовий склад служб.docx (Хеш перевірено)
+2024-09-23 15:08:18       [Thread-21]     INFO  org.example.Jellyfish                - Отримано та збережено файл: Відомості щодо служб та підрозділів спеціального зв.docx (Хеш перевірено)
+2024-09-23 15:08:18       [Thread-10]     INFO  org.example.Jellyfish                - Решта рядка: Рефаті.xls
+2024-09-23 15:08:18       [Thread-36]     INFO  org.example.Jellyfish                - Отримано та збережено файл: Схема організації мережі обміну службовою інформацією.docx (Хеш перевірено)
+2024-09-23 15:08:18       [Thread-15]     INFO  org.example.Jellyfish                - Решта рядка: Аналіз перевірок стану кібербезпеки.docx
+2024-09-23 15:08:18       [Thread-31]     INFO  org.example.Jellyfish                - Отримано та збережено файл: Організація роботи служби спеціального зв.docx (Хеш перевірено)
+2024-09-23 15:08:18       [Thread-4]      INFO  org.example.Jellyfish                - Отримано та збережено файл: Опис Проекту.docx (Хеш перевірено)
+2024-09-23 15:08:18       [Thread-35]     INFO  org.example.Jellyfish                - Отримано та збережено файл: Рапорт командира корабля HMS.docx (Хеш перевірено)
+2024-09-23 15:08:18       [Thread-11]     INFO  org.example.Jellyfish                - Отримано та збережено файл: СЛУЖБОВА ХАРАКТЕРИСТИКА.docx (Хеш перевірено)
+2024-09-23 15:08:18       [Thread-16]     INFO  org.example.Jellyfish                - Отримано та збережено файл: Аналіз стану організації та безпеки за 05.docx (Хеш перевірено)
+2024-09-23 15:08:18       [Thread-34]     INFO  org.example.Jellyfish                - Отримано та збережено файл: Рапорт командира військової частини 8762 японських сухопутних військ.docx (Хеш перевірено)
+2024-09-23 15:08:18       [Thread-29]     INFO  org.example.Jellyfish                - Отримано та збережено файл: Звіт медичного інституту про новий вид захворювання.docx (Хеш перевірено)
+2024-09-23 15:08:18       [Thread-13]     INFO  org.example.Jellyfish                - Отримано та збережено файл: аркуш бесіди Артьомова 1.docx (Хеш перевірено)
+2024-09-23 15:08:18       [Thread-12]     INFO  org.example.Jellyfish                - Отримано та збережено файл: аркуш бесіди ІСМАЇЛОВ.docx (Хеш перевірено)
+2024-09-23 15:08:18       [Thread-22]     INFO  org.example.Jellyfish                - Отримано та збережено файл: Відомість наявності засобів супутникового зв.docx (Хеш перевірено)
+2024-09-23 15:08:18       [Thread-2]      INFO  org.example.Jellyfish                - Отримано та збережено файл: Щоб розпарсити цей JSON у Java.docx (Хеш перевірено)
+2024-09-23 15:08:18       [Thread-24]     INFO  org.example.Jellyfish                - Отримано та збережено файл: Відомість централізованого обліку керівників служб спеціального зв.docx (Хеш перевірено)
+2024-09-23 15:08:18       [Thread-1]      INFO  org.example.Jellyfish                - Отримано та збережено файл: Щоб реалізувати систему балансування навантаження з використанням Docker.docx (Хеш перевірено)
+2024-09-23 15:08:18       [Thread-27]     INFO  org.example.Jellyfish                - Отримано та збережено файл: Донесення міністра інфраструктури.docx (Хеш перевірено)
+2024-09-23 15:08:18       [Thread-15]     INFO  org.example.Jellyfish                - Отримано та збережено файл: Аналіз перевірок стану кібербезпеки.docx (Хеш перевірено)
+2024-09-23 15:08:18       [Thread-0]      INFO  org.example.Jellyfish                - Отримано та збережено файл: 1.docx (Хеш перевірено)
+2024-09-23 15:08:18       [Thread-7]      INFO  org.example.Jellyfish                - Отримано та збережено файл: Напрвлення на МСЕК.docx (Хеш перевірено)
+2024-09-23 15:08:18       [Thread-8]      INFO  org.example.Jellyfish                - Отримано та збережено файл: Рапорт на Звілення Ріфат.docx (Хеш перевірено)
+2024-09-23 15:08:18       [Thread-17]     INFO  org.example.Jellyfish                - Отримано та збережено файл: Аналіз стану організації та безпеки засекреченого зв.docx (Хеш перевірено)
+2024-09-23 15:08:18       [Thread-5]      INFO  org.example.Jellyfish                - Отримано та збережено файл: f291032n7316.docx (Хеш перевірено)
+2024-09-23 15:08:18       [Thread-10]     INFO  org.example.Jellyfish                - Отримано та збережено файл: Рефаті.xls (Хеш перевірено)
+2024-09-23 15:08:18       [Thread-20]     INFO  org.example.Jellyfish                - Отримано та збережено файл: Аналіз та оцінка організації та безпеки засекреченого зв.docx (Хеш перевірено)
+2024-09-23 15:08:18       [Thread-39]     INFO  org.example.Jellyfish                - Отримано та збережено файл: Функціонування системи кібербезпеки.docx (Хеш перевірено)
+2024-09-23 15:08:18       [Thread-25]     INFO  org.example.Jellyfish                - Отримано та збережено файл: Донесення командира війскової частини 5647 канадських військових сил.docx (Хеш перевірено)
+2024-09-23 15:08:18       [Thread-19]     INFO  org.example.Jellyfish                - Отримано та збережено файл: Аналіз стану організації та забезпечення захисту інформації.docx (Хеш перевірено)
+2024-09-23 15:08:18       [Thread-35]     INFO  org.example.communication.Storage    - Файл успішно завантажено до MinIO!
+2024-09-23 15:08:18       [Thread-4]      INFO  org.example.communication.Storage    - Файл успішно завантажено до MinIO!
+2024-09-23 15:08:18       [Thread-38]     INFO  org.example.communication.Storage    - Файл успішно завантажено до MinIO!
+2024-09-23 15:08:18       [Thread-40]     INFO  org.example.communication.Storage    - Файл успішно завантажено до MinIO!
+2024-09-23 15:08:18       [Thread-18]     INFO  org.example.communication.Storage    - Файл успішно завантажено до MinIO!
+2024-09-23 15:08:18       [Thread-30]     INFO  org.example.communication.Storage    - Файл успішно завантажено до MinIO!
+2024-09-23 15:08:18       [Thread-31]     INFO  org.example.communication.Storage    - Файл успішно завантажено до MinIO!
+2024-09-23 15:08:18       [Thread-26]     INFO  org.example.communication.Storage    - Файл успішно завантажено до MinIO!
+2024-09-23 15:08:18       [Thread-6]      INFO  org.example.communication.Storage    - Файл успішно завантажено до MinIO!
+2024-09-23 15:08:18       [Thread-33]     INFO  org.example.communication.Storage    - Файл успішно завантажено до MinIO!
+2024-09-23 15:08:18       [Thread-21]     INFO  org.example.communication.Storage    - Файл успішно завантажено до MinIO!
+2024-09-23 15:08:18       [Thread-11]     INFO  org.example.communication.Storage    - Файл успішно завантажено до MinIO!
+2024-09-23 15:08:18       [Thread-9]      INFO  org.example.communication.Storage    - Файл успішно завантажено до MinIO!
+2024-09-23 15:08:18       [Thread-34]     INFO  org.example.communication.Storage    - Файл успішно завантажено до MinIO!
+2024-09-23 15:08:18       [Thread-36]     INFO  org.example.communication.Storage    - Файл успішно завантажено до MinIO!
+2024-09-23 15:08:18       [Thread-23]     INFO  org.example.communication.Storage    - Файл успішно завантажено до MinIO!
+2024-09-23 15:08:18       [Thread-29]     INFO  org.example.communication.Storage    - Файл успішно завантажено до MinIO!
+2024-09-23 15:08:18       [Thread-12]     INFO  org.example.communication.Storage    - Файл успішно завантажено до MinIO!
+2024-09-23 15:08:18       [Thread-1]      INFO  org.example.communication.Storage    - Файл успішно завантажено до MinIO!
+2024-09-23 15:08:18       [Thread-2]      INFO  org.example.communication.Storage    - Файл успішно завантажено до MinIO!
+2024-09-23 15:08:18       [Thread-32]     INFO  org.example.communication.Storage    - Файл успішно завантажено до MinIO!
+2024-09-23 15:08:18       [Thread-22]     INFO  org.example.communication.Storage    - Файл успішно завантажено до MinIO!
+2024-09-23 15:08:18       [Thread-14]     INFO  org.example.communication.Storage    - Файл успішно завантажено до MinIO!
+2024-09-23 15:08:18       [Thread-15]     INFO  org.example.communication.Storage    - Файл успішно завантажено до MinIO!
+2024-09-23 15:08:18       [Thread-37]     INFO  org.example.communication.Storage    - Файл успішно завантажено до MinIO!
+2024-09-23 15:08:18       [Thread-0]      INFO  org.example.communication.Storage    - Файл успішно завантажено до MinIO!
+2024-09-23 15:08:18       [Thread-24]     INFO  org.example.communication.Storage    - Файл успішно завантажено до MinIO!
+2024-09-23 15:08:18       [Thread-10]     INFO  org.example.communication.Storage    - Файл успішно завантажено до MinIO!
+2024-09-23 15:08:18       [Thread-3]      INFO  org.example.communication.Storage    - Файл успішно завантажено до MinIO!
+2024-09-23 15:08:18       [Thread-8]      INFO  org.example.communication.Storage    - Файл успішно завантажено до MinIO!
+2024-09-23 15:08:18       [Thread-13]     INFO  org.example.communication.Storage    - Файл успішно завантажено до MinIO!
+2024-09-23 15:08:18       [Thread-28]     INFO  org.example.communication.Storage    - Файл успішно завантажено до MinIO!
+2024-09-23 15:08:18       [Thread-39]     INFO  org.example.communication.Storage    - Файл успішно завантажено до MinIO!
+2024-09-23 15:08:18       [Thread-7]      INFO  org.example.communication.Storage    - Файл успішно завантажено до MinIO!
+2024-09-23 15:08:18       [Thread-25]     INFO  org.example.communication.Storage    - Файл успішно завантажено до MinIO!
+2024-09-23 15:08:18       [Thread-19]     INFO  org.example.communication.Storage    - Файл успішно завантажено до MinIO!
+2024-09-23 15:08:18       [Thread-5]      INFO  org.example.communication.Storage    - Файл успішно завантажено до MinIO!
+2024-09-23 15:08:18       [Thread-27]     INFO  org.example.communication.Storage    - Файл успішно завантажено до MinIO!
+2024-09-23 15:08:18       [Thread-16]     INFO  org.example.communication.Storage    - Файл успішно завантажено до MinIO!
+2024-09-23 15:08:18       [Thread-17]     INFO  org.example.communication.Storage    - Файл успішно завантажено до MinIO!
+2024-09-23 15:08:18       [Thread-20]     INFO  org.example.communication.Storage    - Файл успішно завантажено до MinIO!
+2024-09-23 15:08:18       [Thread-8]      INFO  org.example.communication.Sender     - Response Code: 200
+2024-09-23 15:08:18       [Thread-23]     INFO  org.example.communication.Sender     - Response Code: 200
+2024-09-23 15:08:18       [Thread-33]     INFO  org.example.communication.Sender     - Response Code: 200
+2024-09-23 15:08:18       [Thread-37]     INFO  org.example.communication.Sender     - Response Code: 200
+2024-09-23 15:08:18       [Thread-8]      INFO  org.example.Jellyfish                - URL FILE [82:61:4e:94:0e:b8]Рапорт на Звілення Ріфат.docx
+2024-09-23 15:08:18       [Thread-9]      INFO  org.example.communication.Sender     - Response Code: 200
+2024-09-23 15:08:18       [Thread-8]      WARN  org.example.Jellyfish                - Клієнт відключився
+2024-09-23 15:08:18       [Thread-9]      INFO  org.example.Jellyfish                - URL FILE [82:61:4e:94:0e:b8]Рапорт на Звілення.docx
+2024-09-23 15:08:18       [Thread-6]      INFO  org.example.communication.Sender     - Response Code: 200
+2024-09-23 15:08:18       [Thread-33]     INFO  org.example.Jellyfish                - URL FILE [82:61:4e:94:0e:b8]Повідомлення журналіста під час візиту у Нідерланди на футбольний матч.docx
+2024-09-23 15:08:18       [Thread-6]      INFO  org.example.Jellyfish                - URL FILE [82:61:4e:94:0e:b8]Для Рифатаzrazok-raport-pro-zvilnennya-mobilizovanyh-za-stanom-zdorovya-invalidnisty-forma-dlya-zapovnennya-v1 (1).docx
+2024-09-23 15:08:18       [Thread-6]      WARN  org.example.Jellyfish                - Клієнт відключився
+2024-09-23 15:08:18       [Thread-33]     WARN  org.example.Jellyfish                - Клієнт відключився
+2024-09-23 15:08:18       [Thread-18]     INFO  org.example.communication.Sender     - Response Code: 200
+2024-09-23 15:08:18       [Thread-18]     INFO  org.example.Jellyfish                - URL FILE [82:61:4e:94:0e:b8]Аналіз стану організації та безпеки.docx
+2024-09-23 15:08:18       [Thread-25]     INFO  org.example.communication.Sender     - Response Code: 200
+2024-09-23 15:08:18       [Thread-18]     WARN  org.example.Jellyfish                - Клієнт відключився
+2024-09-23 15:08:18       [Thread-25]     INFO  org.example.Jellyfish                - URL FILE [82:61:4e:94:0e:b8]Донесення командира війскової частини 5647 канадських військових сил.docx
+2024-09-23 15:08:18       [Thread-40]     INFO  org.example.communication.Sender     - Response Code: 200
+2024-09-23 15:08:18       [Thread-25]     WARN  org.example.Jellyfish                - Клієнт відключився
+2024-09-23 15:08:18       [Thread-40]     INFO  org.example.Jellyfish                - URL FILE [82:61:4e:94:0e:b8]опис схем.docx
+2024-09-23 15:08:18       [Thread-40]     WARN  org.example.Jellyfish                - Клієнт відключився
+2024-09-23 15:08:18       [Thread-23]     INFO  org.example.Jellyfish                - URL FILE [82:61:4e:94:0e:b8]Відомість про наявність ключових мереж.docx
+2024-09-23 15:08:18       [Thread-23]     WARN  org.example.Jellyfish                - Клієнт відключився
+2024-09-23 15:08:18       [Thread-38]     INFO  org.example.communication.Sender     - Response Code: 200
+2024-09-23 15:08:18       [Thread-38]     INFO  org.example.Jellyfish                - URL FILE [82:61:4e:94:0e:b8]Таблиця.docx
+2024-09-23 15:08:18       [Thread-38]     WARN  org.example.Jellyfish                - Клієнт відключився
+2024-09-23 15:08:18       [Thread-9]      WARN  org.example.Jellyfish                - Клієнт відключився
+2024-09-23 15:08:18       [Thread-37]     INFO  org.example.Jellyfish                - URL FILE [82:61:4e:94:0e:b8]Репортаж BBC про новий програмний вірус.docx
+2024-09-23 15:08:18       [Thread-37]     WARN  org.example.Jellyfish                - Клієнт відключився
+2024-09-23 15:08:18       [Thread-10]     INFO  org.example.communication.Sender     - Response Code: 200
+2024-09-23 15:08:18       [Thread-10]     INFO  org.example.Jellyfish                - URL FILE [82:61:4e:94:0e:b8]Рефаті.xls
+2024-09-23 15:08:18       [Thread-10]     WARN  org.example.Jellyfish                - Клієнт відключився
+2024-09-23 15:08:18       [Thread-19]     INFO  org.example.communication.Sender     - Response Code: 200
+2024-09-23 15:08:18       [Thread-19]     INFO  org.example.Jellyfish                - URL FILE [82:61:4e:94:0e:b8]Аналіз стану організації та забезпечення захисту інформації.docx
+2024-09-23 15:08:18       [Thread-19]     WARN  org.example.Jellyfish                - Клієнт відключився
+2024-09-23 15:08:18       [Thread-2]      INFO  org.example.communication.Sender     - Response Code: 200
+2024-09-23 15:08:18       [Thread-2]      INFO  org.example.Jellyfish                - URL FILE [82:61:4e:94:0e:b8]Щоб розпарсити цей JSON у Java.docx
+2024-09-23 15:08:18       [Thread-2]      WARN  org.example.Jellyfish                - Клієнт відключився
+2024-09-23 15:08:18       [Thread-14]     INFO  org.example.communication.Sender     - Response Code: 200
+2024-09-23 15:08:18       [Thread-14]     INFO  org.example.Jellyfish                - URL FILE [82:61:4e:94:0e:b8]рапорт Ісмаїлова напавлення  – МСЄК.docx
+2024-09-23 15:08:18       [Thread-14]     WARN  org.example.Jellyfish                - Клієнт відключився
+2024-09-23 15:08:18       [Thread-29]     INFO  org.example.communication.Sender     - Response Code: 200
+2024-09-23 15:08:18       [Thread-29]     INFO  org.example.Jellyfish                - URL FILE [82:61:4e:94:0e:b8]Звіт медичного інституту про новий вид захворювання.docx
+2024-09-23 15:08:18       [Thread-29]     WARN  org.example.Jellyfish                - Клієнт відключився
+2024-09-23 15:08:18       [Thread-11]     INFO  org.example.communication.Sender     - Response Code: 200
+2024-09-23 15:08:18       [Thread-11]     INFO  org.example.Jellyfish                - URL FILE [82:61:4e:94:0e:b8]СЛУЖБОВА ХАРАКТЕРИСТИКА.docx
+2024-09-23 15:08:18       [Thread-11]     WARN  org.example.Jellyfish                - Клієнт відключився
+2024-09-23 15:08:18       [Thread-27]     INFO  org.example.communication.Sender     - Response Code: 200
+2024-09-23 15:08:18       [Thread-27]     INFO  org.example.Jellyfish                - URL FILE [82:61:4e:94:0e:b8]Донесення міністра інфраструктури.docx
+2024-09-23 15:08:18       [Thread-27]     WARN  org.example.Jellyfish                - Клієнт відключився
+2024-09-23 15:08:18       [Thread-36]     INFO  org.example.communication.Sender     - Response Code: 200
+2024-09-23 15:08:18       [Thread-36]     INFO  org.example.Jellyfish                - URL FILE [82:61:4e:94:0e:b8]Схема організації мережі обміну службовою інформацією.docx
+2024-09-23 15:08:18       [Thread-36]     WARN  org.example.Jellyfish                - Клієнт відключився
+2024-09-23 15:08:18       [Thread-39]     INFO  org.example.communication.Sender     - Response Code: 200
+2024-09-23 15:08:18       [Thread-39]     INFO  org.example.Jellyfish                - URL FILE [82:61:4e:94:0e:b8]Функціонування системи кібербезпеки.docx
+2024-09-23 15:08:18       [Thread-39]     WARN  org.example.Jellyfish                - Клієнт відключився
+2024-09-23 15:08:18       [Thread-7]      INFO  org.example.communication.Sender     - Response Code: 200
+2024-09-23 15:08:18       [Thread-7]      INFO  org.example.Jellyfish                - URL FILE [82:61:4e:94:0e:b8]Напрвлення на МСЕК.docx
+2024-09-23 15:08:18       [Thread-7]      WARN  org.example.Jellyfish                - Клієнт відключився
+2024-09-23 15:08:18       [Thread-35]     INFO  org.example.communication.Sender     - Response Code: 200
+2024-09-23 15:08:18       [Thread-35]     INFO  org.example.Jellyfish                - URL FILE [82:61:4e:94:0e:b8]Рапорт командира корабля HMS.docx
+2024-09-23 15:08:18       [Thread-35]     WARN  org.example.Jellyfish                - Клієнт відключився
+2024-09-23 15:08:18       [Thread-13]     INFO  org.example.communication.Sender     - Response Code: 200
+2024-09-23 15:08:18       [Thread-13]     INFO  org.example.Jellyfish                - URL FILE [82:61:4e:94:0e:b8]аркуш бесіди Артьомова 1.docx
+2024-09-23 15:08:18       [Thread-13]     WARN  org.example.Jellyfish                - Клієнт відключився
+2024-09-23 15:08:18       [Thread-26]     INFO  org.example.communication.Sender     - Response Code: 200
+2024-09-23 15:08:18       [Thread-26]     INFO  org.example.Jellyfish                - URL FILE [82:61:4e:94:0e:b8]Донесення командира війскової частини 6245 військових сил США.docx
+2024-09-23 15:08:18       [Thread-26]     WARN  org.example.Jellyfish                - Клієнт відключився
+2024-09-23 15:08:18       [Thread-34]     INFO  org.example.communication.Sender     - Response Code: 200
+2024-09-23 15:08:18       [Thread-34]     INFO  org.example.Jellyfish                - URL FILE [82:61:4e:94:0e:b8]Рапорт командира військової частини 8762 японських сухопутних військ.docx
+2024-09-23 15:08:18       [Thread-34]     WARN  org.example.Jellyfish                - Клієнт відключився
+2024-09-23 15:08:18       [Thread-0]      INFO  org.example.communication.Sender     - Response Code: 200
+2024-09-23 15:08:18       [Thread-0]      INFO  org.example.Jellyfish                - URL FILE [82:61:4e:94:0e:b8]1.docx
+2024-09-23 15:08:18       [Thread-0]      WARN  org.example.Jellyfish                - Клієнт відключився
+2024-09-23 15:08:18       [Thread-16]     INFO  org.example.communication.Sender     - Response Code: 200
+2024-09-23 15:08:18       [Thread-16]     INFO  org.example.Jellyfish                - URL FILE [82:61:4e:94:0e:b8]Аналіз стану організації та безпеки за 05.docx
+2024-09-23 15:08:18       [Thread-16]     WARN  org.example.Jellyfish                - Клієнт відключився
+2024-09-23 15:08:18       [Thread-15]     INFO  org.example.communication.Sender     - Response Code: 200
+2024-09-23 15:08:18       [Thread-32]     INFO  org.example.communication.Sender     - Response Code: 200
+2024-09-23 15:08:18       [Thread-15]     INFO  org.example.Jellyfish                - URL FILE [82:61:4e:94:0e:b8]Аналіз перевірок стану кібербезпеки.docx
+2024-09-23 15:08:18       [Thread-32]     INFO  org.example.Jellyfish                - URL FILE [82:61:4e:94:0e:b8]Перевірки та особовий склад служб.docx
+2024-09-23 15:08:18       [Thread-15]     WARN  org.example.Jellyfish                - Клієнт відключився
+2024-09-23 15:08:18       [Thread-32]     WARN  org.example.Jellyfish                - Клієнт відключився
+2024-09-23 15:08:18       [Thread-5]      INFO  org.example.communication.Sender     - Response Code: 200
+2024-09-23 15:08:18       [Thread-5]      INFO  org.example.Jellyfish                - URL FILE [82:61:4e:94:0e:b8]f291032n7316.docx
+2024-09-23 15:08:18       [Thread-5]      WARN  org.example.Jellyfish                - Клієнт відключився
+2024-09-23 15:08:18       [Thread-12]     INFO  org.example.communication.Sender     - Response Code: 200
+2024-09-23 15:08:18       [Thread-12]     INFO  org.example.Jellyfish                - URL FILE [82:61:4e:94:0e:b8]аркуш бесіди ІСМАЇЛОВ.docx
+2024-09-23 15:08:18       [Thread-12]     WARN  org.example.Jellyfish                - Клієнт відключився
+2024-09-23 15:08:18       [Thread-1]      INFO  org.example.communication.Sender     - Response Code: 200
+2024-09-23 15:08:18       [Thread-1]      INFO  org.example.Jellyfish                - URL FILE [82:61:4e:94:0e:b8]Щоб реалізувати систему балансування навантаження з використанням Docker.docx
+2024-09-23 15:08:18       [Thread-1]      WARN  org.example.Jellyfish                - Клієнт відключився
+2024-09-23 15:08:18       [Thread-31]     INFO  org.example.communication.Sender     - Response Code: 200
+2024-09-23 15:08:18       [Thread-31]     INFO  org.example.Jellyfish                - URL FILE [82:61:4e:94:0e:b8]Організація роботи служби спеціального зв.docx
+2024-09-23 15:08:18       [Thread-31]     WARN  org.example.Jellyfish                - Клієнт відключився
+2024-09-23 15:08:18       [Thread-4]      INFO  org.example.communication.Sender     - Response Code: 200
+2024-09-23 15:08:18       [Thread-4]      INFO  org.example.Jellyfish                - URL FILE [82:61:4e:94:0e:b8]Опис Проекту.docx
+2024-09-23 15:08:18       [Thread-4]      WARN  org.example.Jellyfish                - Клієнт відключився
+2024-09-23 15:08:18       [Thread-30]     INFO  org.example.communication.Sender     - Response Code: 200
+2024-09-23 15:08:18       [Thread-30]     INFO  org.example.Jellyfish                - URL FILE [82:61:4e:94:0e:b8]Звіт про стан спеціального зв.docx
+2024-09-23 15:08:18       [Thread-30]     WARN  org.example.Jellyfish                - Клієнт відключився
+2024-09-23 15:08:18       [Thread-21]     INFO  org.example.communication.Sender     - Response Code: 200
+2024-09-23 15:08:18       [Thread-21]     INFO  org.example.Jellyfish                - URL FILE [82:61:4e:94:0e:b8]Відомості щодо служб та підрозділів спеціального зв.docx
+2024-09-23 15:08:18       [Thread-21]     WARN  org.example.Jellyfish                - Клієнт відключився
+2024-09-23 15:08:18       [Thread-20]     INFO  org.example.communication.Sender     - Response Code: 200
+2024-09-23 15:08:18       [Thread-20]     INFO  org.example.Jellyfish                - URL FILE [82:61:4e:94:0e:b8]Аналіз та оцінка організації та безпеки засекреченого зв.docx
+2024-09-23 15:08:18       [Thread-20]     WARN  org.example.Jellyfish                - Клієнт відключився
+2024-09-23 15:08:18       [Thread-24]     INFO  org.example.communication.Sender     - Response Code: 200
+2024-09-23 15:08:18       [Thread-24]     INFO  org.example.Jellyfish                - URL FILE [82:61:4e:94:0e:b8]Відомість централізованого обліку керівників служб спеціального зв.docx
+2024-09-23 15:08:18       [Thread-24]     WARN  org.example.Jellyfish                - Клієнт відключився
+2024-09-23 15:08:18       [Thread-17]     INFO  org.example.communication.Sender     - Response Code: 200
+2024-09-23 15:08:18       [Thread-17]     INFO  org.example.Jellyfish                - URL FILE [82:61:4e:94:0e:b8]Аналіз стану організації та безпеки засекреченого зв.docx
+2024-09-23 15:08:18       [Thread-17]     WARN  org.example.Jellyfish                - Клієнт відключився
+2024-09-23 15:08:18       [Thread-3]      INFO  org.example.communication.Sender     - Response Code: 200
+2024-09-23 15:08:18       [Thread-3]      INFO  org.example.Jellyfish                - URL FILE [82:61:4e:94:0e:b8]f291032n6551 (1).docx
+2024-09-23 15:08:18       [Thread-3]      WARN  org.example.Jellyfish                - Клієнт відключився
+2024-09-23 15:08:18       [Thread-28]     INFO  org.example.communication.Sender     - Response Code: 200
+2024-09-23 15:08:18       [Thread-28]     INFO  org.example.Jellyfish                - URL FILE [82:61:4e:94:0e:b8]Звіт депутата про виконання роботи.docx
+2024-09-23 15:08:18       [Thread-28]     WARN  org.example.Jellyfish                - Клієнт відключився
+2024-09-23 15:08:18       [Thread-22]     INFO  org.example.communication.Sender     - Response Code: 200
+2024-09-23 15:08:18       [Thread-22]     INFO  org.example.Jellyfish                - URL FILE [82:61:4e:94:0e:b8]Відомість наявності засобів супутникового зв.docx
+2024-09-23 15:08:18       [Thread-22]     WARN  org.example.Jellyfish                - Клієнт відключився
