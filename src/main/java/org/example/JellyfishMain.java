@@ -3,6 +3,7 @@ package org.example;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import io.minio.MinioClient;
+import org.apache.logging.log4j.LogManager;
 import org.example.communication.Storage;
 
 import java.io.File;
@@ -10,9 +11,8 @@ import java.net.ServerSocket;
 import java.net.Socket;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
-
+import org.apache.logging.log4j.Logger;
 import static org.example.JellyfishConfig.*;
-import static org.example.logger.JLogger.*;
 
 /**
  * Головний клас програми, що ініціалізує сервер і обробляє клієнтські підключення.
@@ -28,7 +28,9 @@ import static org.example.logger.JLogger.*;
  * <p>
  * В класі використовуються анотації для логування важливих повідомлень.
  */
-public class Main {
+public class JellyfishMain {
+
+    private static final Logger LOGGER = LogManager.getLogger(JellyfishMain.class);
 
     /**
      * Шлях до директорії, де зберігаються отримані файли.
@@ -69,7 +71,7 @@ public class Main {
         if (config != null) {
             Gson gson = new GsonBuilder().setPrettyPrinting().create();
             String jsonString = gson.toJson(config);
-            info(jsonString);
+            LOGGER.info(jsonString);
         }
 
 
@@ -77,7 +79,7 @@ public class Main {
         String bucketName = config.getBucket();
         MinioClient minioClient = Storage.minio(config.getEndpointMinIO(), config.getAccessKey(), config.getSecretKey());
         if (Storage.bucketExists(minioClient, bucketName)) {
-            warn("Bucket з назвою " + bucketName + " вже існує");
+            LOGGER.warn("Bucket з назвою " + bucketName + " вже існує");
         }
 
         Storage storage = new Storage(minioClient, bucketName);
@@ -87,12 +89,12 @@ public class Main {
         ExecutorService executorService = Executors.newCachedThreadPool(); // Використовуємо CachedThreadPool
 
         ServerSocket serverSocket = new ServerSocket(port);
-        info("Сервер запущено на порту " + port + "...");
+        LOGGER.info("Сервер запущено на порту " + port + "...");
 
         // Основний цикл для обробки клієнтських підключень
         while (true) {
             Socket clientSocket = serverSocket.accept();
-            info("Новий клієнт підключився: " + clientSocket.getInetAddress().getHostAddress());
+            LOGGER.info("Новий клієнт підключився: " + clientSocket.getInetAddress().getHostAddress());
 
             // Обробляємо підключення клієнта у фоновому потоці
             JellyfishConfig finalConfig = config;
@@ -107,15 +109,4 @@ public class Main {
     }
 }
 
-/**
- * Щодо використання ExecutorService та CachedThreadPool:
- * <p>
- * {@code Executors.newCachedThreadPool()} створює пул потоків, який може динамічно збільшуватися і зменшуватися залежно від навантаження.
- * Якщо пул потоків не має вільних потоків, він створює нові потоки за потреби.
- * Якщо потоки не використовуються протягом певного часу (під час бездіяльності), вони можуть бути видалені.
- * <p>
- * CachedThreadPool автоматично управляє створенням і видаленням потоків.
- * Якщо потік не використовується протягом певного часу, він буде закритий і видалений з пулу.
- * Коли клієнт відключається, потік завершує свою роботу.
- * Якщо потік більше не потрібен (через закриття клієнта), він повертається в пул або видаляється.
- */
+

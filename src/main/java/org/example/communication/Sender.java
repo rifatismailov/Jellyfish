@@ -2,18 +2,22 @@ package org.example.communication;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+import org.example.Jellyfish;
 
 import java.io.OutputStream;
 import java.net.HttpURLConnection;
 import java.net.URL;
 
 import static org.example.communication.Http.httpConnection;
-import static org.example.logger.JLogger.info;
 
 /**
  * Клас Sender надає методи для відправки JSON-даних на сервер через HTTP.
+ * -file_server="localhost:9090" -manager_server="localhost:8080" -log_server="localhost:7070" -directories="Users/sirius/Desktop" -extensions=".doc,.docx,.xls,.xlsx,.ppt,.pptx" -hour=12 -minute=45 -key="a very very very very secret key" -log_file_status=false -log_manager_status=false
  */
 public class Sender {
+    private static final Logger LOGGER = LogManager.getLogger(Jellyfish.class);
 
     /**
      * Відправляє об'єкт у форматі JSON на вказаний endpoint через HTTP POST запит.
@@ -35,7 +39,7 @@ public class Sender {
 
             // Отримання та логування коду відповіді сервера
             int responseCode = httpURLConnection.getResponseCode();
-            info("Response Code: " + responseCode);
+            LOGGER.info("Response Code: " + responseCode);
 
         } catch (Exception e) {
             e.printStackTrace();

@@ -5,6 +5,8 @@ import io.minio.MakeBucketArgs;
 import io.minio.MinioClient;
 import io.minio.PutObjectArgs;
 import io.minio.errors.*;
+import org.apache.logging.log4j.LogManager;
+import org.example.JellyfishMain;
 
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -12,8 +14,7 @@ import java.io.InputStream;
 import java.security.InvalidKeyException;
 import java.security.NoSuchAlgorithmException;
 import java.util.concurrent.TimeUnit;
-
-import static org.example.logger.JLogger.*;
+import org.apache.logging.log4j.Logger;
 
 /**
  * Конструктор для створення об'єкта Storage.
@@ -22,6 +23,7 @@ import static org.example.logger.JLogger.*;
  * @param bucketName  Ім'я відра, яке буде використовуватися для зберігання файлів.
  */
 public record Storage(MinioClient minioClient, String bucketName) {
+    private static final Logger LOGGER = LogManager.getLogger(Storage .class);
 
     /**
      * Створює та повертає об'єкт MinioClient для взаємодії з MinIO сервером.
@@ -80,11 +82,11 @@ public record Storage(MinioClient minioClient, String bucketName) {
                             .build()
             );
         } catch (MinioException e) {
-            error("Помилка при отриманні presigned URL: ", e);
+            LOGGER.error("Помилка при отриманні presigned URL: " + e);
             e.printStackTrace();
             return null;
         } catch (Exception e) {
-            error("Загальна помилка: ", e);
+            LOGGER.error("Загальна помилка: " + e);
             e.printStackTrace();
             return null;
         }
@@ -109,10 +111,10 @@ public record Storage(MinioClient minioClient, String bucketName) {
                             .build()
             );
 
-            info("Файл успішно завантажено до MinIO!");
+            LOGGER.info("Файл успішно завантажено до MinIO!");
 
         } catch (MinioException | InvalidKeyException | NoSuchAlgorithmException | IOException e) {
-            warn("Помилка при зберіганні файлу: " + e);
+            LOGGER.warn("Помилка при зберіганні файлу: " + e);
         }
     }
 }

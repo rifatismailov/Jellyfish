@@ -2,9 +2,10 @@ package org.example;
 
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.example.communication.Sender;
 import org.example.communication.Storage;
-import org.example.logger.JLogger;
 
 
 import java.io.InputStream;
@@ -12,7 +13,6 @@ import java.net.Socket;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import static org.example.logger.JLogger.*;
 import static org.example.communication.Reader.readFileName;
 import static org.example.security.SecurityUtils.decryptAndSaveFile;
 
@@ -23,6 +23,8 @@ import static org.example.security.SecurityUtils.decryptAndSaveFile;
  * файл на S3 (MinIO) сервер з використанням {@code Storage} а також надсилання інформації на сервер Crustaceans для опробки файлу
  */
 public class Jellyfish extends Thread {
+    private static final Logger LOGGER = LogManager.getLogger(Jellyfish .class);
+
     private static final String SAVE_DIR = "received_files/";
     private final Socket client;
     private final Storage storage;
@@ -48,12 +50,12 @@ public class Jellyfish extends Thread {
     @Override
     public void run() {
         try (Socket socket = client) {
-            info("Підключення встановлено");
+            LOGGER.info("Підключення встановлено");
             InputStream inputStream = socket.getInputStream();
 
             // Читання назви файлу
             String fileName = readFileName(inputStream);
-            info("Назва отриманого файлу: " + fileName);
+            LOGGER.info("Назва отриманого файлу: " + fileName);
 
             // Обробка JSON-префікса
             Pattern pattern = Pattern.compile("\\{.*\\}");
@@ -63,9 +65,9 @@ public class Jellyfish extends Thread {
                 String jsonPart = matcher.group();
                 parseJson(jsonPart);
                 fileName = fileName.replace(jsonPart, "");
-                info("Решта рядка: " + fileName);
+                LOGGER.info("Решта рядка: " + fileName);
             } else {
-                error("JSON-об'єкт не знайдено.");
+                LOGGER.error("JSON-об'єкт не знайдено.");
             }
 
             String filePath = SAVE_DIR + fileName;
@@ -73,26 +75,26 @@ public class Jellyfish extends Thread {
             byte[] clientFileHash = new byte[16];// Читання хешу файлу з клієнта (16 байт для MD5)
             int bytesRead = inputStream.read(clientFileHash);
             if (bytesRead != 16) {
-                throw new JLogger("Не вдалося прочитати хеш файлу");
+                LOGGER.warn("Не вдалося прочитати хеш файлу");
             }
 
             byte[] iv = new byte[16];// Читання IV (16 байт для AES)
             bytesRead = inputStream.read(iv);
             if (bytesRead != 16) {
-                throw new JLogger("Не вдалося прочитати IV");
+                LOGGER.warn("Не вдалося прочитати IV");
             }
 
             // Розшифрування і збереження файлу, перевірка хешу
             if (decryptAndSaveFile(inputStream, filePath, clientFileHash, iv, KEY)) {
-                info("Отримано та збережено файл: " + fileName + " (Хеш перевірено)");
+                LOGGER.info("Отримано та збережено файл: " + fileName + " (Хеш перевірено)");
             } else {
-                error("Невідповідність хешу файлу: " + fileName);
+                LOGGER.warn("Невідповідність хешу файлу: " + fileName);
             }
 
             handleFileOnServer(fileName);    // Обробка файлу на сервері
 
         } catch (Exception e) {
-            error("Помилка при обробці з'єднання: ", e);
+            LOGGER.warn("Помилка при обробці з'єднання: "+e);
         }
     }
 
@@ -123,9 +125,9 @@ public class Jellyfish extends Thread {
        // String url = Storage.getPresignedUrl(storage.minioClient(), storage.bucketName(), "[" + macAddress + "]" + fileName);
         hostInfo.setUrlFile("[" + macAddress + "]" + fileName);
         Sender.senderJsonWithHTTP(crustaceans, hostInfo);
-        info("URL FILE " + "[" + macAddress + "]" + fileName);
+        LOGGER.info("URL FILE " + "[" + macAddress + "]" + fileName);
         if (client.isClosed()) {
-            warn("Клієнт відключився");
+            LOGGER.warn("Клієнт відключився");
         }
     }
 }

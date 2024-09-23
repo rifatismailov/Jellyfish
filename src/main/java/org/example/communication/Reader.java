@@ -1,10 +1,17 @@
 package org.example.communication;
 
-import org.example.logger.JLogger;
+
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+import org.example.Jellyfish;
+
 
 import java.io.InputStream;
 
 public class Reader {
+
+    private static final Logger LOGGER = LogManager.getLogger(Jellyfish .class);
+
     /**
      * Читає назву файлу з {@code InputStream}.
      *
@@ -16,7 +23,7 @@ public class Reader {
         byte[] fileNameBytes = new byte[512];
         int fileNameLength = inputStream.read(fileNameBytes);
         if (fileNameLength == -1) {
-            throw new JLogger("Не вдалося прочитати назву файлу");
+            LOGGER.warn("Не вдалося прочитати назву файлу");
         }
         return new String(fileNameBytes, 0, fileNameLength).trim();
     }
