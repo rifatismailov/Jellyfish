@@ -7,7 +7,7 @@ import java.net.URL;
 /**
  * Клас Http надає метод для налаштування та отримання HTTP-з'єднання.
  */
-public class Http {
+public class HTTP {
 
     /**
      * Налаштовує та повертає HTTP-з'єднання для вказаного URL.

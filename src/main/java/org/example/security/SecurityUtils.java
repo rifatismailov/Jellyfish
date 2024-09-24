@@ -64,7 +64,7 @@ public class SecurityUtils {
      *
      * @param inputStream {@link InputStream} - потік, з якого буде зчитуватися зашифрований текст.
      * @param key         {@link String} - секретний ключ для дешифрування. Має бути довжиною 16 байтів (128 біт) для AES.
-     * @param iv          {@link byte[]} - вектор ініціалізації (IV) для режиму CFB. Має бути довжиною 16 байтів (128 біт).
+     * @param iv            - вектор ініціалізації (IV) для режиму CFB. Має бути довжиною 16 байтів (128 біт).
      * @return {@link CipherInputStream} - потік, який розшифровує дані, отримані з `inputStream`, використовуючи зазначений ключ і IV.
      * @throws Exception Якщо виникає помилка при ініціалізації шифра або при створенні {@link CipherInputStream}.
      */

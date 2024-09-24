@@ -2,7 +2,6 @@ package org.example.communication;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import org.example.Jellyfish;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -10,7 +9,7 @@ import java.io.OutputStream;
 import java.net.HttpURLConnection;
 import java.net.URL;
 
-import static org.example.communication.Http.httpConnection;
+import static org.example.communication.HTTP.httpConnection;
 
 /**
  * Клас Sender надає методи для відправки JSON-даних на сервер через HTTP.
