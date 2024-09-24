@@ -43,3 +43,4 @@ dependency-reduced-pom.xml
 .gitignore
 .idea/
 application.log
+/logs/
